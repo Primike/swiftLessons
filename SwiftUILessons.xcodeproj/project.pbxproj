@@ -14,6 +14,8 @@
 		9E48A37F29C75F44006FCA0E /* BC2Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E48A37E29C75F44006FCA0E /* BC2Text.swift */; };
 		9E48A38129C76470006FCA0E /* BC3Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E48A38029C76470006FCA0E /* BC3Shapes.swift */; };
 		9E48A38329C766CC006FCA0E /* BC4Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E48A38229C766CC006FCA0E /* BC4Color.swift */; };
+		9E48A38529C768E0006FCA0E /* BC5Gradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E48A38429C768E0006FCA0E /* BC5Gradients.swift */; };
+		9E48A38729C787FE006FCA0E /* BC6Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E48A38629C787FE006FCA0E /* BC6Icons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		9E48A37E29C75F44006FCA0E /* BC2Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC2Text.swift; sourceTree = "<group>"; };
 		9E48A38029C76470006FCA0E /* BC3Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC3Shapes.swift; sourceTree = "<group>"; };
 		9E48A38229C766CC006FCA0E /* BC4Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC4Color.swift; sourceTree = "<group>"; };
+		9E48A38429C768E0006FCA0E /* BC5Gradients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC5Gradients.swift; sourceTree = "<group>"; };
+		9E48A38629C787FE006FCA0E /* BC6Icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC6Icons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				9E48A37E29C75F44006FCA0E /* BC2Text.swift */,
 				9E48A38029C76470006FCA0E /* BC3Shapes.swift */,
 				9E48A38229C766CC006FCA0E /* BC4Color.swift */,
+				9E48A38429C768E0006FCA0E /* BC5Gradients.swift */,
+				9E48A38629C787FE006FCA0E /* BC6Icons.swift */,
 			);
 			path = SwiftUILessons;
 			sourceTree = "<group>";
@@ -154,10 +160,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E48A38529C768E0006FCA0E /* BC5Gradients.swift in Sources */,
 				9E48A37F29C75F44006FCA0E /* BC2Text.swift in Sources */,
 				9E48A37229C75E85006FCA0E /* ContentView.swift in Sources */,
 				9E48A38129C76470006FCA0E /* BC3Shapes.swift in Sources */,
 				9E48A38329C766CC006FCA0E /* BC4Color.swift in Sources */,
+				9E48A38729C787FE006FCA0E /* BC6Icons.swift in Sources */,
 				9E48A37029C75E85006FCA0E /* SwiftUILessonsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
