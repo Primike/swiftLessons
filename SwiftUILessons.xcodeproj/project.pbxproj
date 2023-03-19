@@ -16,6 +16,11 @@
 		9E48A38329C766CC006FCA0E /* BC4Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E48A38229C766CC006FCA0E /* BC4Color.swift */; };
 		9E48A38529C768E0006FCA0E /* BC5Gradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E48A38429C768E0006FCA0E /* BC5Gradients.swift */; };
 		9E48A38729C787FE006FCA0E /* BC6Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E48A38629C787FE006FCA0E /* BC6Icons.swift */; };
+		9E48A38929C78A96006FCA0E /* BC7Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E48A38829C78A96006FCA0E /* BC7Images.swift */; };
+		9E48A38B29C78C0A006FCA0E /* BC8Frames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E48A38A29C78C0A006FCA0E /* BC8Frames.swift */; };
+		9E48A38D29C7903D006FCA0E /* BC9Overlays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E48A38C29C7903D006FCA0E /* BC9Overlays.swift */; };
+		9E48A38F29C799DB006FCA0E /* BC10VHZStacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E48A38E29C799DB006FCA0E /* BC10VHZStacks.swift */; };
+		9E48A39129C7A21A006FCA0E /* BC11Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E48A39029C7A21A006FCA0E /* BC11Padding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +34,11 @@
 		9E48A38229C766CC006FCA0E /* BC4Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC4Color.swift; sourceTree = "<group>"; };
 		9E48A38429C768E0006FCA0E /* BC5Gradients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC5Gradients.swift; sourceTree = "<group>"; };
 		9E48A38629C787FE006FCA0E /* BC6Icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC6Icons.swift; sourceTree = "<group>"; };
+		9E48A38829C78A96006FCA0E /* BC7Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC7Images.swift; sourceTree = "<group>"; };
+		9E48A38A29C78C0A006FCA0E /* BC8Frames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC8Frames.swift; sourceTree = "<group>"; };
+		9E48A38C29C7903D006FCA0E /* BC9Overlays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC9Overlays.swift; sourceTree = "<group>"; };
+		9E48A38E29C799DB006FCA0E /* BC10VHZStacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC10VHZStacks.swift; sourceTree = "<group>"; };
+		9E48A39029C7A21A006FCA0E /* BC11Padding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC11Padding.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +78,11 @@
 				9E48A38229C766CC006FCA0E /* BC4Color.swift */,
 				9E48A38429C768E0006FCA0E /* BC5Gradients.swift */,
 				9E48A38629C787FE006FCA0E /* BC6Icons.swift */,
+				9E48A38829C78A96006FCA0E /* BC7Images.swift */,
+				9E48A38A29C78C0A006FCA0E /* BC8Frames.swift */,
+				9E48A38C29C7903D006FCA0E /* BC9Overlays.swift */,
+				9E48A38E29C799DB006FCA0E /* BC10VHZStacks.swift */,
+				9E48A39029C7A21A006FCA0E /* BC11Padding.swift */,
 			);
 			path = SwiftUILessons;
 			sourceTree = "<group>";
@@ -161,9 +176,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E48A38529C768E0006FCA0E /* BC5Gradients.swift in Sources */,
+				9E48A38B29C78C0A006FCA0E /* BC8Frames.swift in Sources */,
+				9E48A38F29C799DB006FCA0E /* BC10VHZStacks.swift in Sources */,
 				9E48A37F29C75F44006FCA0E /* BC2Text.swift in Sources */,
 				9E48A37229C75E85006FCA0E /* ContentView.swift in Sources */,
 				9E48A38129C76470006FCA0E /* BC3Shapes.swift in Sources */,
+				9E48A39129C7A21A006FCA0E /* BC11Padding.swift in Sources */,
+				9E48A38D29C7903D006FCA0E /* BC9Overlays.swift in Sources */,
+				9E48A38929C78A96006FCA0E /* BC7Images.swift in Sources */,
 				9E48A38329C766CC006FCA0E /* BC4Color.swift in Sources */,
 				9E48A38729C787FE006FCA0E /* BC6Icons.swift in Sources */,
 				9E48A37029C75E85006FCA0E /* SwiftUILessonsApp.swift in Sources */,
