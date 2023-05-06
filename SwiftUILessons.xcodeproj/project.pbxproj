@@ -24,6 +24,7 @@
 		9E48A39329C7A402006FCA0E /* BC12Spacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E48A39229C7A402006FCA0E /* BC12Spacer.swift */; };
 		9E48A39529C7A8A3006FCA0E /* BC13InitsEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E48A39429C7A8A3006FCA0E /* BC13InitsEnums.swift */; };
 		9E48A39729C7AACD006FCA0E /* BC14ForEach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E48A39629C7AACD006FCA0E /* BC14ForEach.swift */; };
+		9E9F96BB2A05DB9F009C11EC /* BC28FullScreenCover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9F96BA2A05DB9F009C11EC /* BC28FullScreenCover.swift */; };
 		9EA015BD29C7E01000E21971 /* BC15ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA015BC29C7E01000E21971 /* BC15ScrollView.swift */; };
 		9EE48E0C29C8A88200492FCB /* BC16GridItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE48E0B29C8A88200492FCB /* BC16GridItems.swift */; };
 		9EE48E0E29C8ACCC00492FCB /* BC17SafeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE48E0D29C8ACCC00492FCB /* BC17SafeArea.swift */; };
@@ -32,6 +33,11 @@
 		9EE48E1429C8C2F100492FCB /* BC20ExtractFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE48E1329C8C2F100492FCB /* BC20ExtractFunctions.swift */; };
 		9EE48E1629C8C48500492FCB /* BC21ExtractViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE48E1529C8C48500492FCB /* BC21ExtractViews.swift */; };
 		9EE48E1829C8C5E400492FCB /* BC22Binding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE48E1729C8C5E400492FCB /* BC22Binding.swift */; };
+		9EF8AA362A05B19F00BB130B /* BC23ConditionalStatements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF8AA352A05B19F00BB130B /* BC23ConditionalStatements.swift */; };
+		9EF8AA382A05B44300BB130B /* BC24Ternary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF8AA372A05B44300BB130B /* BC24Ternary.swift */; };
+		9EF8AA3A2A05D06400BB130B /* BC25Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF8AA392A05D06400BB130B /* BC25Animations.swift */; };
+		9EF8AA3C2A05D31400BB130B /* BC26AnimationCurves.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF8AA3B2A05D31400BB130B /* BC26AnimationCurves.swift */; };
+		9EF8AA3E2A05DA1800BB130B /* BC27Transitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF8AA3D2A05DA1800BB130B /* BC27Transitions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +59,7 @@
 		9E48A39229C7A402006FCA0E /* BC12Spacer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC12Spacer.swift; sourceTree = "<group>"; };
 		9E48A39429C7A8A3006FCA0E /* BC13InitsEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC13InitsEnums.swift; sourceTree = "<group>"; };
 		9E48A39629C7AACD006FCA0E /* BC14ForEach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC14ForEach.swift; sourceTree = "<group>"; };
+		9E9F96BA2A05DB9F009C11EC /* BC28FullScreenCover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC28FullScreenCover.swift; sourceTree = "<group>"; };
 		9EA015BC29C7E01000E21971 /* BC15ScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC15ScrollView.swift; sourceTree = "<group>"; };
 		9EE48E0B29C8A88200492FCB /* BC16GridItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC16GridItems.swift; sourceTree = "<group>"; };
 		9EE48E0D29C8ACCC00492FCB /* BC17SafeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC17SafeArea.swift; sourceTree = "<group>"; };
@@ -61,6 +68,11 @@
 		9EE48E1329C8C2F100492FCB /* BC20ExtractFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC20ExtractFunctions.swift; sourceTree = "<group>"; };
 		9EE48E1529C8C48500492FCB /* BC21ExtractViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC21ExtractViews.swift; sourceTree = "<group>"; };
 		9EE48E1729C8C5E400492FCB /* BC22Binding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC22Binding.swift; sourceTree = "<group>"; };
+		9EF8AA352A05B19F00BB130B /* BC23ConditionalStatements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC23ConditionalStatements.swift; sourceTree = "<group>"; };
+		9EF8AA372A05B44300BB130B /* BC24Ternary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC24Ternary.swift; sourceTree = "<group>"; };
+		9EF8AA392A05D06400BB130B /* BC25Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC25Animations.swift; sourceTree = "<group>"; };
+		9EF8AA3B2A05D31400BB130B /* BC26AnimationCurves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC26AnimationCurves.swift; sourceTree = "<group>"; };
+		9EF8AA3D2A05DA1800BB130B /* BC27Transitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC27Transitions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +128,12 @@
 				9EE48E1329C8C2F100492FCB /* BC20ExtractFunctions.swift */,
 				9EE48E1529C8C48500492FCB /* BC21ExtractViews.swift */,
 				9EE48E1729C8C5E400492FCB /* BC22Binding.swift */,
+				9EF8AA352A05B19F00BB130B /* BC23ConditionalStatements.swift */,
+				9EF8AA372A05B44300BB130B /* BC24Ternary.swift */,
+				9EF8AA392A05D06400BB130B /* BC25Animations.swift */,
+				9EF8AA3B2A05D31400BB130B /* BC26AnimationCurves.swift */,
+				9EF8AA3D2A05DA1800BB130B /* BC27Transitions.swift */,
+				9E9F96BA2A05DB9F009C11EC /* BC28FullScreenCover.swift */,
 			);
 			path = SwiftUILessons;
 			sourceTree = "<group>";
@@ -208,16 +226,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EF8AA3A2A05D06400BB130B /* BC25Animations.swift in Sources */,
+				9EF8AA362A05B19F00BB130B /* BC23ConditionalStatements.swift in Sources */,
 				9E48A38529C768E0006FCA0E /* BC5Gradients.swift in Sources */,
 				9E48A38B29C78C0A006FCA0E /* BC8Frames.swift in Sources */,
 				9E48A38F29C799DB006FCA0E /* BC10VHZStacks.swift in Sources */,
+				9EF8AA382A05B44300BB130B /* BC24Ternary.swift in Sources */,
 				9E48A37F29C75F44006FCA0E /* BC2Text.swift in Sources */,
 				9EA015BD29C7E01000E21971 /* BC15ScrollView.swift in Sources */,
+				9EF8AA3E2A05DA1800BB130B /* BC27Transitions.swift in Sources */,
 				9E48A39329C7A402006FCA0E /* BC12Spacer.swift in Sources */,
 				9EE48E1229C8B5AB00492FCB /* BC19State.swift in Sources */,
 				9E48A37229C75E85006FCA0E /* ContentView.swift in Sources */,
 				9EE48E1029C8B3B900492FCB /* BC18Buttons.swift in Sources */,
 				9EE48E0C29C8A88200492FCB /* BC16GridItems.swift in Sources */,
+				9EF8AA3C2A05D31400BB130B /* BC26AnimationCurves.swift in Sources */,
 				9EE48E1629C8C48500492FCB /* BC21ExtractViews.swift in Sources */,
 				9E48A38129C76470006FCA0E /* BC3Shapes.swift in Sources */,
 				9E48A39129C7A21A006FCA0E /* BC11Padding.swift in Sources */,
@@ -227,6 +250,7 @@
 				9E48A38329C766CC006FCA0E /* BC4Color.swift in Sources */,
 				9EE48E0E29C8ACCC00492FCB /* BC17SafeArea.swift in Sources */,
 				9EE48E1429C8C2F100492FCB /* BC20ExtractFunctions.swift in Sources */,
+				9E9F96BB2A05DB9F009C11EC /* BC28FullScreenCover.swift in Sources */,
 				9EE48E1829C8C5E400492FCB /* BC22Binding.swift in Sources */,
 				9E48A38729C787FE006FCA0E /* BC6Icons.swift in Sources */,
 				9E48A37029C75E85006FCA0E /* SwiftUILessonsApp.swift in Sources */,
