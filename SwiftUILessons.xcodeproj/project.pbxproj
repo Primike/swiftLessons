@@ -25,6 +25,8 @@
 		9E48A39529C7A8A3006FCA0E /* BC13InitsEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E48A39429C7A8A3006FCA0E /* BC13InitsEnums.swift */; };
 		9E48A39729C7AACD006FCA0E /* BC14ForEach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E48A39629C7AACD006FCA0E /* BC14ForEach.swift */; };
 		9E9F96BB2A05DB9F009C11EC /* BC28FullScreenCover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9F96BA2A05DB9F009C11EC /* BC28FullScreenCover.swift */; };
+		9E9F96BF2A08882C009C11EC /* BC29Popover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9F96BE2A08882C009C11EC /* BC29Popover.swift */; };
+		9E9F96C12A088D1D009C11EC /* BC30Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9F96C02A088D1D009C11EC /* BC30Navigation.swift */; };
 		9EA015BD29C7E01000E21971 /* BC15ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA015BC29C7E01000E21971 /* BC15ScrollView.swift */; };
 		9EE48E0C29C8A88200492FCB /* BC16GridItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE48E0B29C8A88200492FCB /* BC16GridItems.swift */; };
 		9EE48E0E29C8ACCC00492FCB /* BC17SafeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE48E0D29C8ACCC00492FCB /* BC17SafeArea.swift */; };
@@ -60,6 +62,8 @@
 		9E48A39429C7A8A3006FCA0E /* BC13InitsEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC13InitsEnums.swift; sourceTree = "<group>"; };
 		9E48A39629C7AACD006FCA0E /* BC14ForEach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC14ForEach.swift; sourceTree = "<group>"; };
 		9E9F96BA2A05DB9F009C11EC /* BC28FullScreenCover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC28FullScreenCover.swift; sourceTree = "<group>"; };
+		9E9F96BE2A08882C009C11EC /* BC29Popover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC29Popover.swift; sourceTree = "<group>"; };
+		9E9F96C02A088D1D009C11EC /* BC30Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC30Navigation.swift; sourceTree = "<group>"; };
 		9EA015BC29C7E01000E21971 /* BC15ScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC15ScrollView.swift; sourceTree = "<group>"; };
 		9EE48E0B29C8A88200492FCB /* BC16GridItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC16GridItems.swift; sourceTree = "<group>"; };
 		9EE48E0D29C8ACCC00492FCB /* BC17SafeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC17SafeArea.swift; sourceTree = "<group>"; };
@@ -134,6 +138,8 @@
 				9EF8AA3B2A05D31400BB130B /* BC26AnimationCurves.swift */,
 				9EF8AA3D2A05DA1800BB130B /* BC27Transitions.swift */,
 				9E9F96BA2A05DB9F009C11EC /* BC28FullScreenCover.swift */,
+				9E9F96BE2A08882C009C11EC /* BC29Popover.swift */,
+				9E9F96C02A088D1D009C11EC /* BC30Navigation.swift */,
 			);
 			path = SwiftUILessons;
 			sourceTree = "<group>";
@@ -244,11 +250,13 @@
 				9EE48E1629C8C48500492FCB /* BC21ExtractViews.swift in Sources */,
 				9E48A38129C76470006FCA0E /* BC3Shapes.swift in Sources */,
 				9E48A39129C7A21A006FCA0E /* BC11Padding.swift in Sources */,
+				9E9F96C12A088D1D009C11EC /* BC30Navigation.swift in Sources */,
 				9E48A38D29C7903D006FCA0E /* BC9Overlays.swift in Sources */,
 				9E48A39729C7AACD006FCA0E /* BC14ForEach.swift in Sources */,
 				9E48A38929C78A96006FCA0E /* BC7Images.swift in Sources */,
 				9E48A38329C766CC006FCA0E /* BC4Color.swift in Sources */,
 				9EE48E0E29C8ACCC00492FCB /* BC17SafeArea.swift in Sources */,
+				9E9F96BF2A08882C009C11EC /* BC29Popover.swift in Sources */,
 				9EE48E1429C8C2F100492FCB /* BC20ExtractFunctions.swift in Sources */,
 				9E9F96BB2A05DB9F009C11EC /* BC28FullScreenCover.swift in Sources */,
 				9EE48E1829C8C5E400492FCB /* BC22Binding.swift in Sources */,
