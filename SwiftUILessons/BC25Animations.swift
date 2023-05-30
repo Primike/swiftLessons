@@ -16,7 +16,8 @@ struct BC25Animations: View {
                 withAnimation (
                     Animation
                         .default
-                        .repeatForever(autoreverses: true)
+                        .repeatCount(5, autoreverses: true)
+//                        .repeatForever(autoreverses: true)
                 ) {
                     isAnimated.toggle()
                 }
@@ -27,10 +28,10 @@ struct BC25Animations: View {
                 .frame(width: isAnimated ? 100 : 300, height: isAnimated ? 100 : 300)
                 .rotationEffect(Angle(degrees: isAnimated ? 360 : 0))
                 .offset(y: isAnimated ? 300 : 0)
-                .animation(Animation
-                    .default
-                    .repeatForever(autoreverses: true))
-            
+//                .animation(Animation
+//                    .default
+//                    .repeatCount(5, autoreverses: true)
+//                )
             Spacer()
         }
     }

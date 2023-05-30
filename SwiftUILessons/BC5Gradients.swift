@@ -14,7 +14,11 @@ struct BC5Gradients: View {
 //                .red
 //                LinearGradient(gradient: Gradient(colors: [.blue, .black]), startPoint: .topLeading, endPoint: .bottom)
 //                .radialGradient(Gradient(colors: [.blue, .black]), center: .leading, startRadius: 5, endRadius: 400)
-                AngularGradient(gradient: Gradient(colors: [.blue, .black]), center: .topLeading, angle: .degrees(180 + 45))
+                AngularGradient(
+                    gradient: Gradient(colors: [.blue, .black]),
+                    center: .topLeading,
+                    angle: .degrees(180 + 45)
+                )
             )
             .frame(width: 300, height: 200)
     }
