@@ -37,7 +37,9 @@ struct BC28FullScreenCover: View {
 }
 
 struct BC28SecondScreen: View {
+    //required to dismiss view
     @Environment(\.presentationMode) var presentationMode
+    
     var body: some View {
         ZStack(alignment: .topLeading) {
             Color.red

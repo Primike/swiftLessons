@@ -24,6 +24,7 @@ struct BC27Transitions: View {
                     .frame(height: UIScreen.main.bounds.height * 0.5)
                     .transition(.asymmetric(insertion: .move(edge: .bottom), removal: AnyTransition.opacity.animation(.easeInOut)))
                     .animation(.easeInOut)
+//                    .transition(AnyTransition.scale.animation(.easeInOut))
             }
         }
         .edgesIgnoringSafeArea(.bottom)
