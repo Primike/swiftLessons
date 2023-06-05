@@ -9,6 +9,7 @@ import SwiftUI
 
 struct BC30Navigation: View {
     var body: some View {
+        //navigation view for title and stuff
         NavigationView {
             ScrollView {
                 
