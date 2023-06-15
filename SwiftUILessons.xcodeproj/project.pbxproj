@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E3D2A922A3BCA4E000DC05C /* BC33ActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3D2A912A3BCA4E000DC05C /* BC33ActionSheet.swift */; };
 		9E48A37029C75E85006FCA0E /* SwiftUILessonsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E48A36F29C75E85006FCA0E /* SwiftUILessonsApp.swift */; };
 		9E48A37229C75E85006FCA0E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E48A37129C75E85006FCA0E /* ContentView.swift */; };
 		9E48A37429C75E86006FCA0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E48A37329C75E86006FCA0E /* Assets.xcassets */; };
@@ -45,6 +46,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E3D2A912A3BCA4E000DC05C /* BC33ActionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC33ActionSheet.swift; sourceTree = "<group>"; };
 		9E48A36C29C75E85006FCA0E /* SwiftUILessons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUILessons.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E48A36F29C75E85006FCA0E /* SwiftUILessonsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILessonsApp.swift; sourceTree = "<group>"; };
 		9E48A37129C75E85006FCA0E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 				9E9F96C02A088D1D009C11EC /* BC30Navigation.swift */,
 				9E7D2ECB2A0DBCB100CDE614 /* BC31EditLists.swift */,
 				9EF812D92A2275E100A15505 /* BC32ShowAlerts.swift */,
+				9E3D2A912A3BCA4E000DC05C /* BC33ActionSheet.swift */,
 			);
 			path = SwiftUILessons;
 			sourceTree = "<group>";
@@ -248,6 +251,7 @@
 				9EA015BD29C7E01000E21971 /* BC15ScrollView.swift in Sources */,
 				9EF8AA3E2A05DA1800BB130B /* BC27Transitions.swift in Sources */,
 				9E48A39329C7A402006FCA0E /* BC12Spacer.swift in Sources */,
+				9E3D2A922A3BCA4E000DC05C /* BC33ActionSheet.swift in Sources */,
 				9EE48E1229C8B5AB00492FCB /* BC19State.swift in Sources */,
 				9E48A37229C75E85006FCA0E /* ContentView.swift in Sources */,
 				9E7D2ECC2A0DBCB100CDE614 /* BC31EditLists.swift in Sources */,
