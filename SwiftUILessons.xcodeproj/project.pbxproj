@@ -25,6 +25,8 @@
 		9E48A39329C7A402006FCA0E /* BC12Spacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E48A39229C7A402006FCA0E /* BC12Spacer.swift */; };
 		9E48A39529C7A8A3006FCA0E /* BC13InitsEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E48A39429C7A8A3006FCA0E /* BC13InitsEnums.swift */; };
 		9E48A39729C7AACD006FCA0E /* BC14ForEach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E48A39629C7AACD006FCA0E /* BC14ForEach.swift */; };
+		9E51D4CD2A3E3EFF005467A1 /* BC34ContextMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E51D4CC2A3E3EFF005467A1 /* BC34ContextMenu.swift */; };
+		9E51D4CF2A3E4596005467A1 /* BC35TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E51D4CE2A3E4595005467A1 /* BC35TextField.swift */; };
 		9E7D2ECC2A0DBCB100CDE614 /* BC31EditLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7D2ECB2A0DBCB100CDE614 /* BC31EditLists.swift */; };
 		9E9F96BB2A05DB9F009C11EC /* BC28FullScreenCover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9F96BA2A05DB9F009C11EC /* BC28FullScreenCover.swift */; };
 		9E9F96BF2A08882C009C11EC /* BC29Popover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9F96BE2A08882C009C11EC /* BC29Popover.swift */; };
@@ -65,6 +67,8 @@
 		9E48A39229C7A402006FCA0E /* BC12Spacer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC12Spacer.swift; sourceTree = "<group>"; };
 		9E48A39429C7A8A3006FCA0E /* BC13InitsEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC13InitsEnums.swift; sourceTree = "<group>"; };
 		9E48A39629C7AACD006FCA0E /* BC14ForEach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC14ForEach.swift; sourceTree = "<group>"; };
+		9E51D4CC2A3E3EFF005467A1 /* BC34ContextMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC34ContextMenu.swift; sourceTree = "<group>"; };
+		9E51D4CE2A3E4595005467A1 /* BC35TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC35TextField.swift; sourceTree = "<group>"; };
 		9E7D2ECB2A0DBCB100CDE614 /* BC31EditLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC31EditLists.swift; sourceTree = "<group>"; };
 		9E9F96BA2A05DB9F009C11EC /* BC28FullScreenCover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC28FullScreenCover.swift; sourceTree = "<group>"; };
 		9E9F96BE2A08882C009C11EC /* BC29Popover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC29Popover.swift; sourceTree = "<group>"; };
@@ -149,6 +153,8 @@
 				9E7D2ECB2A0DBCB100CDE614 /* BC31EditLists.swift */,
 				9EF812D92A2275E100A15505 /* BC32ShowAlerts.swift */,
 				9E3D2A912A3BCA4E000DC05C /* BC33ActionSheet.swift */,
+				9E51D4CC2A3E3EFF005467A1 /* BC34ContextMenu.swift */,
+				9E51D4CE2A3E4595005467A1 /* BC35TextField.swift */,
 			);
 			path = SwiftUILessons;
 			sourceTree = "<group>";
@@ -256,6 +262,7 @@
 				9E48A37229C75E85006FCA0E /* ContentView.swift in Sources */,
 				9E7D2ECC2A0DBCB100CDE614 /* BC31EditLists.swift in Sources */,
 				9EE48E1029C8B3B900492FCB /* BC18Buttons.swift in Sources */,
+				9E51D4CD2A3E3EFF005467A1 /* BC34ContextMenu.swift in Sources */,
 				9EE48E0C29C8A88200492FCB /* BC16GridItems.swift in Sources */,
 				9EF8AA3C2A05D31400BB130B /* BC26AnimationCurves.swift in Sources */,
 				9EE48E1629C8C48500492FCB /* BC21ExtractViews.swift in Sources */,
@@ -272,6 +279,7 @@
 				9EE48E1429C8C2F100492FCB /* BC20ExtractFunctions.swift in Sources */,
 				9E9F96BB2A05DB9F009C11EC /* BC28FullScreenCover.swift in Sources */,
 				9EE48E1829C8C5E400492FCB /* BC22Binding.swift in Sources */,
+				9E51D4CF2A3E4596005467A1 /* BC35TextField.swift in Sources */,
 				9E48A38729C787FE006FCA0E /* BC6Icons.swift in Sources */,
 				9E48A37029C75E85006FCA0E /* SwiftUILessonsApp.swift in Sources */,
 				9E48A39529C7A8A3006FCA0E /* BC13InitsEnums.swift in Sources */,
