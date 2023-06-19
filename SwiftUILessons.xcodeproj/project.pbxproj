@@ -32,6 +32,14 @@
 		9E9F96BF2A08882C009C11EC /* BC29Popover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9F96BE2A08882C009C11EC /* BC29Popover.swift */; };
 		9E9F96C12A088D1D009C11EC /* BC30Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9F96C02A088D1D009C11EC /* BC30Navigation.swift */; };
 		9EA015BD29C7E01000E21971 /* BC15ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA015BC29C7E01000E21971 /* BC15ScrollView.swift */; };
+		9EC1C0902A3F7EFE00FA8A16 /* BC36TextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC1C08F2A3F7EFE00FA8A16 /* BC36TextEditor.swift */; };
+		9EC1C0922A3F812E00FA8A16 /* BC37Switch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC1C0912A3F812E00FA8A16 /* BC37Switch.swift */; };
+		9EC1C0942A3F825200FA8A16 /* BC38Picker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC1C0932A3F825200FA8A16 /* BC38Picker.swift */; };
+		9EC1C0962A3F8A7B00FA8A16 /* BC39ColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC1C0952A3F8A7B00FA8A16 /* BC39ColorPicker.swift */; };
+		9EC1C0982A3F8FF000FA8A16 /* BC40DatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC1C0972A3F8FF000FA8A16 /* BC40DatePicker.swift */; };
+		9EC1C09A2A3F92E700FA8A16 /* BC41Stepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC1C0992A3F92E700FA8A16 /* BC41Stepper.swift */; };
+		9EC1C09C2A3F946600FA8A16 /* BC42Slider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC1C09B2A3F946600FA8A16 /* BC42Slider.swift */; };
+		9EC1C09E2A3F9BB800FA8A16 /* BC43TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC1C09D2A3F9BB800FA8A16 /* BC43TabView.swift */; };
 		9EE48E0C29C8A88200492FCB /* BC16GridItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE48E0B29C8A88200492FCB /* BC16GridItems.swift */; };
 		9EE48E0E29C8ACCC00492FCB /* BC17SafeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE48E0D29C8ACCC00492FCB /* BC17SafeArea.swift */; };
 		9EE48E1029C8B3B900492FCB /* BC18Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE48E0F29C8B3B900492FCB /* BC18Buttons.swift */; };
@@ -74,6 +82,14 @@
 		9E9F96BE2A08882C009C11EC /* BC29Popover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC29Popover.swift; sourceTree = "<group>"; };
 		9E9F96C02A088D1D009C11EC /* BC30Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC30Navigation.swift; sourceTree = "<group>"; };
 		9EA015BC29C7E01000E21971 /* BC15ScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC15ScrollView.swift; sourceTree = "<group>"; };
+		9EC1C08F2A3F7EFE00FA8A16 /* BC36TextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC36TextEditor.swift; sourceTree = "<group>"; };
+		9EC1C0912A3F812E00FA8A16 /* BC37Switch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC37Switch.swift; sourceTree = "<group>"; };
+		9EC1C0932A3F825200FA8A16 /* BC38Picker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC38Picker.swift; sourceTree = "<group>"; };
+		9EC1C0952A3F8A7B00FA8A16 /* BC39ColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC39ColorPicker.swift; sourceTree = "<group>"; };
+		9EC1C0972A3F8FF000FA8A16 /* BC40DatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC40DatePicker.swift; sourceTree = "<group>"; };
+		9EC1C0992A3F92E700FA8A16 /* BC41Stepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC41Stepper.swift; sourceTree = "<group>"; };
+		9EC1C09B2A3F946600FA8A16 /* BC42Slider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC42Slider.swift; sourceTree = "<group>"; };
+		9EC1C09D2A3F9BB800FA8A16 /* BC43TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC43TabView.swift; sourceTree = "<group>"; };
 		9EE48E0B29C8A88200492FCB /* BC16GridItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC16GridItems.swift; sourceTree = "<group>"; };
 		9EE48E0D29C8ACCC00492FCB /* BC17SafeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC17SafeArea.swift; sourceTree = "<group>"; };
 		9EE48E0F29C8B3B900492FCB /* BC18Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC18Buttons.swift; sourceTree = "<group>"; };
@@ -155,6 +171,14 @@
 				9E3D2A912A3BCA4E000DC05C /* BC33ActionSheet.swift */,
 				9E51D4CC2A3E3EFF005467A1 /* BC34ContextMenu.swift */,
 				9E51D4CE2A3E4595005467A1 /* BC35TextField.swift */,
+				9EC1C08F2A3F7EFE00FA8A16 /* BC36TextEditor.swift */,
+				9EC1C0912A3F812E00FA8A16 /* BC37Switch.swift */,
+				9EC1C0932A3F825200FA8A16 /* BC38Picker.swift */,
+				9EC1C0952A3F8A7B00FA8A16 /* BC39ColorPicker.swift */,
+				9EC1C0972A3F8FF000FA8A16 /* BC40DatePicker.swift */,
+				9EC1C0992A3F92E700FA8A16 /* BC41Stepper.swift */,
+				9EC1C09B2A3F946600FA8A16 /* BC42Slider.swift */,
+				9EC1C09D2A3F9BB800FA8A16 /* BC43TabView.swift */,
 			);
 			path = SwiftUILessons;
 			sourceTree = "<group>";
@@ -269,12 +293,19 @@
 				9EF812DA2A2275E100A15505 /* BC32ShowAlerts.swift in Sources */,
 				9E48A38129C76470006FCA0E /* BC3Shapes.swift in Sources */,
 				9E48A39129C7A21A006FCA0E /* BC11Padding.swift in Sources */,
+				9EC1C09E2A3F9BB800FA8A16 /* BC43TabView.swift in Sources */,
+				9EC1C0922A3F812E00FA8A16 /* BC37Switch.swift in Sources */,
 				9E9F96C12A088D1D009C11EC /* BC30Navigation.swift in Sources */,
+				9EC1C09C2A3F946600FA8A16 /* BC42Slider.swift in Sources */,
 				9E48A38D29C7903D006FCA0E /* BC9Overlays.swift in Sources */,
 				9E48A39729C7AACD006FCA0E /* BC14ForEach.swift in Sources */,
 				9E48A38929C78A96006FCA0E /* BC7Images.swift in Sources */,
 				9E48A38329C766CC006FCA0E /* BC4Color.swift in Sources */,
+				9EC1C0982A3F8FF000FA8A16 /* BC40DatePicker.swift in Sources */,
 				9EE48E0E29C8ACCC00492FCB /* BC17SafeArea.swift in Sources */,
+				9EC1C0942A3F825200FA8A16 /* BC38Picker.swift in Sources */,
+				9EC1C0962A3F8A7B00FA8A16 /* BC39ColorPicker.swift in Sources */,
+				9EC1C0902A3F7EFE00FA8A16 /* BC36TextEditor.swift in Sources */,
 				9E9F96BF2A08882C009C11EC /* BC29Popover.swift in Sources */,
 				9EE48E1429C8C2F100492FCB /* BC20ExtractFunctions.swift in Sources */,
 				9E9F96BB2A05DB9F009C11EC /* BC28FullScreenCover.swift in Sources */,
@@ -283,6 +314,7 @@
 				9E48A38729C787FE006FCA0E /* BC6Icons.swift in Sources */,
 				9E48A37029C75E85006FCA0E /* SwiftUILessonsApp.swift in Sources */,
 				9E48A39529C7A8A3006FCA0E /* BC13InitsEnums.swift in Sources */,
+				9EC1C09A2A3F92E700FA8A16 /* BC41Stepper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
