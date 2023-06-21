@@ -40,6 +40,12 @@
 		9EC1C09A2A3F92E700FA8A16 /* BC41Stepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC1C0992A3F92E700FA8A16 /* BC41Stepper.swift */; };
 		9EC1C09C2A3F946600FA8A16 /* BC42Slider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC1C09B2A3F946600FA8A16 /* BC42Slider.swift */; };
 		9EC1C09E2A3F9BB800FA8A16 /* BC43TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC1C09D2A3F9BB800FA8A16 /* BC43TabView.swift */; };
+		9EC1C0A02A40CA4C00FA8A16 /* BC44DarkMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC1C09F2A40CA4C00FA8A16 /* BC44DarkMode.swift */; };
+		9EC1C0A42A40F8F200FA8A16 /* BC46OnAppear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC1C0A32A40F8F200FA8A16 /* BC46OnAppear.swift */; };
+		9EC1C0A62A40FD6D00FA8A16 /* BC47IfLetGuard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC1C0A52A40FD6D00FA8A16 /* BC47IfLetGuard.swift */; };
+		9EC1C0A82A40FFE200FA8A16 /* BC48TapGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC1C0A72A40FFE200FA8A16 /* BC48TapGesture.swift */; };
+		9EC1C0AA2A41014400FA8A16 /* BC49CustomModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC1C0A92A41014400FA8A16 /* BC49CustomModels.swift */; };
+		9EC1C0AC2A41293700FA8A16 /* BC50StateObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC1C0AB2A41293700FA8A16 /* BC50StateObservableObject.swift */; };
 		9EE48E0C29C8A88200492FCB /* BC16GridItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE48E0B29C8A88200492FCB /* BC16GridItems.swift */; };
 		9EE48E0E29C8ACCC00492FCB /* BC17SafeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE48E0D29C8ACCC00492FCB /* BC17SafeArea.swift */; };
 		9EE48E1029C8B3B900492FCB /* BC18Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE48E0F29C8B3B900492FCB /* BC18Buttons.swift */; };
@@ -90,6 +96,12 @@
 		9EC1C0992A3F92E700FA8A16 /* BC41Stepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC41Stepper.swift; sourceTree = "<group>"; };
 		9EC1C09B2A3F946600FA8A16 /* BC42Slider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC42Slider.swift; sourceTree = "<group>"; };
 		9EC1C09D2A3F9BB800FA8A16 /* BC43TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC43TabView.swift; sourceTree = "<group>"; };
+		9EC1C09F2A40CA4C00FA8A16 /* BC44DarkMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC44DarkMode.swift; sourceTree = "<group>"; };
+		9EC1C0A32A40F8F200FA8A16 /* BC46OnAppear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC46OnAppear.swift; sourceTree = "<group>"; };
+		9EC1C0A52A40FD6D00FA8A16 /* BC47IfLetGuard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC47IfLetGuard.swift; sourceTree = "<group>"; };
+		9EC1C0A72A40FFE200FA8A16 /* BC48TapGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC48TapGesture.swift; sourceTree = "<group>"; };
+		9EC1C0A92A41014400FA8A16 /* BC49CustomModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC49CustomModels.swift; sourceTree = "<group>"; };
+		9EC1C0AB2A41293700FA8A16 /* BC50StateObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC50StateObservableObject.swift; sourceTree = "<group>"; };
 		9EE48E0B29C8A88200492FCB /* BC16GridItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC16GridItems.swift; sourceTree = "<group>"; };
 		9EE48E0D29C8ACCC00492FCB /* BC17SafeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC17SafeArea.swift; sourceTree = "<group>"; };
 		9EE48E0F29C8B3B900492FCB /* BC18Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC18Buttons.swift; sourceTree = "<group>"; };
@@ -179,6 +191,12 @@
 				9EC1C0992A3F92E700FA8A16 /* BC41Stepper.swift */,
 				9EC1C09B2A3F946600FA8A16 /* BC42Slider.swift */,
 				9EC1C09D2A3F9BB800FA8A16 /* BC43TabView.swift */,
+				9EC1C09F2A40CA4C00FA8A16 /* BC44DarkMode.swift */,
+				9EC1C0A32A40F8F200FA8A16 /* BC46OnAppear.swift */,
+				9EC1C0A52A40FD6D00FA8A16 /* BC47IfLetGuard.swift */,
+				9EC1C0A72A40FFE200FA8A16 /* BC48TapGesture.swift */,
+				9EC1C0A92A41014400FA8A16 /* BC49CustomModels.swift */,
+				9EC1C0AB2A41293700FA8A16 /* BC50StateObservableObject.swift */,
 			);
 			path = SwiftUILessons;
 			sourceTree = "<group>";
@@ -271,6 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EC1C0A42A40F8F200FA8A16 /* BC46OnAppear.swift in Sources */,
 				9EF8AA3A2A05D06400BB130B /* BC25Animations.swift in Sources */,
 				9EF8AA362A05B19F00BB130B /* BC23ConditionalStatements.swift in Sources */,
 				9E48A38529C768E0006FCA0E /* BC5Gradients.swift in Sources */,
@@ -305,14 +324,19 @@
 				9EE48E0E29C8ACCC00492FCB /* BC17SafeArea.swift in Sources */,
 				9EC1C0942A3F825200FA8A16 /* BC38Picker.swift in Sources */,
 				9EC1C0962A3F8A7B00FA8A16 /* BC39ColorPicker.swift in Sources */,
+				9EC1C0AA2A41014400FA8A16 /* BC49CustomModels.swift in Sources */,
 				9EC1C0902A3F7EFE00FA8A16 /* BC36TextEditor.swift in Sources */,
+				9EC1C0A82A40FFE200FA8A16 /* BC48TapGesture.swift in Sources */,
+				9EC1C0A62A40FD6D00FA8A16 /* BC47IfLetGuard.swift in Sources */,
 				9E9F96BF2A08882C009C11EC /* BC29Popover.swift in Sources */,
 				9EE48E1429C8C2F100492FCB /* BC20ExtractFunctions.swift in Sources */,
+				9EC1C0A02A40CA4C00FA8A16 /* BC44DarkMode.swift in Sources */,
 				9E9F96BB2A05DB9F009C11EC /* BC28FullScreenCover.swift in Sources */,
 				9EE48E1829C8C5E400492FCB /* BC22Binding.swift in Sources */,
 				9E51D4CF2A3E4596005467A1 /* BC35TextField.swift in Sources */,
 				9E48A38729C787FE006FCA0E /* BC6Icons.swift in Sources */,
 				9E48A37029C75E85006FCA0E /* SwiftUILessonsApp.swift in Sources */,
+				9EC1C0AC2A41293700FA8A16 /* BC50StateObservableObject.swift in Sources */,
 				9E48A39529C7A8A3006FCA0E /* BC13InitsEnums.swift in Sources */,
 				9EC1C09A2A3F92E700FA8A16 /* BC41Stepper.swift in Sources */,
 			);
