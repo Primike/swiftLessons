@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		9E3D2A922A3BCA4E000DC05C /* BC33ActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3D2A912A3BCA4E000DC05C /* BC33ActionSheet.swift */; };
+		9E47FB172A463AAB0093A0CC /* BC51EnvironmentObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E47FB162A463AAB0093A0CC /* BC51EnvironmentObject.swift */; };
+		9E47FB192A4640750093A0CC /* BC52AppStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E47FB182A4640750093A0CC /* BC52AppStorage.swift */; };
+		9E47FB1C2A47511D0093A0CC /* BC53IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E47FB1B2A47511D0093A0CC /* BC53IntroView.swift */; };
+		9E47FB1E2A4751C60093A0CC /* BC53OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E47FB1D2A4751C60093A0CC /* BC53OnboardingView.swift */; };
+		9E47FB202A4764D70093A0CC /* BC53ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E47FB1F2A4764D70093A0CC /* BC53ProfileView.swift */; };
+		9E47FB222A477D0D0093A0CC /* BC54AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E47FB212A477D0D0093A0CC /* BC54AsyncImage.swift */; };
 		9E48A37029C75E85006FCA0E /* SwiftUILessonsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E48A36F29C75E85006FCA0E /* SwiftUILessonsApp.swift */; };
 		9E48A37229C75E85006FCA0E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E48A37129C75E85006FCA0E /* ContentView.swift */; };
 		9E48A37429C75E86006FCA0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E48A37329C75E86006FCA0E /* Assets.xcassets */; };
@@ -63,6 +69,12 @@
 
 /* Begin PBXFileReference section */
 		9E3D2A912A3BCA4E000DC05C /* BC33ActionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC33ActionSheet.swift; sourceTree = "<group>"; };
+		9E47FB162A463AAB0093A0CC /* BC51EnvironmentObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC51EnvironmentObject.swift; sourceTree = "<group>"; };
+		9E47FB182A4640750093A0CC /* BC52AppStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC52AppStorage.swift; sourceTree = "<group>"; };
+		9E47FB1B2A47511D0093A0CC /* BC53IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC53IntroView.swift; sourceTree = "<group>"; };
+		9E47FB1D2A4751C60093A0CC /* BC53OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC53OnboardingView.swift; sourceTree = "<group>"; };
+		9E47FB1F2A4764D70093A0CC /* BC53ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC53ProfileView.swift; sourceTree = "<group>"; };
+		9E47FB212A477D0D0093A0CC /* BC54AsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC54AsyncImage.swift; sourceTree = "<group>"; };
 		9E48A36C29C75E85006FCA0E /* SwiftUILessons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUILessons.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E48A36F29C75E85006FCA0E /* SwiftUILessonsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILessonsApp.swift; sourceTree = "<group>"; };
 		9E48A37129C75E85006FCA0E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -128,6 +140,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E47FB1A2A4750E30093A0CC /* BC53Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				9E47FB1B2A47511D0093A0CC /* BC53IntroView.swift */,
+				9E47FB1D2A4751C60093A0CC /* BC53OnboardingView.swift */,
+				9E47FB1F2A4764D70093A0CC /* BC53ProfileView.swift */,
+			);
+			path = BC53Onboarding;
+			sourceTree = "<group>";
+		};
 		9E48A36329C75E85006FCA0E = {
 			isa = PBXGroup;
 			children = (
@@ -147,6 +169,7 @@
 		9E48A36E29C75E85006FCA0E /* SwiftUILessons */ = {
 			isa = PBXGroup;
 			children = (
+				9E47FB1A2A4750E30093A0CC /* BC53Onboarding */,
 				9E48A37D29C75ECA006FCA0E /* Main */,
 				9E48A37529C75E86006FCA0E /* Preview Content */,
 				9E48A37E29C75F44006FCA0E /* BC2Text.swift */,
@@ -197,6 +220,9 @@
 				9EC1C0A72A40FFE200FA8A16 /* BC48TapGesture.swift */,
 				9EC1C0A92A41014400FA8A16 /* BC49CustomModels.swift */,
 				9EC1C0AB2A41293700FA8A16 /* BC50StateObservableObject.swift */,
+				9E47FB162A463AAB0093A0CC /* BC51EnvironmentObject.swift */,
+				9E47FB182A4640750093A0CC /* BC52AppStorage.swift */,
+				9E47FB212A477D0D0093A0CC /* BC54AsyncImage.swift */,
 			);
 			path = SwiftUILessons;
 			sourceTree = "<group>";
@@ -315,8 +341,11 @@
 				9EC1C09E2A3F9BB800FA8A16 /* BC43TabView.swift in Sources */,
 				9EC1C0922A3F812E00FA8A16 /* BC37Switch.swift in Sources */,
 				9E9F96C12A088D1D009C11EC /* BC30Navigation.swift in Sources */,
+				9E47FB172A463AAB0093A0CC /* BC51EnvironmentObject.swift in Sources */,
 				9EC1C09C2A3F946600FA8A16 /* BC42Slider.swift in Sources */,
+				9E47FB1E2A4751C60093A0CC /* BC53OnboardingView.swift in Sources */,
 				9E48A38D29C7903D006FCA0E /* BC9Overlays.swift in Sources */,
+				9E47FB222A477D0D0093A0CC /* BC54AsyncImage.swift in Sources */,
 				9E48A39729C7AACD006FCA0E /* BC14ForEach.swift in Sources */,
 				9E48A38929C78A96006FCA0E /* BC7Images.swift in Sources */,
 				9E48A38329C766CC006FCA0E /* BC4Color.swift in Sources */,
@@ -325,10 +354,13 @@
 				9EC1C0942A3F825200FA8A16 /* BC38Picker.swift in Sources */,
 				9EC1C0962A3F8A7B00FA8A16 /* BC39ColorPicker.swift in Sources */,
 				9EC1C0AA2A41014400FA8A16 /* BC49CustomModels.swift in Sources */,
+				9E47FB192A4640750093A0CC /* BC52AppStorage.swift in Sources */,
 				9EC1C0902A3F7EFE00FA8A16 /* BC36TextEditor.swift in Sources */,
 				9EC1C0A82A40FFE200FA8A16 /* BC48TapGesture.swift in Sources */,
 				9EC1C0A62A40FD6D00FA8A16 /* BC47IfLetGuard.swift in Sources */,
+				9E47FB1C2A47511D0093A0CC /* BC53IntroView.swift in Sources */,
 				9E9F96BF2A08882C009C11EC /* BC29Popover.swift in Sources */,
+				9E47FB202A4764D70093A0CC /* BC53ProfileView.swift in Sources */,
 				9EE48E1429C8C2F100492FCB /* BC20ExtractFunctions.swift in Sources */,
 				9EC1C0A02A40CA4C00FA8A16 /* BC44DarkMode.swift in Sources */,
 				9E9F96BB2A05DB9F009C11EC /* BC28FullScreenCover.swift in Sources */,
