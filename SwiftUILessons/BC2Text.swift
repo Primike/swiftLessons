@@ -23,6 +23,7 @@ struct BC2Text: View {
             .foregroundColor(.red)
             .frame(width: 200, height: 100, alignment: .leading)
             .minimumScaleFactor(0.1)
+            .textSelection(.enabled)
     }
 }
 

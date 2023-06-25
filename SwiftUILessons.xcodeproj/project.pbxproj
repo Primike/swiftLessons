@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E09DA472A478C4B00D3691A /* BC55SystemMaterials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E09DA462A478C4B00D3691A /* BC55SystemMaterials.swift */; };
+		9E09DA492A479D6B00D3691A /* BC57ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E09DA482A479D6B00D3691A /* BC57ButtonStyles.swift */; };
+		9E09DA4B2A47AFAA00D3691A /* BC58SwipeActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E09DA4A2A47AFAA00D3691A /* BC58SwipeActions.swift */; };
+		9E09DA4D2A47CC3F00D3691A /* BC59Badges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E09DA4C2A47CC3F00D3691A /* BC59Badges.swift */; };
 		9E3D2A922A3BCA4E000DC05C /* BC33ActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3D2A912A3BCA4E000DC05C /* BC33ActionSheet.swift */; };
 		9E47FB172A463AAB0093A0CC /* BC51EnvironmentObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E47FB162A463AAB0093A0CC /* BC51EnvironmentObject.swift */; };
 		9E47FB192A4640750093A0CC /* BC52AppStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E47FB182A4640750093A0CC /* BC52AppStorage.swift */; };
@@ -68,6 +72,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E09DA462A478C4B00D3691A /* BC55SystemMaterials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC55SystemMaterials.swift; sourceTree = "<group>"; };
+		9E09DA482A479D6B00D3691A /* BC57ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC57ButtonStyles.swift; sourceTree = "<group>"; };
+		9E09DA4A2A47AFAA00D3691A /* BC58SwipeActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC58SwipeActions.swift; sourceTree = "<group>"; };
+		9E09DA4C2A47CC3F00D3691A /* BC59Badges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC59Badges.swift; sourceTree = "<group>"; };
 		9E3D2A912A3BCA4E000DC05C /* BC33ActionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC33ActionSheet.swift; sourceTree = "<group>"; };
 		9E47FB162A463AAB0093A0CC /* BC51EnvironmentObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC51EnvironmentObject.swift; sourceTree = "<group>"; };
 		9E47FB182A4640750093A0CC /* BC52AppStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC52AppStorage.swift; sourceTree = "<group>"; };
@@ -223,6 +231,10 @@
 				9E47FB162A463AAB0093A0CC /* BC51EnvironmentObject.swift */,
 				9E47FB182A4640750093A0CC /* BC52AppStorage.swift */,
 				9E47FB212A477D0D0093A0CC /* BC54AsyncImage.swift */,
+				9E09DA462A478C4B00D3691A /* BC55SystemMaterials.swift */,
+				9E09DA482A479D6B00D3691A /* BC57ButtonStyles.swift */,
+				9E09DA4A2A47AFAA00D3691A /* BC58SwipeActions.swift */,
+				9E09DA4C2A47CC3F00D3691A /* BC59Badges.swift */,
 			);
 			path = SwiftUILessons;
 			sourceTree = "<group>";
@@ -319,9 +331,11 @@
 				9EF8AA3A2A05D06400BB130B /* BC25Animations.swift in Sources */,
 				9EF8AA362A05B19F00BB130B /* BC23ConditionalStatements.swift in Sources */,
 				9E48A38529C768E0006FCA0E /* BC5Gradients.swift in Sources */,
+				9E09DA492A479D6B00D3691A /* BC57ButtonStyles.swift in Sources */,
 				9E48A38B29C78C0A006FCA0E /* BC8Frames.swift in Sources */,
 				9E48A38F29C799DB006FCA0E /* BC10VHZStacks.swift in Sources */,
 				9EF8AA382A05B44300BB130B /* BC24Ternary.swift in Sources */,
+				9E09DA4D2A47CC3F00D3691A /* BC59Badges.swift in Sources */,
 				9E48A37F29C75F44006FCA0E /* BC2Text.swift in Sources */,
 				9EA015BD29C7E01000E21971 /* BC15ScrollView.swift in Sources */,
 				9EF8AA3E2A05DA1800BB130B /* BC27Transitions.swift in Sources */,
@@ -341,6 +355,8 @@
 				9EC1C09E2A3F9BB800FA8A16 /* BC43TabView.swift in Sources */,
 				9EC1C0922A3F812E00FA8A16 /* BC37Switch.swift in Sources */,
 				9E9F96C12A088D1D009C11EC /* BC30Navigation.swift in Sources */,
+				9E09DA4B2A47AFAA00D3691A /* BC58SwipeActions.swift in Sources */,
+				9E09DA472A478C4B00D3691A /* BC55SystemMaterials.swift in Sources */,
 				9E47FB172A463AAB0093A0CC /* BC51EnvironmentObject.swift in Sources */,
 				9EC1C09C2A3F946600FA8A16 /* BC42Slider.swift in Sources */,
 				9E47FB1E2A4751C60093A0CC /* BC53OnboardingView.swift in Sources */,
