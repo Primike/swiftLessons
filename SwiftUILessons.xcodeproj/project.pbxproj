@@ -11,6 +11,9 @@
 		9E09DA492A479D6B00D3691A /* BC57ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E09DA482A479D6B00D3691A /* BC57ButtonStyles.swift */; };
 		9E09DA4B2A47AFAA00D3691A /* BC58SwipeActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E09DA4A2A47AFAA00D3691A /* BC58SwipeActions.swift */; };
 		9E09DA4D2A47CC3F00D3691A /* BC59Badges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E09DA4C2A47CC3F00D3691A /* BC59Badges.swift */; };
+		9E09DA4F2A48A56A00D3691A /* BC60FocusState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E09DA4E2A48A56A00D3691A /* BC60FocusState.swift */; };
+		9E09DA512A48CE8E00D3691A /* BC61KeyboardSubmit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E09DA502A48CE8E00D3691A /* BC61KeyboardSubmit.swift */; };
+		9E09DA532A48D19900D3691A /* BC62NavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E09DA522A48D19900D3691A /* BC62NavigationStack.swift */; };
 		9E3D2A922A3BCA4E000DC05C /* BC33ActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3D2A912A3BCA4E000DC05C /* BC33ActionSheet.swift */; };
 		9E47FB172A463AAB0093A0CC /* BC51EnvironmentObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E47FB162A463AAB0093A0CC /* BC51EnvironmentObject.swift */; };
 		9E47FB192A4640750093A0CC /* BC52AppStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E47FB182A4640750093A0CC /* BC52AppStorage.swift */; };
@@ -76,6 +79,9 @@
 		9E09DA482A479D6B00D3691A /* BC57ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC57ButtonStyles.swift; sourceTree = "<group>"; };
 		9E09DA4A2A47AFAA00D3691A /* BC58SwipeActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC58SwipeActions.swift; sourceTree = "<group>"; };
 		9E09DA4C2A47CC3F00D3691A /* BC59Badges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC59Badges.swift; sourceTree = "<group>"; };
+		9E09DA4E2A48A56A00D3691A /* BC60FocusState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC60FocusState.swift; sourceTree = "<group>"; };
+		9E09DA502A48CE8E00D3691A /* BC61KeyboardSubmit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC61KeyboardSubmit.swift; sourceTree = "<group>"; };
+		9E09DA522A48D19900D3691A /* BC62NavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC62NavigationStack.swift; sourceTree = "<group>"; };
 		9E3D2A912A3BCA4E000DC05C /* BC33ActionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC33ActionSheet.swift; sourceTree = "<group>"; };
 		9E47FB162A463AAB0093A0CC /* BC51EnvironmentObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC51EnvironmentObject.swift; sourceTree = "<group>"; };
 		9E47FB182A4640750093A0CC /* BC52AppStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC52AppStorage.swift; sourceTree = "<group>"; };
@@ -235,6 +241,9 @@
 				9E09DA482A479D6B00D3691A /* BC57ButtonStyles.swift */,
 				9E09DA4A2A47AFAA00D3691A /* BC58SwipeActions.swift */,
 				9E09DA4C2A47CC3F00D3691A /* BC59Badges.swift */,
+				9E09DA4E2A48A56A00D3691A /* BC60FocusState.swift */,
+				9E09DA502A48CE8E00D3691A /* BC61KeyboardSubmit.swift */,
+				9E09DA522A48D19900D3691A /* BC62NavigationStack.swift */,
 			);
 			path = SwiftUILessons;
 			sourceTree = "<group>";
@@ -329,6 +338,7 @@
 			files = (
 				9EC1C0A42A40F8F200FA8A16 /* BC46OnAppear.swift in Sources */,
 				9EF8AA3A2A05D06400BB130B /* BC25Animations.swift in Sources */,
+				9E09DA512A48CE8E00D3691A /* BC61KeyboardSubmit.swift in Sources */,
 				9EF8AA362A05B19F00BB130B /* BC23ConditionalStatements.swift in Sources */,
 				9E48A38529C768E0006FCA0E /* BC5Gradients.swift in Sources */,
 				9E09DA492A479D6B00D3691A /* BC57ButtonStyles.swift in Sources */,
@@ -357,6 +367,7 @@
 				9E9F96C12A088D1D009C11EC /* BC30Navigation.swift in Sources */,
 				9E09DA4B2A47AFAA00D3691A /* BC58SwipeActions.swift in Sources */,
 				9E09DA472A478C4B00D3691A /* BC55SystemMaterials.swift in Sources */,
+				9E09DA4F2A48A56A00D3691A /* BC60FocusState.swift in Sources */,
 				9E47FB172A463AAB0093A0CC /* BC51EnvironmentObject.swift in Sources */,
 				9EC1C09C2A3F946600FA8A16 /* BC42Slider.swift in Sources */,
 				9E47FB1E2A4751C60093A0CC /* BC53OnboardingView.swift in Sources */,
@@ -370,6 +381,7 @@
 				9EC1C0942A3F825200FA8A16 /* BC38Picker.swift in Sources */,
 				9EC1C0962A3F8A7B00FA8A16 /* BC39ColorPicker.swift in Sources */,
 				9EC1C0AA2A41014400FA8A16 /* BC49CustomModels.swift in Sources */,
+				9E09DA532A48D19900D3691A /* BC62NavigationStack.swift in Sources */,
 				9E47FB192A4640750093A0CC /* BC52AppStorage.swift in Sources */,
 				9EC1C0902A3F7EFE00FA8A16 /* BC36TextEditor.swift in Sources */,
 				9EC1C0A82A40FFE200FA8A16 /* BC48TapGesture.swift in Sources */,
