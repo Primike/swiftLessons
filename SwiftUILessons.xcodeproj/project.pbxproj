@@ -39,6 +39,7 @@
 		9E48A39329C7A402006FCA0E /* BC12Spacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E48A39229C7A402006FCA0E /* BC12Spacer.swift */; };
 		9E48A39529C7A8A3006FCA0E /* BC13InitsEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E48A39429C7A8A3006FCA0E /* BC13InitsEnums.swift */; };
 		9E48A39729C7AACD006FCA0E /* BC14ForEach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E48A39629C7AACD006FCA0E /* BC14ForEach.swift */; };
+		9E4B813F2A4B6141004A7DCD /* BC64ResizableSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4B813E2A4B6141004A7DCD /* BC64ResizableSheets.swift */; };
 		9E51D4CD2A3E3EFF005467A1 /* BC34ContextMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E51D4CC2A3E3EFF005467A1 /* BC34ContextMenu.swift */; };
 		9E51D4CF2A3E4596005467A1 /* BC35TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E51D4CE2A3E4595005467A1 /* BC35TextField.swift */; };
 		9E7D2ECC2A0DBCB100CDE614 /* BC31EditLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7D2ECB2A0DBCB100CDE614 /* BC31EditLists.swift */; };
@@ -109,6 +110,7 @@
 		9E48A39229C7A402006FCA0E /* BC12Spacer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC12Spacer.swift; sourceTree = "<group>"; };
 		9E48A39429C7A8A3006FCA0E /* BC13InitsEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC13InitsEnums.swift; sourceTree = "<group>"; };
 		9E48A39629C7AACD006FCA0E /* BC14ForEach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC14ForEach.swift; sourceTree = "<group>"; };
+		9E4B813E2A4B6141004A7DCD /* BC64ResizableSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC64ResizableSheets.swift; sourceTree = "<group>"; };
 		9E51D4CC2A3E3EFF005467A1 /* BC34ContextMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC34ContextMenu.swift; sourceTree = "<group>"; };
 		9E51D4CE2A3E4595005467A1 /* BC35TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC35TextField.swift; sourceTree = "<group>"; };
 		9E7D2ECB2A0DBCB100CDE614 /* BC31EditLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC31EditLists.swift; sourceTree = "<group>"; };
@@ -247,6 +249,7 @@
 				9E09DA502A48CE8E00D3691A /* BC61KeyboardSubmit.swift */,
 				9E09DA522A48D19900D3691A /* BC62NavigationStack.swift */,
 				9E09DA542A49D33E00D3691A /* BC63Toolbar.swift */,
+				9E4B813E2A4B6141004A7DCD /* BC64ResizableSheets.swift */,
 			);
 			path = SwiftUILessons;
 			sourceTree = "<group>";
@@ -375,6 +378,7 @@
 				9EC1C09C2A3F946600FA8A16 /* BC42Slider.swift in Sources */,
 				9E47FB1E2A4751C60093A0CC /* BC53OnboardingView.swift in Sources */,
 				9E48A38D29C7903D006FCA0E /* BC9Overlays.swift in Sources */,
+				9E4B813F2A4B6141004A7DCD /* BC64ResizableSheets.swift in Sources */,
 				9E47FB222A477D0D0093A0CC /* BC54AsyncImage.swift in Sources */,
 				9E48A39729C7AACD006FCA0E /* BC14ForEach.swift in Sources */,
 				9E48A38929C78A96006FCA0E /* BC7Images.swift in Sources */,
