@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUILessonsApp: App {
     var body: some Scene {
         WindowGroup {
-            BC62NavigationStack()
+            CL2MagnificationGesture()
         }
     }
 }

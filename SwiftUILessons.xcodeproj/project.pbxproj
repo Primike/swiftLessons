@@ -40,6 +40,9 @@
 		9E48A39529C7A8A3006FCA0E /* BC13InitsEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E48A39429C7A8A3006FCA0E /* BC13InitsEnums.swift */; };
 		9E48A39729C7AACD006FCA0E /* BC14ForEach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E48A39629C7AACD006FCA0E /* BC14ForEach.swift */; };
 		9E4B813F2A4B6141004A7DCD /* BC64ResizableSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4B813E2A4B6141004A7DCD /* BC64ResizableSheets.swift */; };
+		9E4B81412A4C6246004A7DCD /* BC65SafeAreaInserts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4B81402A4C6246004A7DCD /* BC65SafeAreaInserts.swift */; };
+		9E4B81452A4C6CC8004A7DCD /* CL1LongPressGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4B81442A4C6CC8004A7DCD /* CL1LongPressGesture.swift */; };
+		9E4B81472A4C7DFF004A7DCD /* CL2MagnificationGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4B81462A4C7DFF004A7DCD /* CL2MagnificationGesture.swift */; };
 		9E51D4CD2A3E3EFF005467A1 /* BC34ContextMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E51D4CC2A3E3EFF005467A1 /* BC34ContextMenu.swift */; };
 		9E51D4CF2A3E4596005467A1 /* BC35TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E51D4CE2A3E4595005467A1 /* BC35TextField.swift */; };
 		9E7D2ECC2A0DBCB100CDE614 /* BC31EditLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7D2ECB2A0DBCB100CDE614 /* BC31EditLists.swift */; };
@@ -111,6 +114,9 @@
 		9E48A39429C7A8A3006FCA0E /* BC13InitsEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC13InitsEnums.swift; sourceTree = "<group>"; };
 		9E48A39629C7AACD006FCA0E /* BC14ForEach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC14ForEach.swift; sourceTree = "<group>"; };
 		9E4B813E2A4B6141004A7DCD /* BC64ResizableSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC64ResizableSheets.swift; sourceTree = "<group>"; };
+		9E4B81402A4C6246004A7DCD /* BC65SafeAreaInserts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC65SafeAreaInserts.swift; sourceTree = "<group>"; };
+		9E4B81442A4C6CC8004A7DCD /* CL1LongPressGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CL1LongPressGesture.swift; sourceTree = "<group>"; };
+		9E4B81462A4C7DFF004A7DCD /* CL2MagnificationGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CL2MagnificationGesture.swift; sourceTree = "<group>"; };
 		9E51D4CC2A3E3EFF005467A1 /* BC34ContextMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC34ContextMenu.swift; sourceTree = "<group>"; };
 		9E51D4CE2A3E4595005467A1 /* BC35TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC35TextField.swift; sourceTree = "<group>"; };
 		9E7D2ECB2A0DBCB100CDE614 /* BC31EditLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC31EditLists.swift; sourceTree = "<group>"; };
@@ -187,9 +193,35 @@
 		9E48A36E29C75E85006FCA0E /* SwiftUILessons */ = {
 			isa = PBXGroup;
 			children = (
-				9E47FB1A2A4750E30093A0CC /* BC53Onboarding */,
+				9E48A36F29C75E85006FCA0E /* SwiftUILessonsApp.swift */,
+				9E4B81432A4C6C7D004A7DCD /* Intermediate */,
+				9E4B81422A4C64E2004A7DCD /* Bootcamp */,
 				9E48A37D29C75ECA006FCA0E /* Main */,
 				9E48A37529C75E86006FCA0E /* Preview Content */,
+			);
+			path = SwiftUILessons;
+			sourceTree = "<group>";
+		};
+		9E48A37529C75E86006FCA0E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9E48A37629C75E86006FCA0E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9E48A37D29C75ECA006FCA0E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				9E48A37129C75E85006FCA0E /* ContentView.swift */,
+				9E48A37329C75E86006FCA0E /* Assets.xcassets */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		9E4B81422A4C64E2004A7DCD /* Bootcamp */ = {
+			isa = PBXGroup;
+			children = (
 				9E48A37E29C75F44006FCA0E /* BC2Text.swift */,
 				9E48A38029C76470006FCA0E /* BC3Shapes.swift */,
 				9E48A38229C766CC006FCA0E /* BC4Color.swift */,
@@ -240,6 +272,7 @@
 				9EC1C0AB2A41293700FA8A16 /* BC50StateObservableObject.swift */,
 				9E47FB162A463AAB0093A0CC /* BC51EnvironmentObject.swift */,
 				9E47FB182A4640750093A0CC /* BC52AppStorage.swift */,
+				9E47FB1A2A4750E30093A0CC /* BC53Onboarding */,
 				9E47FB212A477D0D0093A0CC /* BC54AsyncImage.swift */,
 				9E09DA462A478C4B00D3691A /* BC55SystemMaterials.swift */,
 				9E09DA482A479D6B00D3691A /* BC57ButtonStyles.swift */,
@@ -250,26 +283,18 @@
 				9E09DA522A48D19900D3691A /* BC62NavigationStack.swift */,
 				9E09DA542A49D33E00D3691A /* BC63Toolbar.swift */,
 				9E4B813E2A4B6141004A7DCD /* BC64ResizableSheets.swift */,
+				9E4B81402A4C6246004A7DCD /* BC65SafeAreaInserts.swift */,
 			);
-			path = SwiftUILessons;
+			path = Bootcamp;
 			sourceTree = "<group>";
 		};
-		9E48A37529C75E86006FCA0E /* Preview Content */ = {
+		9E4B81432A4C6C7D004A7DCD /* Intermediate */ = {
 			isa = PBXGroup;
 			children = (
-				9E48A37629C75E86006FCA0E /* Preview Assets.xcassets */,
+				9E4B81442A4C6CC8004A7DCD /* CL1LongPressGesture.swift */,
+				9E4B81462A4C7DFF004A7DCD /* CL2MagnificationGesture.swift */,
 			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		9E48A37D29C75ECA006FCA0E /* Main */ = {
-			isa = PBXGroup;
-			children = (
-				9E48A36F29C75E85006FCA0E /* SwiftUILessonsApp.swift */,
-				9E48A37129C75E85006FCA0E /* ContentView.swift */,
-				9E48A37329C75E86006FCA0E /* Assets.xcassets */,
-			);
-			path = Main;
+			path = Intermediate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -378,6 +403,7 @@
 				9EC1C09C2A3F946600FA8A16 /* BC42Slider.swift in Sources */,
 				9E47FB1E2A4751C60093A0CC /* BC53OnboardingView.swift in Sources */,
 				9E48A38D29C7903D006FCA0E /* BC9Overlays.swift in Sources */,
+				9E4B81452A4C6CC8004A7DCD /* CL1LongPressGesture.swift in Sources */,
 				9E4B813F2A4B6141004A7DCD /* BC64ResizableSheets.swift in Sources */,
 				9E47FB222A477D0D0093A0CC /* BC54AsyncImage.swift in Sources */,
 				9E48A39729C7AACD006FCA0E /* BC14ForEach.swift in Sources */,
@@ -398,6 +424,8 @@
 				9E9F96BF2A08882C009C11EC /* BC29Popover.swift in Sources */,
 				9E47FB202A4764D70093A0CC /* BC53ProfileView.swift in Sources */,
 				9EE48E1429C8C2F100492FCB /* BC20ExtractFunctions.swift in Sources */,
+				9E4B81472A4C7DFF004A7DCD /* CL2MagnificationGesture.swift in Sources */,
+				9E4B81412A4C6246004A7DCD /* BC65SafeAreaInserts.swift in Sources */,
 				9EC1C0A02A40CA4C00FA8A16 /* BC44DarkMode.swift in Sources */,
 				9E9F96BB2A05DB9F009C11EC /* BC28FullScreenCover.swift in Sources */,
 				9EE48E1829C8C5E400492FCB /* BC22Binding.swift in Sources */,
