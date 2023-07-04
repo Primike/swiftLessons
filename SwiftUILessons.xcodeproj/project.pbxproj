@@ -50,6 +50,8 @@
 		9E9F96BF2A08882C009C11EC /* BC29Popover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9F96BE2A08882C009C11EC /* BC29Popover.swift */; };
 		9E9F96C12A088D1D009C11EC /* BC30Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9F96C02A088D1D009C11EC /* BC30Navigation.swift */; };
 		9EA015BD29C7E01000E21971 /* BC15ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA015BC29C7E01000E21971 /* BC15ScrollView.swift */; };
+		9EB4F3062A51E87A00666693 /* CL3RotationGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB4F3052A51E87A00666693 /* CL3RotationGesture.swift */; };
+		9EB4F3082A51EA2700666693 /* CL4DragGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB4F3072A51EA2700666693 /* CL4DragGesture.swift */; };
 		9EC1C0902A3F7EFE00FA8A16 /* BC36TextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC1C08F2A3F7EFE00FA8A16 /* BC36TextEditor.swift */; };
 		9EC1C0922A3F812E00FA8A16 /* BC37Switch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC1C0912A3F812E00FA8A16 /* BC37Switch.swift */; };
 		9EC1C0942A3F825200FA8A16 /* BC38Picker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC1C0932A3F825200FA8A16 /* BC38Picker.swift */; };
@@ -71,6 +73,8 @@
 		9EE48E1429C8C2F100492FCB /* BC20ExtractFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE48E1329C8C2F100492FCB /* BC20ExtractFunctions.swift */; };
 		9EE48E1629C8C48500492FCB /* BC21ExtractViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE48E1529C8C48500492FCB /* BC21ExtractViews.swift */; };
 		9EE48E1829C8C5E400492FCB /* BC22Binding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE48E1729C8C5E400492FCB /* BC22Binding.swift */; };
+		9EEA9D702A546A460080B2FB /* CL5ScrollViewReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEA9D6F2A546A460080B2FB /* CL5ScrollViewReader.swift */; };
+		9EEA9D722A546DE50080B2FB /* CL6GeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEA9D712A546DE50080B2FB /* CL6GeometryReader.swift */; };
 		9EF812DA2A2275E100A15505 /* BC32ShowAlerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF812D92A2275E100A15505 /* BC32ShowAlerts.swift */; };
 		9EF8AA362A05B19F00BB130B /* BC23ConditionalStatements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF8AA352A05B19F00BB130B /* BC23ConditionalStatements.swift */; };
 		9EF8AA382A05B44300BB130B /* BC24Ternary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF8AA372A05B44300BB130B /* BC24Ternary.swift */; };
@@ -124,6 +128,8 @@
 		9E9F96BE2A08882C009C11EC /* BC29Popover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC29Popover.swift; sourceTree = "<group>"; };
 		9E9F96C02A088D1D009C11EC /* BC30Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC30Navigation.swift; sourceTree = "<group>"; };
 		9EA015BC29C7E01000E21971 /* BC15ScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC15ScrollView.swift; sourceTree = "<group>"; };
+		9EB4F3052A51E87A00666693 /* CL3RotationGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CL3RotationGesture.swift; sourceTree = "<group>"; };
+		9EB4F3072A51EA2700666693 /* CL4DragGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CL4DragGesture.swift; sourceTree = "<group>"; };
 		9EC1C08F2A3F7EFE00FA8A16 /* BC36TextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC36TextEditor.swift; sourceTree = "<group>"; };
 		9EC1C0912A3F812E00FA8A16 /* BC37Switch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC37Switch.swift; sourceTree = "<group>"; };
 		9EC1C0932A3F825200FA8A16 /* BC38Picker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC38Picker.swift; sourceTree = "<group>"; };
@@ -145,6 +151,8 @@
 		9EE48E1329C8C2F100492FCB /* BC20ExtractFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC20ExtractFunctions.swift; sourceTree = "<group>"; };
 		9EE48E1529C8C48500492FCB /* BC21ExtractViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC21ExtractViews.swift; sourceTree = "<group>"; };
 		9EE48E1729C8C5E400492FCB /* BC22Binding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC22Binding.swift; sourceTree = "<group>"; };
+		9EEA9D6F2A546A460080B2FB /* CL5ScrollViewReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CL5ScrollViewReader.swift; sourceTree = "<group>"; };
+		9EEA9D712A546DE50080B2FB /* CL6GeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CL6GeometryReader.swift; sourceTree = "<group>"; };
 		9EF812D92A2275E100A15505 /* BC32ShowAlerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC32ShowAlerts.swift; sourceTree = "<group>"; };
 		9EF8AA352A05B19F00BB130B /* BC23ConditionalStatements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC23ConditionalStatements.swift; sourceTree = "<group>"; };
 		9EF8AA372A05B44300BB130B /* BC24Ternary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC24Ternary.swift; sourceTree = "<group>"; };
@@ -293,6 +301,10 @@
 			children = (
 				9E4B81442A4C6CC8004A7DCD /* CL1LongPressGesture.swift */,
 				9E4B81462A4C7DFF004A7DCD /* CL2MagnificationGesture.swift */,
+				9EB4F3052A51E87A00666693 /* CL3RotationGesture.swift */,
+				9EB4F3072A51EA2700666693 /* CL4DragGesture.swift */,
+				9EEA9D6F2A546A460080B2FB /* CL5ScrollViewReader.swift */,
+				9EEA9D712A546DE50080B2FB /* CL6GeometryReader.swift */,
 			);
 			path = Intermediate;
 			sourceTree = "<group>";
@@ -373,6 +385,7 @@
 				9EF8AA362A05B19F00BB130B /* BC23ConditionalStatements.swift in Sources */,
 				9E48A38529C768E0006FCA0E /* BC5Gradients.swift in Sources */,
 				9E09DA492A479D6B00D3691A /* BC57ButtonStyles.swift in Sources */,
+				9EEA9D722A546DE50080B2FB /* CL6GeometryReader.swift in Sources */,
 				9E48A38B29C78C0A006FCA0E /* BC8Frames.swift in Sources */,
 				9E48A38F29C799DB006FCA0E /* BC10VHZStacks.swift in Sources */,
 				9EF8AA382A05B44300BB130B /* BC24Ternary.swift in Sources */,
@@ -399,6 +412,7 @@
 				9E09DA4B2A47AFAA00D3691A /* BC58SwipeActions.swift in Sources */,
 				9E09DA472A478C4B00D3691A /* BC55SystemMaterials.swift in Sources */,
 				9E09DA4F2A48A56A00D3691A /* BC60FocusState.swift in Sources */,
+				9EEA9D702A546A460080B2FB /* CL5ScrollViewReader.swift in Sources */,
 				9E47FB172A463AAB0093A0CC /* BC51EnvironmentObject.swift in Sources */,
 				9EC1C09C2A3F946600FA8A16 /* BC42Slider.swift in Sources */,
 				9E47FB1E2A4751C60093A0CC /* BC53OnboardingView.swift in Sources */,
@@ -410,6 +424,8 @@
 				9E48A38929C78A96006FCA0E /* BC7Images.swift in Sources */,
 				9E48A38329C766CC006FCA0E /* BC4Color.swift in Sources */,
 				9EC1C0982A3F8FF000FA8A16 /* BC40DatePicker.swift in Sources */,
+				9EB4F3082A51EA2700666693 /* CL4DragGesture.swift in Sources */,
+				9EB4F3062A51E87A00666693 /* CL3RotationGesture.swift in Sources */,
 				9EE48E0E29C8ACCC00492FCB /* BC17SafeArea.swift in Sources */,
 				9EC1C0942A3F825200FA8A16 /* BC38Picker.swift in Sources */,
 				9EC1C0962A3F8A7B00FA8A16 /* BC39ColorPicker.swift in Sources */,
