@@ -75,6 +75,13 @@
 		9EE48E1829C8C5E400492FCB /* BC22Binding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE48E1729C8C5E400492FCB /* BC22Binding.swift */; };
 		9EEA9D702A546A460080B2FB /* CL5ScrollViewReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEA9D6F2A546A460080B2FB /* CL5ScrollViewReader.swift */; };
 		9EEA9D722A546DE50080B2FB /* CL6GeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEA9D712A546DE50080B2FB /* CL6GeometryReader.swift */; };
+		9EEA9D742A5470DC0080B2FB /* CL7MultipleSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEA9D732A5470DC0080B2FB /* CL7MultipleSheets.swift */; };
+		9EEA9D762A5478340080B2FB /* CL8Mask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEA9D752A5478340080B2FB /* CL8Mask.swift */; };
+		9EEA9D782A54856A0080B2FB /* CL9SoundEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEA9D772A54856A0080B2FB /* CL9SoundEffects.swift */; };
+		9EEA9D7C2A5487850080B2FB /* tada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9EEA9D7A2A5487850080B2FB /* tada.mp3 */; };
+		9EEA9D7D2A5487850080B2FB /* badum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9EEA9D7B2A5487850080B2FB /* badum.mp3 */; };
+		9EEA9D7F2A5488B50080B2FB /* CL10HapticsVibrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEA9D7E2A5488B50080B2FB /* CL10HapticsVibrations.swift */; };
+		9EEA9D812A548A6A0080B2FB /* CL11LocalNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEA9D802A548A6A0080B2FB /* CL11LocalNotifications.swift */; };
 		9EF812DA2A2275E100A15505 /* BC32ShowAlerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF812D92A2275E100A15505 /* BC32ShowAlerts.swift */; };
 		9EF8AA362A05B19F00BB130B /* BC23ConditionalStatements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF8AA352A05B19F00BB130B /* BC23ConditionalStatements.swift */; };
 		9EF8AA382A05B44300BB130B /* BC24Ternary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF8AA372A05B44300BB130B /* BC24Ternary.swift */; };
@@ -153,6 +160,13 @@
 		9EE48E1729C8C5E400492FCB /* BC22Binding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC22Binding.swift; sourceTree = "<group>"; };
 		9EEA9D6F2A546A460080B2FB /* CL5ScrollViewReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CL5ScrollViewReader.swift; sourceTree = "<group>"; };
 		9EEA9D712A546DE50080B2FB /* CL6GeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CL6GeometryReader.swift; sourceTree = "<group>"; };
+		9EEA9D732A5470DC0080B2FB /* CL7MultipleSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CL7MultipleSheets.swift; sourceTree = "<group>"; };
+		9EEA9D752A5478340080B2FB /* CL8Mask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CL8Mask.swift; sourceTree = "<group>"; };
+		9EEA9D772A54856A0080B2FB /* CL9SoundEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CL9SoundEffects.swift; sourceTree = "<group>"; };
+		9EEA9D7A2A5487850080B2FB /* tada.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tada.mp3; sourceTree = "<group>"; };
+		9EEA9D7B2A5487850080B2FB /* badum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = badum.mp3; sourceTree = "<group>"; };
+		9EEA9D7E2A5488B50080B2FB /* CL10HapticsVibrations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CL10HapticsVibrations.swift; sourceTree = "<group>"; };
+		9EEA9D802A548A6A0080B2FB /* CL11LocalNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CL11LocalNotifications.swift; sourceTree = "<group>"; };
 		9EF812D92A2275E100A15505 /* BC32ShowAlerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC32ShowAlerts.swift; sourceTree = "<group>"; };
 		9EF8AA352A05B19F00BB130B /* BC23ConditionalStatements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC23ConditionalStatements.swift; sourceTree = "<group>"; };
 		9EF8AA372A05B44300BB130B /* BC24Ternary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC24Ternary.swift; sourceTree = "<group>"; };
@@ -201,6 +215,7 @@
 		9E48A36E29C75E85006FCA0E /* SwiftUILessons */ = {
 			isa = PBXGroup;
 			children = (
+				9EEA9D792A54873C0080B2FB /* Sounds */,
 				9E48A36F29C75E85006FCA0E /* SwiftUILessonsApp.swift */,
 				9E4B81432A4C6C7D004A7DCD /* Intermediate */,
 				9E4B81422A4C64E2004A7DCD /* Bootcamp */,
@@ -305,8 +320,22 @@
 				9EB4F3072A51EA2700666693 /* CL4DragGesture.swift */,
 				9EEA9D6F2A546A460080B2FB /* CL5ScrollViewReader.swift */,
 				9EEA9D712A546DE50080B2FB /* CL6GeometryReader.swift */,
+				9EEA9D732A5470DC0080B2FB /* CL7MultipleSheets.swift */,
+				9EEA9D752A5478340080B2FB /* CL8Mask.swift */,
+				9EEA9D772A54856A0080B2FB /* CL9SoundEffects.swift */,
+				9EEA9D7E2A5488B50080B2FB /* CL10HapticsVibrations.swift */,
+				9EEA9D802A548A6A0080B2FB /* CL11LocalNotifications.swift */,
 			);
 			path = Intermediate;
+			sourceTree = "<group>";
+		};
+		9EEA9D792A54873C0080B2FB /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				9EEA9D7B2A5487850080B2FB /* badum.mp3 */,
+				9EEA9D7A2A5487850080B2FB /* tada.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -367,8 +396,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EEA9D7D2A5487850080B2FB /* badum.mp3 in Resources */,
 				9E48A37729C75E86006FCA0E /* Preview Assets.xcassets in Resources */,
 				9E48A37429C75E86006FCA0E /* Assets.xcassets in Resources */,
+				9EEA9D7C2A5487850080B2FB /* tada.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,6 +418,7 @@
 				9E09DA492A479D6B00D3691A /* BC57ButtonStyles.swift in Sources */,
 				9EEA9D722A546DE50080B2FB /* CL6GeometryReader.swift in Sources */,
 				9E48A38B29C78C0A006FCA0E /* BC8Frames.swift in Sources */,
+				9EEA9D782A54856A0080B2FB /* CL9SoundEffects.swift in Sources */,
 				9E48A38F29C799DB006FCA0E /* BC10VHZStacks.swift in Sources */,
 				9EF8AA382A05B44300BB130B /* BC24Ternary.swift in Sources */,
 				9E09DA4D2A47CC3F00D3691A /* BC59Badges.swift in Sources */,
@@ -401,8 +433,10 @@
 				9EE48E1029C8B3B900492FCB /* BC18Buttons.swift in Sources */,
 				9E51D4CD2A3E3EFF005467A1 /* BC34ContextMenu.swift in Sources */,
 				9EE48E0C29C8A88200492FCB /* BC16GridItems.swift in Sources */,
+				9EEA9D7F2A5488B50080B2FB /* CL10HapticsVibrations.swift in Sources */,
 				9EF8AA3C2A05D31400BB130B /* BC26AnimationCurves.swift in Sources */,
 				9EE48E1629C8C48500492FCB /* BC21ExtractViews.swift in Sources */,
+				9EEA9D742A5470DC0080B2FB /* CL7MultipleSheets.swift in Sources */,
 				9EF812DA2A2275E100A15505 /* BC32ShowAlerts.swift in Sources */,
 				9E48A38129C76470006FCA0E /* BC3Shapes.swift in Sources */,
 				9E48A39129C7A21A006FCA0E /* BC11Padding.swift in Sources */,
@@ -423,10 +457,12 @@
 				9E48A39729C7AACD006FCA0E /* BC14ForEach.swift in Sources */,
 				9E48A38929C78A96006FCA0E /* BC7Images.swift in Sources */,
 				9E48A38329C766CC006FCA0E /* BC4Color.swift in Sources */,
+				9EEA9D762A5478340080B2FB /* CL8Mask.swift in Sources */,
 				9EC1C0982A3F8FF000FA8A16 /* BC40DatePicker.swift in Sources */,
 				9EB4F3082A51EA2700666693 /* CL4DragGesture.swift in Sources */,
 				9EB4F3062A51E87A00666693 /* CL3RotationGesture.swift in Sources */,
 				9EE48E0E29C8ACCC00492FCB /* BC17SafeArea.swift in Sources */,
+				9EEA9D812A548A6A0080B2FB /* CL11LocalNotifications.swift in Sources */,
 				9EC1C0942A3F825200FA8A16 /* BC38Picker.swift in Sources */,
 				9EC1C0962A3F8A7B00FA8A16 /* BC39ColorPicker.swift in Sources */,
 				9EC1C0AA2A41014400FA8A16 /* BC49CustomModels.swift in Sources */,
