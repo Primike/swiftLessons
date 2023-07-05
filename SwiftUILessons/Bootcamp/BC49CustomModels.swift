@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct UserModel: Identifiable {
+struct BC49UserModel: Identifiable {
     let id: String = UUID().uuidString
     let displayName: String
     let userName: String
@@ -17,11 +17,11 @@ struct UserModel: Identifiable {
 
 struct BC49CustomModels: View {
     
-    @State var users: [UserModel] = [
-        UserModel(displayName: "Nick", userName: "nick123", followerCount: 100, isVerified: true),
-        UserModel(displayName: "Emily", userName: "itsemily1996", followerCount: 55, isVerified: false),
-        UserModel(displayName: "Samantha", userName: "ninja", followerCount: 355, isVerified: false),
-        UserModel(displayName: "Chris", userName: "chrish2009", followerCount: 88, isVerified: true),
+    @State var users: [BC49UserModel] = [
+        BC49UserModel(displayName: "Nick", userName: "nick123", followerCount: 100, isVerified: true),
+        BC49UserModel(displayName: "Emily", userName: "itsemily1996", followerCount: 55, isVerified: false),
+        BC49UserModel(displayName: "Samantha", userName: "ninja", followerCount: 355, isVerified: false),
+        BC49UserModel(displayName: "Chris", userName: "chrish2009", followerCount: 88, isVerified: true),
 
     ]
     

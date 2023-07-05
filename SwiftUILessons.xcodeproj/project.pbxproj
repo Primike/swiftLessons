@@ -82,6 +82,14 @@
 		9EEA9D7D2A5487850080B2FB /* badum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9EEA9D7B2A5487850080B2FB /* badum.mp3 */; };
 		9EEA9D7F2A5488B50080B2FB /* CL10HapticsVibrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEA9D7E2A5488B50080B2FB /* CL10HapticsVibrations.swift */; };
 		9EEA9D812A548A6A0080B2FB /* CL11LocalNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEA9D802A548A6A0080B2FB /* CL11LocalNotifications.swift */; };
+		9EEA9D832A54A5FD0080B2FB /* CL12Hashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEA9D822A54A5FD0080B2FB /* CL12Hashable.swift */; };
+		9EEA9D852A54A91F0080B2FB /* CL13SortFilterMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEA9D842A54A91F0080B2FB /* CL13SortFilterMap.swift */; };
+		9EEA9D882A54B2990080B2FB /* CL17MultiThreading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEA9D872A54B2990080B2FB /* CL17MultiThreading.swift */; };
+		9EEA9D8A2A54CC2D0080B2FB /* CL18WeakSelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEA9D892A54CC2D0080B2FB /* CL18WeakSelf.swift */; };
+		9EEA9D8C2A550B140080B2FB /* CL19Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEA9D8B2A550B140080B2FB /* CL19Typealias.swift */; };
+		9EEA9D8E2A550C950080B2FB /* CL20Escaping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEA9D8D2A550C950080B2FB /* CL20Escaping.swift */; };
+		9EEA9D902A55B9750080B2FB /* CL21Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEA9D8F2A55B9750080B2FB /* CL21Codable.swift */; };
+		9EEA9D922A55CE090080B2FB /* CL22DownloadJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEA9D912A55CE090080B2FB /* CL22DownloadJSON.swift */; };
 		9EF812DA2A2275E100A15505 /* BC32ShowAlerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF812D92A2275E100A15505 /* BC32ShowAlerts.swift */; };
 		9EF8AA362A05B19F00BB130B /* BC23ConditionalStatements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF8AA352A05B19F00BB130B /* BC23ConditionalStatements.swift */; };
 		9EF8AA382A05B44300BB130B /* BC24Ternary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF8AA372A05B44300BB130B /* BC24Ternary.swift */; };
@@ -167,6 +175,14 @@
 		9EEA9D7B2A5487850080B2FB /* badum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = badum.mp3; sourceTree = "<group>"; };
 		9EEA9D7E2A5488B50080B2FB /* CL10HapticsVibrations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CL10HapticsVibrations.swift; sourceTree = "<group>"; };
 		9EEA9D802A548A6A0080B2FB /* CL11LocalNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CL11LocalNotifications.swift; sourceTree = "<group>"; };
+		9EEA9D822A54A5FD0080B2FB /* CL12Hashable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CL12Hashable.swift; sourceTree = "<group>"; };
+		9EEA9D842A54A91F0080B2FB /* CL13SortFilterMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CL13SortFilterMap.swift; sourceTree = "<group>"; };
+		9EEA9D872A54B2990080B2FB /* CL17MultiThreading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CL17MultiThreading.swift; sourceTree = "<group>"; };
+		9EEA9D892A54CC2D0080B2FB /* CL18WeakSelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CL18WeakSelf.swift; sourceTree = "<group>"; };
+		9EEA9D8B2A550B140080B2FB /* CL19Typealias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CL19Typealias.swift; sourceTree = "<group>"; };
+		9EEA9D8D2A550C950080B2FB /* CL20Escaping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CL20Escaping.swift; sourceTree = "<group>"; };
+		9EEA9D8F2A55B9750080B2FB /* CL21Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CL21Codable.swift; sourceTree = "<group>"; };
+		9EEA9D912A55CE090080B2FB /* CL22DownloadJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CL22DownloadJSON.swift; sourceTree = "<group>"; };
 		9EF812D92A2275E100A15505 /* BC32ShowAlerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC32ShowAlerts.swift; sourceTree = "<group>"; };
 		9EF8AA352A05B19F00BB130B /* BC23ConditionalStatements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC23ConditionalStatements.swift; sourceTree = "<group>"; };
 		9EF8AA372A05B44300BB130B /* BC24Ternary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC24Ternary.swift; sourceTree = "<group>"; };
@@ -215,11 +231,11 @@
 		9E48A36E29C75E85006FCA0E /* SwiftUILessons */ = {
 			isa = PBXGroup;
 			children = (
-				9EEA9D792A54873C0080B2FB /* Sounds */,
 				9E48A36F29C75E85006FCA0E /* SwiftUILessonsApp.swift */,
 				9E4B81432A4C6C7D004A7DCD /* Intermediate */,
 				9E4B81422A4C64E2004A7DCD /* Bootcamp */,
 				9E48A37D29C75ECA006FCA0E /* Main */,
+				9EEA9D792A54873C0080B2FB /* Sounds */,
 				9E48A37529C75E86006FCA0E /* Preview Content */,
 			);
 			path = SwiftUILessons;
@@ -325,6 +341,14 @@
 				9EEA9D772A54856A0080B2FB /* CL9SoundEffects.swift */,
 				9EEA9D7E2A5488B50080B2FB /* CL10HapticsVibrations.swift */,
 				9EEA9D802A548A6A0080B2FB /* CL11LocalNotifications.swift */,
+				9EEA9D822A54A5FD0080B2FB /* CL12Hashable.swift */,
+				9EEA9D842A54A91F0080B2FB /* CL13SortFilterMap.swift */,
+				9EEA9D872A54B2990080B2FB /* CL17MultiThreading.swift */,
+				9EEA9D892A54CC2D0080B2FB /* CL18WeakSelf.swift */,
+				9EEA9D8B2A550B140080B2FB /* CL19Typealias.swift */,
+				9EEA9D8D2A550C950080B2FB /* CL20Escaping.swift */,
+				9EEA9D8F2A55B9750080B2FB /* CL21Codable.swift */,
+				9EEA9D912A55CE090080B2FB /* CL22DownloadJSON.swift */,
 			);
 			path = Intermediate;
 			sourceTree = "<group>";
@@ -415,16 +439,19 @@
 				9E09DA512A48CE8E00D3691A /* BC61KeyboardSubmit.swift in Sources */,
 				9EF8AA362A05B19F00BB130B /* BC23ConditionalStatements.swift in Sources */,
 				9E48A38529C768E0006FCA0E /* BC5Gradients.swift in Sources */,
+				9EEA9D8C2A550B140080B2FB /* CL19Typealias.swift in Sources */,
 				9E09DA492A479D6B00D3691A /* BC57ButtonStyles.swift in Sources */,
 				9EEA9D722A546DE50080B2FB /* CL6GeometryReader.swift in Sources */,
 				9E48A38B29C78C0A006FCA0E /* BC8Frames.swift in Sources */,
 				9EEA9D782A54856A0080B2FB /* CL9SoundEffects.swift in Sources */,
 				9E48A38F29C799DB006FCA0E /* BC10VHZStacks.swift in Sources */,
 				9EF8AA382A05B44300BB130B /* BC24Ternary.swift in Sources */,
+				9EEA9D882A54B2990080B2FB /* CL17MultiThreading.swift in Sources */,
 				9E09DA4D2A47CC3F00D3691A /* BC59Badges.swift in Sources */,
 				9E48A37F29C75F44006FCA0E /* BC2Text.swift in Sources */,
 				9EA015BD29C7E01000E21971 /* BC15ScrollView.swift in Sources */,
 				9EF8AA3E2A05DA1800BB130B /* BC27Transitions.swift in Sources */,
+				9EEA9D832A54A5FD0080B2FB /* CL12Hashable.swift in Sources */,
 				9E48A39329C7A402006FCA0E /* BC12Spacer.swift in Sources */,
 				9E3D2A922A3BCA4E000DC05C /* BC33ActionSheet.swift in Sources */,
 				9EE48E1229C8B5AB00492FCB /* BC19State.swift in Sources */,
@@ -440,6 +467,7 @@
 				9EF812DA2A2275E100A15505 /* BC32ShowAlerts.swift in Sources */,
 				9E48A38129C76470006FCA0E /* BC3Shapes.swift in Sources */,
 				9E48A39129C7A21A006FCA0E /* BC11Padding.swift in Sources */,
+				9EEA9D8A2A54CC2D0080B2FB /* CL18WeakSelf.swift in Sources */,
 				9EC1C09E2A3F9BB800FA8A16 /* BC43TabView.swift in Sources */,
 				9EC1C0922A3F812E00FA8A16 /* BC37Switch.swift in Sources */,
 				9E9F96C12A088D1D009C11EC /* BC30Navigation.swift in Sources */,
@@ -450,6 +478,7 @@
 				9E47FB172A463AAB0093A0CC /* BC51EnvironmentObject.swift in Sources */,
 				9EC1C09C2A3F946600FA8A16 /* BC42Slider.swift in Sources */,
 				9E47FB1E2A4751C60093A0CC /* BC53OnboardingView.swift in Sources */,
+				9EEA9D852A54A91F0080B2FB /* CL13SortFilterMap.swift in Sources */,
 				9E48A38D29C7903D006FCA0E /* BC9Overlays.swift in Sources */,
 				9E4B81452A4C6CC8004A7DCD /* CL1LongPressGesture.swift in Sources */,
 				9E4B813F2A4B6141004A7DCD /* BC64ResizableSheets.swift in Sources */,
@@ -457,6 +486,7 @@
 				9E48A39729C7AACD006FCA0E /* BC14ForEach.swift in Sources */,
 				9E48A38929C78A96006FCA0E /* BC7Images.swift in Sources */,
 				9E48A38329C766CC006FCA0E /* BC4Color.swift in Sources */,
+				9EEA9D902A55B9750080B2FB /* CL21Codable.swift in Sources */,
 				9EEA9D762A5478340080B2FB /* CL8Mask.swift in Sources */,
 				9EC1C0982A3F8FF000FA8A16 /* BC40DatePicker.swift in Sources */,
 				9EB4F3082A51EA2700666693 /* CL4DragGesture.swift in Sources */,
@@ -469,8 +499,10 @@
 				9E09DA552A49D33E00D3691A /* BC63Toolbar.swift in Sources */,
 				9E09DA532A48D19900D3691A /* BC62NavigationStack.swift in Sources */,
 				9E47FB192A4640750093A0CC /* BC52AppStorage.swift in Sources */,
+				9EEA9D922A55CE090080B2FB /* CL22DownloadJSON.swift in Sources */,
 				9EC1C0902A3F7EFE00FA8A16 /* BC36TextEditor.swift in Sources */,
 				9EC1C0A82A40FFE200FA8A16 /* BC48TapGesture.swift in Sources */,
+				9EEA9D8E2A550C950080B2FB /* CL20Escaping.swift in Sources */,
 				9EC1C0A62A40FD6D00FA8A16 /* BC47IfLetGuard.swift in Sources */,
 				9E47FB1C2A47511D0093A0CC /* BC53IntroView.swift in Sources */,
 				9E9F96BF2A08882C009C11EC /* BC29Popover.swift in Sources */,
