@@ -16,6 +16,7 @@
 		9E09DA532A48D19900D3691A /* BC62NavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E09DA522A48D19900D3691A /* BC62NavigationStack.swift */; };
 		9E09DA552A49D33E00D3691A /* BC63Toolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E09DA542A49D33E00D3691A /* BC63Toolbar.swift */; };
 		9E3D2A922A3BCA4E000DC05C /* BC33ActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3D2A912A3BCA4E000DC05C /* BC33ActionSheet.swift */; };
+		9E45F6802A578CE8004D0077 /* SC4Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E45F67F2A578CE8004D0077 /* SC4Task.swift */; };
 		9E47FB172A463AAB0093A0CC /* BC51EnvironmentObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E47FB162A463AAB0093A0CC /* BC51EnvironmentObject.swift */; };
 		9E47FB192A4640750093A0CC /* BC52AppStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E47FB182A4640750093A0CC /* BC52AppStorage.swift */; };
 		9E47FB1C2A47511D0093A0CC /* BC53IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E47FB1B2A47511D0093A0CC /* BC53IntroView.swift */; };
@@ -40,6 +41,7 @@
 		9E48A39529C7A8A3006FCA0E /* BC13InitsEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E48A39429C7A8A3006FCA0E /* BC13InitsEnums.swift */; };
 		9E48A39729C7AACD006FCA0E /* BC14ForEach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E48A39629C7AACD006FCA0E /* BC14ForEach.swift */; };
 		9E4998222A5738FD0030595A /* SC1DoCatchThrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4998212A5738FD0030595A /* SC1DoCatchThrow.swift */; };
+		9E4998242A574DD70030595A /* SC3AsyncAwait.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4998232A574DD70030595A /* SC3AsyncAwait.swift */; };
 		9E4B813F2A4B6141004A7DCD /* BC64ResizableSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4B813E2A4B6141004A7DCD /* BC64ResizableSheets.swift */; };
 		9E4B81412A4C6246004A7DCD /* BC65SafeAreaInserts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4B81402A4C6246004A7DCD /* BC65SafeAreaInserts.swift */; };
 		9E4B81452A4C6CC8004A7DCD /* CL1LongPressGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4B81442A4C6CC8004A7DCD /* CL1LongPressGesture.swift */; };
@@ -54,6 +56,7 @@
 		9EA015BD29C7E01000E21971 /* BC15ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA015BC29C7E01000E21971 /* BC15ScrollView.swift */; };
 		9EB4F3062A51E87A00666693 /* CL3RotationGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB4F3052A51E87A00666693 /* CL3RotationGesture.swift */; };
 		9EB4F3082A51EA2700666693 /* CL4DragGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB4F3072A51EA2700666693 /* CL4DragGesture.swift */; };
+		9EBE410C2A57960E00428C8A /* SC5AsyncLet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBE410B2A57960E00428C8A /* SC5AsyncLet.swift */; };
 		9EC1C0902A3F7EFE00FA8A16 /* BC36TextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC1C08F2A3F7EFE00FA8A16 /* BC36TextEditor.swift */; };
 		9EC1C0922A3F812E00FA8A16 /* BC37Switch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC1C0912A3F812E00FA8A16 /* BC37Switch.swift */; };
 		9EC1C0942A3F825200FA8A16 /* BC38Picker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC1C0932A3F825200FA8A16 /* BC38Picker.swift */; };
@@ -113,6 +116,7 @@
 		9E09DA522A48D19900D3691A /* BC62NavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC62NavigationStack.swift; sourceTree = "<group>"; };
 		9E09DA542A49D33E00D3691A /* BC63Toolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC63Toolbar.swift; sourceTree = "<group>"; };
 		9E3D2A912A3BCA4E000DC05C /* BC33ActionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC33ActionSheet.swift; sourceTree = "<group>"; };
+		9E45F67F2A578CE8004D0077 /* SC4Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SC4Task.swift; sourceTree = "<group>"; };
 		9E47FB162A463AAB0093A0CC /* BC51EnvironmentObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC51EnvironmentObject.swift; sourceTree = "<group>"; };
 		9E47FB182A4640750093A0CC /* BC52AppStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC52AppStorage.swift; sourceTree = "<group>"; };
 		9E47FB1B2A47511D0093A0CC /* BC53IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC53IntroView.swift; sourceTree = "<group>"; };
@@ -138,6 +142,7 @@
 		9E48A39429C7A8A3006FCA0E /* BC13InitsEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC13InitsEnums.swift; sourceTree = "<group>"; };
 		9E48A39629C7AACD006FCA0E /* BC14ForEach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC14ForEach.swift; sourceTree = "<group>"; };
 		9E4998212A5738FD0030595A /* SC1DoCatchThrow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SC1DoCatchThrow.swift; sourceTree = "<group>"; };
+		9E4998232A574DD70030595A /* SC3AsyncAwait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SC3AsyncAwait.swift; sourceTree = "<group>"; };
 		9E4B813E2A4B6141004A7DCD /* BC64ResizableSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC64ResizableSheets.swift; sourceTree = "<group>"; };
 		9E4B81402A4C6246004A7DCD /* BC65SafeAreaInserts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC65SafeAreaInserts.swift; sourceTree = "<group>"; };
 		9E4B81442A4C6CC8004A7DCD /* CL1LongPressGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CL1LongPressGesture.swift; sourceTree = "<group>"; };
@@ -152,6 +157,7 @@
 		9EA015BC29C7E01000E21971 /* BC15ScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC15ScrollView.swift; sourceTree = "<group>"; };
 		9EB4F3052A51E87A00666693 /* CL3RotationGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CL3RotationGesture.swift; sourceTree = "<group>"; };
 		9EB4F3072A51EA2700666693 /* CL4DragGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CL4DragGesture.swift; sourceTree = "<group>"; };
+		9EBE410B2A57960E00428C8A /* SC5AsyncLet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SC5AsyncLet.swift; sourceTree = "<group>"; };
 		9EC1C08F2A3F7EFE00FA8A16 /* BC36TextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC36TextEditor.swift; sourceTree = "<group>"; };
 		9EC1C0912A3F812E00FA8A16 /* BC37Switch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC37Switch.swift; sourceTree = "<group>"; };
 		9EC1C0932A3F825200FA8A16 /* BC38Picker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC38Picker.swift; sourceTree = "<group>"; };
@@ -372,6 +378,9 @@
 			children = (
 				9E4998212A5738FD0030595A /* SC1DoCatchThrow.swift */,
 				9E97B82F2A56FC7D005FB32E /* SC2DownloadImage.swift */,
+				9E4998232A574DD70030595A /* SC3AsyncAwait.swift */,
+				9E45F67F2A578CE8004D0077 /* SC4Task.swift */,
+				9EBE410B2A57960E00428C8A /* SC5AsyncLet.swift */,
 			);
 			path = Concurrency;
 			sourceTree = "<group>";
@@ -480,6 +489,7 @@
 				9EEA9D832A54A5FD0080B2FB /* CL12Hashable.swift in Sources */,
 				9E48A39329C7A402006FCA0E /* BC12Spacer.swift in Sources */,
 				9E3D2A922A3BCA4E000DC05C /* BC33ActionSheet.swift in Sources */,
+				9E4998242A574DD70030595A /* SC3AsyncAwait.swift in Sources */,
 				9EE48E1229C8B5AB00492FCB /* BC19State.swift in Sources */,
 				9E48A37229C75E85006FCA0E /* ContentView.swift in Sources */,
 				9E7D2ECC2A0DBCB100CDE614 /* BC31EditLists.swift in Sources */,
@@ -497,6 +507,7 @@
 				9EEA9D8A2A54CC2D0080B2FB /* CL18WeakSelf.swift in Sources */,
 				9EC1C09E2A3F9BB800FA8A16 /* BC43TabView.swift in Sources */,
 				9EC1C0922A3F812E00FA8A16 /* BC37Switch.swift in Sources */,
+				9EBE410C2A57960E00428C8A /* SC5AsyncLet.swift in Sources */,
 				9E9F96C12A088D1D009C11EC /* BC30Navigation.swift in Sources */,
 				9E09DA4B2A47AFAA00D3691A /* BC58SwipeActions.swift in Sources */,
 				9E09DA472A478C4B00D3691A /* BC55SystemMaterials.swift in Sources */,
@@ -505,6 +516,7 @@
 				9E47FB172A463AAB0093A0CC /* BC51EnvironmentObject.swift in Sources */,
 				9EC1C09C2A3F946600FA8A16 /* BC42Slider.swift in Sources */,
 				9E47FB1E2A4751C60093A0CC /* BC53OnboardingView.swift in Sources */,
+				9E45F6802A578CE8004D0077 /* SC4Task.swift in Sources */,
 				9EEA9D852A54A91F0080B2FB /* CL13SortFilterMap.swift in Sources */,
 				9E48A38D29C7903D006FCA0E /* BC9Overlays.swift in Sources */,
 				9E4B81452A4C6CC8004A7DCD /* CL1LongPressGesture.swift in Sources */,

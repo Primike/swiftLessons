@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUILessonsApp: App {
     var body: some Scene {
         WindowGroup {
-            CL23Combine()
+            SC4TaskHome()
         }
     }
 }
