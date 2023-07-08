@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUILessonsApp: App {
     var body: some Scene {
         WindowGroup {
-            SC4TaskHome()
+            SC8StructClassActor()
         }
     }
 }
