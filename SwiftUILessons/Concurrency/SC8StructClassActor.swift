@@ -126,4 +126,8 @@ extension SC8StructClassActor {
  HEAP:
  - Stores reference types
  - Shared across threads
+ 
+ Task:
+- SwiftUI updates the view on the main thread
+- tasks may be performed on different threads
  */

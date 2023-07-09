@@ -81,6 +81,8 @@
 		9EE6ABCE2A58BBA1004FD078 /* SC6TaskGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE6ABCD2A58BBA1004FD078 /* SC6TaskGroup.swift */; };
 		9EE6ABD02A58D8F1004FD078 /* SC7Continuations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE6ABCF2A58D8F1004FD078 /* SC7Continuations.swift */; };
 		9EE6ABD22A59A584004FD078 /* SC8StructClassActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE6ABD12A59A584004FD078 /* SC8StructClassActor.swift */; };
+		9EE6ABD62A5A1F57004FD078 /* SC9Actors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE6ABD52A5A1F57004FD078 /* SC9Actors.swift */; };
+		9EE6ABD82A5AFC09004FD078 /* SC10GlobalActors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE6ABD72A5AFC09004FD078 /* SC10GlobalActors.swift */; };
 		9EEA9D702A546A460080B2FB /* CL5ScrollViewReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEA9D6F2A546A460080B2FB /* CL5ScrollViewReader.swift */; };
 		9EEA9D722A546DE50080B2FB /* CL6GeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEA9D712A546DE50080B2FB /* CL6GeometryReader.swift */; };
 		9EEA9D742A5470DC0080B2FB /* CL7MultipleSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEA9D732A5470DC0080B2FB /* CL7MultipleSheets.swift */; };
@@ -185,6 +187,8 @@
 		9EE6ABCD2A58BBA1004FD078 /* SC6TaskGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SC6TaskGroup.swift; sourceTree = "<group>"; };
 		9EE6ABCF2A58D8F1004FD078 /* SC7Continuations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SC7Continuations.swift; sourceTree = "<group>"; };
 		9EE6ABD12A59A584004FD078 /* SC8StructClassActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SC8StructClassActor.swift; sourceTree = "<group>"; };
+		9EE6ABD52A5A1F57004FD078 /* SC9Actors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SC9Actors.swift; sourceTree = "<group>"; };
+		9EE6ABD72A5AFC09004FD078 /* SC10GlobalActors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SC10GlobalActors.swift; sourceTree = "<group>"; };
 		9EEA9D6F2A546A460080B2FB /* CL5ScrollViewReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CL5ScrollViewReader.swift; sourceTree = "<group>"; };
 		9EEA9D712A546DE50080B2FB /* CL6GeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CL6GeometryReader.swift; sourceTree = "<group>"; };
 		9EEA9D732A5470DC0080B2FB /* CL7MultipleSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CL7MultipleSheets.swift; sourceTree = "<group>"; };
@@ -390,6 +394,8 @@
 				9EE6ABCD2A58BBA1004FD078 /* SC6TaskGroup.swift */,
 				9EE6ABCF2A58D8F1004FD078 /* SC7Continuations.swift */,
 				9EE6ABD12A59A584004FD078 /* SC8StructClassActor.swift */,
+				9EE6ABD52A5A1F57004FD078 /* SC9Actors.swift */,
+				9EE6ABD72A5AFC09004FD078 /* SC10GlobalActors.swift */,
 			);
 			path = Concurrency;
 			sourceTree = "<group>";
@@ -534,6 +540,7 @@
 				9E47FB222A477D0D0093A0CC /* BC54AsyncImage.swift in Sources */,
 				9E48A39729C7AACD006FCA0E /* BC14ForEach.swift in Sources */,
 				9EE6ABCE2A58BBA1004FD078 /* SC6TaskGroup.swift in Sources */,
+				9EE6ABD82A5AFC09004FD078 /* SC10GlobalActors.swift in Sources */,
 				9E48A38929C78A96006FCA0E /* BC7Images.swift in Sources */,
 				9E48A38329C766CC006FCA0E /* BC4Color.swift in Sources */,
 				9EEA9D902A55B9750080B2FB /* CL21Codable.swift in Sources */,
@@ -547,6 +554,7 @@
 				9EC1C0962A3F8A7B00FA8A16 /* BC39ColorPicker.swift in Sources */,
 				9EC1C0AA2A41014400FA8A16 /* BC49CustomModels.swift in Sources */,
 				9E09DA552A49D33E00D3691A /* BC63Toolbar.swift in Sources */,
+				9EE6ABD62A5A1F57004FD078 /* SC9Actors.swift in Sources */,
 				9E09DA532A48D19900D3691A /* BC62NavigationStack.swift in Sources */,
 				9E47FB192A4640750093A0CC /* BC52AppStorage.swift in Sources */,
 				9EEA9D922A55CE090080B2FB /* CL22DownloadJSON.swift in Sources */,
