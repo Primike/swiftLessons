@@ -83,6 +83,8 @@
 		9EE6ABD22A59A584004FD078 /* SC8StructClassActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE6ABD12A59A584004FD078 /* SC8StructClassActor.swift */; };
 		9EE6ABD62A5A1F57004FD078 /* SC9Actors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE6ABD52A5A1F57004FD078 /* SC9Actors.swift */; };
 		9EE6ABD82A5AFC09004FD078 /* SC10GlobalActors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE6ABD72A5AFC09004FD078 /* SC10GlobalActors.swift */; };
+		9EE6ABDA2A5C729A004FD078 /* SC11Sendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE6ABD92A5C729A004FD078 /* SC11Sendable.swift */; };
+		9EE6ABDC2A5C9257004FD078 /* SC12AsyncPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE6ABDB2A5C9257004FD078 /* SC12AsyncPublisher.swift */; };
 		9EEA9D702A546A460080B2FB /* CL5ScrollViewReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEA9D6F2A546A460080B2FB /* CL5ScrollViewReader.swift */; };
 		9EEA9D722A546DE50080B2FB /* CL6GeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEA9D712A546DE50080B2FB /* CL6GeometryReader.swift */; };
 		9EEA9D742A5470DC0080B2FB /* CL7MultipleSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEA9D732A5470DC0080B2FB /* CL7MultipleSheets.swift */; };
@@ -189,6 +191,8 @@
 		9EE6ABD12A59A584004FD078 /* SC8StructClassActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SC8StructClassActor.swift; sourceTree = "<group>"; };
 		9EE6ABD52A5A1F57004FD078 /* SC9Actors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SC9Actors.swift; sourceTree = "<group>"; };
 		9EE6ABD72A5AFC09004FD078 /* SC10GlobalActors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SC10GlobalActors.swift; sourceTree = "<group>"; };
+		9EE6ABD92A5C729A004FD078 /* SC11Sendable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SC11Sendable.swift; sourceTree = "<group>"; };
+		9EE6ABDB2A5C9257004FD078 /* SC12AsyncPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SC12AsyncPublisher.swift; sourceTree = "<group>"; };
 		9EEA9D6F2A546A460080B2FB /* CL5ScrollViewReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CL5ScrollViewReader.swift; sourceTree = "<group>"; };
 		9EEA9D712A546DE50080B2FB /* CL6GeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CL6GeometryReader.swift; sourceTree = "<group>"; };
 		9EEA9D732A5470DC0080B2FB /* CL7MultipleSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CL7MultipleSheets.swift; sourceTree = "<group>"; };
@@ -396,6 +400,8 @@
 				9EE6ABD12A59A584004FD078 /* SC8StructClassActor.swift */,
 				9EE6ABD52A5A1F57004FD078 /* SC9Actors.swift */,
 				9EE6ABD72A5AFC09004FD078 /* SC10GlobalActors.swift */,
+				9EE6ABD92A5C729A004FD078 /* SC11Sendable.swift */,
+				9EE6ABDB2A5C9257004FD078 /* SC12AsyncPublisher.swift */,
 			);
 			path = Concurrency;
 			sourceTree = "<group>";
@@ -552,6 +558,7 @@
 				9EEA9D812A548A6A0080B2FB /* CL11LocalNotifications.swift in Sources */,
 				9EC1C0942A3F825200FA8A16 /* BC38Picker.swift in Sources */,
 				9EC1C0962A3F8A7B00FA8A16 /* BC39ColorPicker.swift in Sources */,
+				9EE6ABDA2A5C729A004FD078 /* SC11Sendable.swift in Sources */,
 				9EC1C0AA2A41014400FA8A16 /* BC49CustomModels.swift in Sources */,
 				9E09DA552A49D33E00D3691A /* BC63Toolbar.swift in Sources */,
 				9EE6ABD62A5A1F57004FD078 /* SC9Actors.swift in Sources */,
@@ -572,6 +579,7 @@
 				9E4B81412A4C6246004A7DCD /* BC65SafeAreaInserts.swift in Sources */,
 				9EC1C0A02A40CA4C00FA8A16 /* BC44DarkMode.swift in Sources */,
 				9E9F96BB2A05DB9F009C11EC /* BC28FullScreenCover.swift in Sources */,
+				9EE6ABDC2A5C9257004FD078 /* SC12AsyncPublisher.swift in Sources */,
 				9EE48E1829C8C5E400492FCB /* BC22Binding.swift in Sources */,
 				9E51D4CF2A3E4596005467A1 /* BC35TextField.swift in Sources */,
 				9E48A38729C787FE006FCA0E /* BC6Icons.swift in Sources */,

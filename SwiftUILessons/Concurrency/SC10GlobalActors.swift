@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-@globalActor struct SC10GlobalActor {
+@globalActor final class SC10GlobalActor {
     static var shared = SC10DataManager()
 }
 
@@ -18,13 +18,17 @@ actor SC10DataManager {
     }
 }
 
-class SC10GlobalActorsViewModel: ObservableObject {
+@MainActor class SC10GlobalActorsViewModel: ObservableObject {
     @Published var dataArray: [String] = []
     let dataManager = SC10GlobalActor.shared
     
-    func getData() async {
-        let data = await dataManager.getDataFromDatabase()
-        self.dataArray = data
+    @SC10GlobalActor func getData() {
+        Task {
+            let data = await dataManager.getDataFromDatabase()
+            await MainActor.run(body: {
+                self.dataArray = data
+            })
+        }
     }
 }
 
