@@ -85,6 +85,11 @@
 		9EE6ABD82A5AFC09004FD078 /* SC10GlobalActors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE6ABD72A5AFC09004FD078 /* SC10GlobalActors.swift */; };
 		9EE6ABDA2A5C729A004FD078 /* SC11Sendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE6ABD92A5C729A004FD078 /* SC11Sendable.swift */; };
 		9EE6ABDC2A5C9257004FD078 /* SC12AsyncPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE6ABDB2A5C9257004FD078 /* SC12AsyncPublisher.swift */; };
+		9EE6ABDF2A5C9C89004FD078 /* AL1ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE6ABDE2A5C9C89004FD078 /* AL1ViewModifiers.swift */; };
+		9EE6ABE12A5CA019004FD078 /* AL2ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE6ABE02A5CA019004FD078 /* AL2ButtonStyles.swift */; };
+		9EE6ABE32A5CAC7C004FD078 /* AL3Transitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE6ABE22A5CAC7C004FD078 /* AL3Transitions.swift */; };
+		9EE6ABE52A5CD8FC004FD078 /* AL4MatchedGeometryEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE6ABE42A5CD8FC004FD078 /* AL4MatchedGeometryEffect.swift */; };
+		9EE6ABE72A5CDCEF004FD078 /* AL5CustomShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE6ABE62A5CDCEF004FD078 /* AL5CustomShapes.swift */; };
 		9EEA9D702A546A460080B2FB /* CL5ScrollViewReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEA9D6F2A546A460080B2FB /* CL5ScrollViewReader.swift */; };
 		9EEA9D722A546DE50080B2FB /* CL6GeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEA9D712A546DE50080B2FB /* CL6GeometryReader.swift */; };
 		9EEA9D742A5470DC0080B2FB /* CL7MultipleSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEA9D732A5470DC0080B2FB /* CL7MultipleSheets.swift */; };
@@ -193,6 +198,11 @@
 		9EE6ABD72A5AFC09004FD078 /* SC10GlobalActors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SC10GlobalActors.swift; sourceTree = "<group>"; };
 		9EE6ABD92A5C729A004FD078 /* SC11Sendable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SC11Sendable.swift; sourceTree = "<group>"; };
 		9EE6ABDB2A5C9257004FD078 /* SC12AsyncPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SC12AsyncPublisher.swift; sourceTree = "<group>"; };
+		9EE6ABDE2A5C9C89004FD078 /* AL1ViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AL1ViewModifiers.swift; sourceTree = "<group>"; };
+		9EE6ABE02A5CA019004FD078 /* AL2ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AL2ButtonStyles.swift; sourceTree = "<group>"; };
+		9EE6ABE22A5CAC7C004FD078 /* AL3Transitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AL3Transitions.swift; sourceTree = "<group>"; };
+		9EE6ABE42A5CD8FC004FD078 /* AL4MatchedGeometryEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AL4MatchedGeometryEffect.swift; sourceTree = "<group>"; };
+		9EE6ABE62A5CDCEF004FD078 /* AL5CustomShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AL5CustomShapes.swift; sourceTree = "<group>"; };
 		9EEA9D6F2A546A460080B2FB /* CL5ScrollViewReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CL5ScrollViewReader.swift; sourceTree = "<group>"; };
 		9EEA9D712A546DE50080B2FB /* CL6GeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CL6GeometryReader.swift; sourceTree = "<group>"; };
 		9EEA9D732A5470DC0080B2FB /* CL7MultipleSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CL7MultipleSheets.swift; sourceTree = "<group>"; };
@@ -263,6 +273,7 @@
 			children = (
 				9E48A36F29C75E85006FCA0E /* SwiftUILessonsApp.swift */,
 				9E97B82E2A56FC27005FB32E /* Concurrency */,
+				9EE6ABDD2A5C9B76004FD078 /* Advanced */,
 				9E4B81432A4C6C7D004A7DCD /* Intermediate */,
 				9E4B81422A4C64E2004A7DCD /* Bootcamp */,
 				9E48A37D29C75ECA006FCA0E /* Main */,
@@ -406,6 +417,18 @@
 			path = Concurrency;
 			sourceTree = "<group>";
 		};
+		9EE6ABDD2A5C9B76004FD078 /* Advanced */ = {
+			isa = PBXGroup;
+			children = (
+				9EE6ABDE2A5C9C89004FD078 /* AL1ViewModifiers.swift */,
+				9EE6ABE02A5CA019004FD078 /* AL2ButtonStyles.swift */,
+				9EE6ABE22A5CAC7C004FD078 /* AL3Transitions.swift */,
+				9EE6ABE42A5CD8FC004FD078 /* AL4MatchedGeometryEffect.swift */,
+				9EE6ABE62A5CDCEF004FD078 /* AL5CustomShapes.swift */,
+			);
+			path = Advanced;
+			sourceTree = "<group>";
+		};
 		9EEA9D792A54873C0080B2FB /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
@@ -491,6 +514,8 @@
 				9E4998222A5738FD0030595A /* SC1DoCatchThrow.swift in Sources */,
 				9EF8AA3A2A05D06400BB130B /* BC25Animations.swift in Sources */,
 				9E09DA512A48CE8E00D3691A /* BC61KeyboardSubmit.swift in Sources */,
+				9EE6ABE32A5CAC7C004FD078 /* AL3Transitions.swift in Sources */,
+				9EE6ABE72A5CDCEF004FD078 /* AL5CustomShapes.swift in Sources */,
 				9EF8AA362A05B19F00BB130B /* BC23ConditionalStatements.swift in Sources */,
 				9E48A38529C768E0006FCA0E /* BC5Gradients.swift in Sources */,
 				9EEA9D8C2A550B140080B2FB /* CL19Typealias.swift in Sources */,
@@ -526,6 +551,7 @@
 				9E48A38129C76470006FCA0E /* BC3Shapes.swift in Sources */,
 				9E97B8302A56FC7D005FB32E /* SC2DownloadImage.swift in Sources */,
 				9E48A39129C7A21A006FCA0E /* BC11Padding.swift in Sources */,
+				9EE6ABE12A5CA019004FD078 /* AL2ButtonStyles.swift in Sources */,
 				9EEA9D8A2A54CC2D0080B2FB /* CL18WeakSelf.swift in Sources */,
 				9EC1C09E2A3F9BB800FA8A16 /* BC43TabView.swift in Sources */,
 				9EC1C0922A3F812E00FA8A16 /* BC37Switch.swift in Sources */,
@@ -560,11 +586,13 @@
 				9EC1C0962A3F8A7B00FA8A16 /* BC39ColorPicker.swift in Sources */,
 				9EE6ABDA2A5C729A004FD078 /* SC11Sendable.swift in Sources */,
 				9EC1C0AA2A41014400FA8A16 /* BC49CustomModels.swift in Sources */,
+				9EE6ABDF2A5C9C89004FD078 /* AL1ViewModifiers.swift in Sources */,
 				9E09DA552A49D33E00D3691A /* BC63Toolbar.swift in Sources */,
 				9EE6ABD62A5A1F57004FD078 /* SC9Actors.swift in Sources */,
 				9E09DA532A48D19900D3691A /* BC62NavigationStack.swift in Sources */,
 				9E47FB192A4640750093A0CC /* BC52AppStorage.swift in Sources */,
 				9EEA9D922A55CE090080B2FB /* CL22DownloadJSON.swift in Sources */,
+				9EE6ABE52A5CD8FC004FD078 /* AL4MatchedGeometryEffect.swift in Sources */,
 				9EC1C0902A3F7EFE00FA8A16 /* BC36TextEditor.swift in Sources */,
 				9EC1C0A82A40FFE200FA8A16 /* BC48TapGesture.swift in Sources */,
 				9EEA9D8E2A550C950080B2FB /* CL20Escaping.swift in Sources */,
