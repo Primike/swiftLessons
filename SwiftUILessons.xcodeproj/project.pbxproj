@@ -90,6 +90,10 @@
 		9EE6ABE32A5CAC7C004FD078 /* AL3Transitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE6ABE22A5CAC7C004FD078 /* AL3Transitions.swift */; };
 		9EE6ABE52A5CD8FC004FD078 /* AL4MatchedGeometryEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE6ABE42A5CD8FC004FD078 /* AL4MatchedGeometryEffect.swift */; };
 		9EE6ABE72A5CDCEF004FD078 /* AL5CustomShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE6ABE62A5CDCEF004FD078 /* AL5CustomShapes.swift */; };
+		9EE6ABE92A5DA881004FD078 /* AL6CustomCurves.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE6ABE82A5DA881004FD078 /* AL6CustomCurves.swift */; };
+		9EE6ABEB2A5DCF8B004FD078 /* AL7AnimateableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE6ABEA2A5DCF8B004FD078 /* AL7AnimateableData.swift */; };
+		9EE6ABED2A5DEBF5004FD078 /* AL8Generics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE6ABEC2A5DEBF5004FD078 /* AL8Generics.swift */; };
+		9EE6ABEF2A5E19CA004FD078 /* AL9ViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE6ABEE2A5E19CA004FD078 /* AL9ViewBuilder.swift */; };
 		9EEA9D702A546A460080B2FB /* CL5ScrollViewReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEA9D6F2A546A460080B2FB /* CL5ScrollViewReader.swift */; };
 		9EEA9D722A546DE50080B2FB /* CL6GeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEA9D712A546DE50080B2FB /* CL6GeometryReader.swift */; };
 		9EEA9D742A5470DC0080B2FB /* CL7MultipleSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEA9D732A5470DC0080B2FB /* CL7MultipleSheets.swift */; };
@@ -203,6 +207,10 @@
 		9EE6ABE22A5CAC7C004FD078 /* AL3Transitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AL3Transitions.swift; sourceTree = "<group>"; };
 		9EE6ABE42A5CD8FC004FD078 /* AL4MatchedGeometryEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AL4MatchedGeometryEffect.swift; sourceTree = "<group>"; };
 		9EE6ABE62A5CDCEF004FD078 /* AL5CustomShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AL5CustomShapes.swift; sourceTree = "<group>"; };
+		9EE6ABE82A5DA881004FD078 /* AL6CustomCurves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AL6CustomCurves.swift; sourceTree = "<group>"; };
+		9EE6ABEA2A5DCF8B004FD078 /* AL7AnimateableData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AL7AnimateableData.swift; sourceTree = "<group>"; };
+		9EE6ABEC2A5DEBF5004FD078 /* AL8Generics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AL8Generics.swift; sourceTree = "<group>"; };
+		9EE6ABEE2A5E19CA004FD078 /* AL9ViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AL9ViewBuilder.swift; sourceTree = "<group>"; };
 		9EEA9D6F2A546A460080B2FB /* CL5ScrollViewReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CL5ScrollViewReader.swift; sourceTree = "<group>"; };
 		9EEA9D712A546DE50080B2FB /* CL6GeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CL6GeometryReader.swift; sourceTree = "<group>"; };
 		9EEA9D732A5470DC0080B2FB /* CL7MultipleSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CL7MultipleSheets.swift; sourceTree = "<group>"; };
@@ -425,6 +433,10 @@
 				9EE6ABE22A5CAC7C004FD078 /* AL3Transitions.swift */,
 				9EE6ABE42A5CD8FC004FD078 /* AL4MatchedGeometryEffect.swift */,
 				9EE6ABE62A5CDCEF004FD078 /* AL5CustomShapes.swift */,
+				9EE6ABE82A5DA881004FD078 /* AL6CustomCurves.swift */,
+				9EE6ABEA2A5DCF8B004FD078 /* AL7AnimateableData.swift */,
+				9EE6ABEC2A5DEBF5004FD078 /* AL8Generics.swift */,
+				9EE6ABEE2A5E19CA004FD078 /* AL9ViewBuilder.swift */,
 			);
 			path = Advanced;
 			sourceTree = "<group>";
@@ -541,6 +553,8 @@
 				9E48A37229C75E85006FCA0E /* ContentView.swift in Sources */,
 				9E7D2ECC2A0DBCB100CDE614 /* BC31EditLists.swift in Sources */,
 				9EE48E1029C8B3B900492FCB /* BC18Buttons.swift in Sources */,
+				9EE6ABEF2A5E19CA004FD078 /* AL9ViewBuilder.swift in Sources */,
+				9EE6ABEB2A5DCF8B004FD078 /* AL7AnimateableData.swift in Sources */,
 				9E51D4CD2A3E3EFF005467A1 /* BC34ContextMenu.swift in Sources */,
 				9EE48E0C29C8A88200492FCB /* BC16GridItems.swift in Sources */,
 				9EEA9D7F2A5488B50080B2FB /* CL10HapticsVibrations.swift in Sources */,
@@ -560,6 +574,7 @@
 				9E09DA4B2A47AFAA00D3691A /* BC58SwipeActions.swift in Sources */,
 				9E09DA472A478C4B00D3691A /* BC55SystemMaterials.swift in Sources */,
 				9E09DA4F2A48A56A00D3691A /* BC60FocusState.swift in Sources */,
+				9EE6ABE92A5DA881004FD078 /* AL6CustomCurves.swift in Sources */,
 				9EEA9D702A546A460080B2FB /* CL5ScrollViewReader.swift in Sources */,
 				9E47FB172A463AAB0093A0CC /* BC51EnvironmentObject.swift in Sources */,
 				9EC1C09C2A3F946600FA8A16 /* BC42Slider.swift in Sources */,
@@ -597,6 +612,7 @@
 				9EC1C0A82A40FFE200FA8A16 /* BC48TapGesture.swift in Sources */,
 				9EEA9D8E2A550C950080B2FB /* CL20Escaping.swift in Sources */,
 				9EC1C0A62A40FD6D00FA8A16 /* BC47IfLetGuard.swift in Sources */,
+				9EE6ABED2A5DEBF5004FD078 /* AL8Generics.swift in Sources */,
 				9E47FB1C2A47511D0093A0CC /* BC53IntroView.swift in Sources */,
 				9E9F96BF2A08882C009C11EC /* BC29Popover.swift in Sources */,
 				9E47FB202A4764D70093A0CC /* BC53ProfileView.swift in Sources */,
