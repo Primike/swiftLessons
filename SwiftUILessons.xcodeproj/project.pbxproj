@@ -16,6 +16,7 @@
 		9E09DA532A48D19900D3691A /* BC62NavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E09DA522A48D19900D3691A /* BC62NavigationStack.swift */; };
 		9E09DA552A49D33E00D3691A /* BC63Toolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E09DA542A49D33E00D3691A /* BC63Toolbar.swift */; };
 		9E3D2A922A3BCA4E000DC05C /* BC33ActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3D2A912A3BCA4E000DC05C /* BC33ActionSheet.swift */; };
+		9E3FC2862A6074C700ECEE7E /* AL10ScrollViewPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3FC2852A6074C700ECEE7E /* AL10ScrollViewPreferenceKey.swift */; };
 		9E45F6802A578CE8004D0077 /* SC4Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E45F67F2A578CE8004D0077 /* SC4Task.swift */; };
 		9E47FB172A463AAB0093A0CC /* BC51EnvironmentObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E47FB162A463AAB0093A0CC /* BC51EnvironmentObject.swift */; };
 		9E47FB192A4640750093A0CC /* BC52AppStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E47FB182A4640750093A0CC /* BC52AppStorage.swift */; };
@@ -94,6 +95,8 @@
 		9EE6ABEB2A5DCF8B004FD078 /* AL7AnimateableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE6ABEA2A5DCF8B004FD078 /* AL7AnimateableData.swift */; };
 		9EE6ABED2A5DEBF5004FD078 /* AL8Generics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE6ABEC2A5DEBF5004FD078 /* AL8Generics.swift */; };
 		9EE6ABEF2A5E19CA004FD078 /* AL9ViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE6ABEE2A5E19CA004FD078 /* AL9ViewBuilder.swift */; };
+		9EE6ABF12A5EFDD2004FD078 /* AL10PreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE6ABF02A5EFDD2004FD078 /* AL10PreferenceKey.swift */; };
+		9EE6ABF42A603176004FD078 /* AL10GeometryPreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE6ABF32A603176004FD078 /* AL10GeometryPreference.swift */; };
 		9EEA9D702A546A460080B2FB /* CL5ScrollViewReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEA9D6F2A546A460080B2FB /* CL5ScrollViewReader.swift */; };
 		9EEA9D722A546DE50080B2FB /* CL6GeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEA9D712A546DE50080B2FB /* CL6GeometryReader.swift */; };
 		9EEA9D742A5470DC0080B2FB /* CL7MultipleSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEA9D732A5470DC0080B2FB /* CL7MultipleSheets.swift */; };
@@ -132,6 +135,7 @@
 		9E09DA522A48D19900D3691A /* BC62NavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC62NavigationStack.swift; sourceTree = "<group>"; };
 		9E09DA542A49D33E00D3691A /* BC63Toolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC63Toolbar.swift; sourceTree = "<group>"; };
 		9E3D2A912A3BCA4E000DC05C /* BC33ActionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC33ActionSheet.swift; sourceTree = "<group>"; };
+		9E3FC2852A6074C700ECEE7E /* AL10ScrollViewPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AL10ScrollViewPreferenceKey.swift; sourceTree = "<group>"; };
 		9E45F67F2A578CE8004D0077 /* SC4Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SC4Task.swift; sourceTree = "<group>"; };
 		9E47FB162A463AAB0093A0CC /* BC51EnvironmentObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC51EnvironmentObject.swift; sourceTree = "<group>"; };
 		9E47FB182A4640750093A0CC /* BC52AppStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC52AppStorage.swift; sourceTree = "<group>"; };
@@ -211,6 +215,8 @@
 		9EE6ABEA2A5DCF8B004FD078 /* AL7AnimateableData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AL7AnimateableData.swift; sourceTree = "<group>"; };
 		9EE6ABEC2A5DEBF5004FD078 /* AL8Generics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AL8Generics.swift; sourceTree = "<group>"; };
 		9EE6ABEE2A5E19CA004FD078 /* AL9ViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AL9ViewBuilder.swift; sourceTree = "<group>"; };
+		9EE6ABF02A5EFDD2004FD078 /* AL10PreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AL10PreferenceKey.swift; sourceTree = "<group>"; };
+		9EE6ABF32A603176004FD078 /* AL10GeometryPreference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AL10GeometryPreference.swift; sourceTree = "<group>"; };
 		9EEA9D6F2A546A460080B2FB /* CL5ScrollViewReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CL5ScrollViewReader.swift; sourceTree = "<group>"; };
 		9EEA9D712A546DE50080B2FB /* CL6GeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CL6GeometryReader.swift; sourceTree = "<group>"; };
 		9EEA9D732A5470DC0080B2FB /* CL7MultipleSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CL7MultipleSheets.swift; sourceTree = "<group>"; };
@@ -437,8 +443,19 @@
 				9EE6ABEA2A5DCF8B004FD078 /* AL7AnimateableData.swift */,
 				9EE6ABEC2A5DEBF5004FD078 /* AL8Generics.swift */,
 				9EE6ABEE2A5E19CA004FD078 /* AL9ViewBuilder.swift */,
+				9EE6ABF22A603159004FD078 /* AL10PreferenceKey */,
 			);
 			path = Advanced;
+			sourceTree = "<group>";
+		};
+		9EE6ABF22A603159004FD078 /* AL10PreferenceKey */ = {
+			isa = PBXGroup;
+			children = (
+				9EE6ABF02A5EFDD2004FD078 /* AL10PreferenceKey.swift */,
+				9EE6ABF32A603176004FD078 /* AL10GeometryPreference.swift */,
+				9E3FC2852A6074C700ECEE7E /* AL10ScrollViewPreferenceKey.swift */,
+			);
+			path = AL10PreferenceKey;
 			sourceTree = "<group>";
 		};
 		9EEA9D792A54873C0080B2FB /* Sounds */ = {
@@ -608,6 +625,7 @@
 				9E47FB192A4640750093A0CC /* BC52AppStorage.swift in Sources */,
 				9EEA9D922A55CE090080B2FB /* CL22DownloadJSON.swift in Sources */,
 				9EE6ABE52A5CD8FC004FD078 /* AL4MatchedGeometryEffect.swift in Sources */,
+				9EE6ABF42A603176004FD078 /* AL10GeometryPreference.swift in Sources */,
 				9EC1C0902A3F7EFE00FA8A16 /* BC36TextEditor.swift in Sources */,
 				9EC1C0A82A40FFE200FA8A16 /* BC48TapGesture.swift in Sources */,
 				9EEA9D8E2A550C950080B2FB /* CL20Escaping.swift in Sources */,
@@ -621,6 +639,7 @@
 				9EE6ABD02A58D8F1004FD078 /* SC7Continuations.swift in Sources */,
 				9EEA9D942A55DDE60080B2FB /* CL23Combine.swift in Sources */,
 				9E4B81412A4C6246004A7DCD /* BC65SafeAreaInserts.swift in Sources */,
+				9E3FC2862A6074C700ECEE7E /* AL10ScrollViewPreferenceKey.swift in Sources */,
 				9EC1C0A02A40CA4C00FA8A16 /* BC44DarkMode.swift in Sources */,
 				9E9F96BB2A05DB9F009C11EC /* BC28FullScreenCover.swift in Sources */,
 				9EE6ABDC2A5C9257004FD078 /* SC12AsyncPublisher.swift in Sources */,
@@ -630,6 +649,7 @@
 				9E48A37029C75E85006FCA0E /* SwiftUILessonsApp.swift in Sources */,
 				9EC1C0AC2A41293700FA8A16 /* BC50StateObservableObject.swift in Sources */,
 				9E48A39529C7A8A3006FCA0E /* BC13InitsEnums.swift in Sources */,
+				9EE6ABF12A5EFDD2004FD078 /* AL10PreferenceKey.swift in Sources */,
 				9EC1C09A2A3F92E700FA8A16 /* BC41Stepper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
