@@ -9,19 +9,19 @@ import SwiftUI
 
 struct BC9Overlays: View {
     var body: some View {
-//        BC9OverlaysGradient()
-//        BC9OverlaysCircle()
-//        BC9OverlaysRectangle()
-        BC9OverlaysIconNotification()
+        VStack {
+            Spacer()
+            BC9OverlaysGradient()
+            Spacer()
+            BC9OverlaysCircle()
+            Spacer()
+            BC9OverlaysRectangle()
+            Spacer()
+            BC9OverlaysIconNotification()
+            Spacer()
+        }
     }
 }
-
-struct BC9Overlays_Previews: PreviewProvider {
-    static var previews: some View {
-        BC9Overlays()
-    }
-}
-
 
 struct BC9OverlaysGradient: View {
     var body: some View {
@@ -39,7 +39,6 @@ struct BC9OverlaysGradient: View {
 
     }
 }
-
 
 struct BC9OverlaysCircle: View {
     var body: some View {
@@ -103,5 +102,11 @@ struct BC9OverlaysIconNotification: View {
                         , alignment: .bottomTrailing
                     )
             )
+    }
+}
+
+struct BC9Overlays_Previews: PreviewProvider {
+    static var previews: some View {
+        BC9Overlays()
     }
 }

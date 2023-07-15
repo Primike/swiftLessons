@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUILessonsApp: App {
     var body: some Scene {
         WindowGroup {
-            AL4Screen2()
+            AL11AppTabBar()
         }
     }
 }

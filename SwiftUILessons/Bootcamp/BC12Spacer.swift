@@ -32,12 +32,6 @@ struct BC12Spacer: View {
     }
 }
 
-struct BC12Spacer_Previews: PreviewProvider {
-    static var previews: some View {
-        BC12Spacer()
-    }
-}
-
 struct BC12SpacerStack: View {
     var body: some View {
         HStack(spacing: 0) {
@@ -65,5 +59,11 @@ struct BC12SpacerStack: View {
         .background(.yellow)
         .padding(.horizontal, 200)
         .background(.blue)
+    }
+}
+
+struct BC12Spacer_Previews: PreviewProvider {
+    static var previews: some View {
+        BC12Spacer()
     }
 }

@@ -17,6 +17,11 @@
 		9E09DA552A49D33E00D3691A /* BC63Toolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E09DA542A49D33E00D3691A /* BC63Toolbar.swift */; };
 		9E3D2A922A3BCA4E000DC05C /* BC33ActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3D2A912A3BCA4E000DC05C /* BC33ActionSheet.swift */; };
 		9E3FC2862A6074C700ECEE7E /* AL10ScrollViewPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3FC2852A6074C700ECEE7E /* AL10ScrollViewPreferenceKey.swift */; };
+		9E3FC2892A61858700ECEE7E /* AL11CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3FC2882A61858700ECEE7E /* AL11CustomTabBar.swift */; };
+		9E3FC28B2A61873E00ECEE7E /* AL11AppTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3FC28A2A61873E00ECEE7E /* AL11AppTabBar.swift */; };
+		9E3FC28D2A61B02100ECEE7E /* AL11TabBarContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3FC28C2A61B02100ECEE7E /* AL11TabBarContainer.swift */; };
+		9E3FC28F2A6200CF00ECEE7E /* AL11TabBarPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3FC28E2A6200CF00ECEE7E /* AL11TabBarPreferenceKey.swift */; };
+		9E3FC2912A6219FD00ECEE7E /* AL11TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3FC2902A6219FD00ECEE7E /* AL11TabBarItem.swift */; };
 		9E45F6802A578CE8004D0077 /* SC4Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E45F67F2A578CE8004D0077 /* SC4Task.swift */; };
 		9E47FB172A463AAB0093A0CC /* BC51EnvironmentObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E47FB162A463AAB0093A0CC /* BC51EnvironmentObject.swift */; };
 		9E47FB192A4640750093A0CC /* BC52AppStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E47FB182A4640750093A0CC /* BC52AppStorage.swift */; };
@@ -136,6 +141,11 @@
 		9E09DA542A49D33E00D3691A /* BC63Toolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC63Toolbar.swift; sourceTree = "<group>"; };
 		9E3D2A912A3BCA4E000DC05C /* BC33ActionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC33ActionSheet.swift; sourceTree = "<group>"; };
 		9E3FC2852A6074C700ECEE7E /* AL10ScrollViewPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AL10ScrollViewPreferenceKey.swift; sourceTree = "<group>"; };
+		9E3FC2882A61858700ECEE7E /* AL11CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AL11CustomTabBar.swift; sourceTree = "<group>"; };
+		9E3FC28A2A61873E00ECEE7E /* AL11AppTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AL11AppTabBar.swift; sourceTree = "<group>"; };
+		9E3FC28C2A61B02100ECEE7E /* AL11TabBarContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AL11TabBarContainer.swift; sourceTree = "<group>"; };
+		9E3FC28E2A6200CF00ECEE7E /* AL11TabBarPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AL11TabBarPreferenceKey.swift; sourceTree = "<group>"; };
+		9E3FC2902A6219FD00ECEE7E /* AL11TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AL11TabBarItem.swift; sourceTree = "<group>"; };
 		9E45F67F2A578CE8004D0077 /* SC4Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SC4Task.swift; sourceTree = "<group>"; };
 		9E47FB162A463AAB0093A0CC /* BC51EnvironmentObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC51EnvironmentObject.swift; sourceTree = "<group>"; };
 		9E47FB182A4640750093A0CC /* BC52AppStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC52AppStorage.swift; sourceTree = "<group>"; };
@@ -256,6 +266,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E3FC2872A61855C00ECEE7E /* AL11CustomTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				9E3FC28A2A61873E00ECEE7E /* AL11AppTabBar.swift */,
+				9E3FC2882A61858700ECEE7E /* AL11CustomTabBar.swift */,
+				9E3FC28C2A61B02100ECEE7E /* AL11TabBarContainer.swift */,
+				9E3FC28E2A6200CF00ECEE7E /* AL11TabBarPreferenceKey.swift */,
+				9E3FC2902A6219FD00ECEE7E /* AL11TabBarItem.swift */,
+			);
+			path = AL11CustomTabBar;
+			sourceTree = "<group>";
+		};
 		9E47FB1A2A4750E30093A0CC /* BC53Onboarding */ = {
 			isa = PBXGroup;
 			children = (
@@ -444,6 +466,7 @@
 				9EE6ABEC2A5DEBF5004FD078 /* AL8Generics.swift */,
 				9EE6ABEE2A5E19CA004FD078 /* AL9ViewBuilder.swift */,
 				9EE6ABF22A603159004FD078 /* AL10PreferenceKey */,
+				9E3FC2872A61855C00ECEE7E /* AL11CustomTabBar */,
 			);
 			path = Advanced;
 			sourceTree = "<group>";
@@ -544,6 +567,7 @@
 				9EF8AA3A2A05D06400BB130B /* BC25Animations.swift in Sources */,
 				9E09DA512A48CE8E00D3691A /* BC61KeyboardSubmit.swift in Sources */,
 				9EE6ABE32A5CAC7C004FD078 /* AL3Transitions.swift in Sources */,
+				9E3FC28D2A61B02100ECEE7E /* AL11TabBarContainer.swift in Sources */,
 				9EE6ABE72A5CDCEF004FD078 /* AL5CustomShapes.swift in Sources */,
 				9EF8AA362A05B19F00BB130B /* BC23ConditionalStatements.swift in Sources */,
 				9E48A38529C768E0006FCA0E /* BC5Gradients.swift in Sources */,
@@ -568,6 +592,7 @@
 				9E4998242A574DD70030595A /* SC3AsyncAwait.swift in Sources */,
 				9EE48E1229C8B5AB00492FCB /* BC19State.swift in Sources */,
 				9E48A37229C75E85006FCA0E /* ContentView.swift in Sources */,
+				9E3FC2892A61858700ECEE7E /* AL11CustomTabBar.swift in Sources */,
 				9E7D2ECC2A0DBCB100CDE614 /* BC31EditLists.swift in Sources */,
 				9EE48E1029C8B3B900492FCB /* BC18Buttons.swift in Sources */,
 				9EE6ABEF2A5E19CA004FD078 /* AL9ViewBuilder.swift in Sources */,
@@ -592,6 +617,7 @@
 				9E09DA472A478C4B00D3691A /* BC55SystemMaterials.swift in Sources */,
 				9E09DA4F2A48A56A00D3691A /* BC60FocusState.swift in Sources */,
 				9EE6ABE92A5DA881004FD078 /* AL6CustomCurves.swift in Sources */,
+				9E3FC28F2A6200CF00ECEE7E /* AL11TabBarPreferenceKey.swift in Sources */,
 				9EEA9D702A546A460080B2FB /* CL5ScrollViewReader.swift in Sources */,
 				9E47FB172A463AAB0093A0CC /* BC51EnvironmentObject.swift in Sources */,
 				9EC1C09C2A3F946600FA8A16 /* BC42Slider.swift in Sources */,
@@ -602,6 +628,8 @@
 				9E4B81452A4C6CC8004A7DCD /* CL1LongPressGesture.swift in Sources */,
 				9E4B813F2A4B6141004A7DCD /* BC64ResizableSheets.swift in Sources */,
 				9E47FB222A477D0D0093A0CC /* BC54AsyncImage.swift in Sources */,
+				9E3FC2912A6219FD00ECEE7E /* AL11TabBarItem.swift in Sources */,
+				9E3FC28B2A61873E00ECEE7E /* AL11AppTabBar.swift in Sources */,
 				9E48A39729C7AACD006FCA0E /* BC14ForEach.swift in Sources */,
 				9EE6ABCE2A58BBA1004FD078 /* SC6TaskGroup.swift in Sources */,
 				9EE6ABD82A5AFC09004FD078 /* SC10GlobalActors.swift in Sources */,
