@@ -22,6 +22,14 @@
 		9E3FC28D2A61B02100ECEE7E /* AL11TabBarContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3FC28C2A61B02100ECEE7E /* AL11TabBarContainer.swift */; };
 		9E3FC28F2A6200CF00ECEE7E /* AL11TabBarPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3FC28E2A6200CF00ECEE7E /* AL11TabBarPreferenceKey.swift */; };
 		9E3FC2912A6219FD00ECEE7E /* AL11TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3FC2902A6219FD00ECEE7E /* AL11TabBarItem.swift */; };
+		9E3FC2942A62DFE900ECEE7E /* AL12AppNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3FC2932A62DFE900ECEE7E /* AL12AppNavBar.swift */; };
+		9E3FC2962A62E09200ECEE7E /* AL12CustomNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3FC2952A62E09200ECEE7E /* AL12CustomNavBar.swift */; };
+		9E3FC2992A62E2F700ECEE7E /* AL12CustomNavBarContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3FC2982A62E2F700ECEE7E /* AL12CustomNavBarContainer.swift */; };
+		9E3FC29B2A62E43900ECEE7E /* AL12CustomNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3FC29A2A62E43900ECEE7E /* AL12CustomNavView.swift */; };
+		9E3FC29D2A62E5A100ECEE7E /* AL12CustomNavLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3FC29C2A62E5A100ECEE7E /* AL12CustomNavLink.swift */; };
+		9E3FC29F2A630CB600ECEE7E /* AL12NavBarPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3FC29E2A630CB600ECEE7E /* AL12NavBarPreferenceKey.swift */; };
+		9E3FC2A12A6332A400ECEE7E /* AL13UIViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3FC2A02A6332A400ECEE7E /* AL13UIViewRepresentable.swift */; };
+		9E3FC2A32A636BB000ECEE7E /* AL14UIViewControllerRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3FC2A22A636BB000ECEE7E /* AL14UIViewControllerRepresentable.swift */; };
 		9E45F6802A578CE8004D0077 /* SC4Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E45F67F2A578CE8004D0077 /* SC4Task.swift */; };
 		9E47FB172A463AAB0093A0CC /* BC51EnvironmentObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E47FB162A463AAB0093A0CC /* BC51EnvironmentObject.swift */; };
 		9E47FB192A4640750093A0CC /* BC52AppStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E47FB182A4640750093A0CC /* BC52AppStorage.swift */; };
@@ -146,6 +154,14 @@
 		9E3FC28C2A61B02100ECEE7E /* AL11TabBarContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AL11TabBarContainer.swift; sourceTree = "<group>"; };
 		9E3FC28E2A6200CF00ECEE7E /* AL11TabBarPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AL11TabBarPreferenceKey.swift; sourceTree = "<group>"; };
 		9E3FC2902A6219FD00ECEE7E /* AL11TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AL11TabBarItem.swift; sourceTree = "<group>"; };
+		9E3FC2932A62DFE900ECEE7E /* AL12AppNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AL12AppNavBar.swift; sourceTree = "<group>"; };
+		9E3FC2952A62E09200ECEE7E /* AL12CustomNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AL12CustomNavBar.swift; sourceTree = "<group>"; };
+		9E3FC2982A62E2F700ECEE7E /* AL12CustomNavBarContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AL12CustomNavBarContainer.swift; sourceTree = "<group>"; };
+		9E3FC29A2A62E43900ECEE7E /* AL12CustomNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AL12CustomNavView.swift; sourceTree = "<group>"; };
+		9E3FC29C2A62E5A100ECEE7E /* AL12CustomNavLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AL12CustomNavLink.swift; sourceTree = "<group>"; };
+		9E3FC29E2A630CB600ECEE7E /* AL12NavBarPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AL12NavBarPreferenceKey.swift; sourceTree = "<group>"; };
+		9E3FC2A02A6332A400ECEE7E /* AL13UIViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AL13UIViewRepresentable.swift; sourceTree = "<group>"; };
+		9E3FC2A22A636BB000ECEE7E /* AL14UIViewControllerRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AL14UIViewControllerRepresentable.swift; sourceTree = "<group>"; };
 		9E45F67F2A578CE8004D0077 /* SC4Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SC4Task.swift; sourceTree = "<group>"; };
 		9E47FB162A463AAB0093A0CC /* BC51EnvironmentObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC51EnvironmentObject.swift; sourceTree = "<group>"; };
 		9E47FB182A4640750093A0CC /* BC52AppStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC52AppStorage.swift; sourceTree = "<group>"; };
@@ -276,6 +292,19 @@
 				9E3FC2902A6219FD00ECEE7E /* AL11TabBarItem.swift */,
 			);
 			path = AL11CustomTabBar;
+			sourceTree = "<group>";
+		};
+		9E3FC2922A62DFC900ECEE7E /* AL12CustomNavBar */ = {
+			isa = PBXGroup;
+			children = (
+				9E3FC2932A62DFE900ECEE7E /* AL12AppNavBar.swift */,
+				9E3FC2952A62E09200ECEE7E /* AL12CustomNavBar.swift */,
+				9E3FC2982A62E2F700ECEE7E /* AL12CustomNavBarContainer.swift */,
+				9E3FC29A2A62E43900ECEE7E /* AL12CustomNavView.swift */,
+				9E3FC29C2A62E5A100ECEE7E /* AL12CustomNavLink.swift */,
+				9E3FC29E2A630CB600ECEE7E /* AL12NavBarPreferenceKey.swift */,
+			);
+			path = AL12CustomNavBar;
 			sourceTree = "<group>";
 		};
 		9E47FB1A2A4750E30093A0CC /* BC53Onboarding */ = {
@@ -467,6 +496,9 @@
 				9EE6ABEE2A5E19CA004FD078 /* AL9ViewBuilder.swift */,
 				9EE6ABF22A603159004FD078 /* AL10PreferenceKey */,
 				9E3FC2872A61855C00ECEE7E /* AL11CustomTabBar */,
+				9E3FC2922A62DFC900ECEE7E /* AL12CustomNavBar */,
+				9E3FC2A02A6332A400ECEE7E /* AL13UIViewRepresentable.swift */,
+				9E3FC2A22A636BB000ECEE7E /* AL14UIViewControllerRepresentable.swift */,
 			);
 			path = Advanced;
 			sourceTree = "<group>";
@@ -570,11 +602,15 @@
 				9E3FC28D2A61B02100ECEE7E /* AL11TabBarContainer.swift in Sources */,
 				9EE6ABE72A5CDCEF004FD078 /* AL5CustomShapes.swift in Sources */,
 				9EF8AA362A05B19F00BB130B /* BC23ConditionalStatements.swift in Sources */,
+				9E3FC29D2A62E5A100ECEE7E /* AL12CustomNavLink.swift in Sources */,
 				9E48A38529C768E0006FCA0E /* BC5Gradients.swift in Sources */,
 				9EEA9D8C2A550B140080B2FB /* CL19Typealias.swift in Sources */,
+				9E3FC2A32A636BB000ECEE7E /* AL14UIViewControllerRepresentable.swift in Sources */,
+				9E3FC2992A62E2F700ECEE7E /* AL12CustomNavBarContainer.swift in Sources */,
 				9E09DA492A479D6B00D3691A /* BC57ButtonStyles.swift in Sources */,
 				9EEA9D722A546DE50080B2FB /* CL6GeometryReader.swift in Sources */,
 				9E48A38B29C78C0A006FCA0E /* BC8Frames.swift in Sources */,
+				9E3FC2962A62E09200ECEE7E /* AL12CustomNavBar.swift in Sources */,
 				9EEA9D962A55ED860080B2FB /* CL24TimerReceive.swift in Sources */,
 				9EEA9D782A54856A0080B2FB /* CL9SoundEffects.swift in Sources */,
 				9E48A38F29C799DB006FCA0E /* BC10VHZStacks.swift in Sources */,
@@ -585,7 +621,9 @@
 				9EEA9D982A560F520080B2FB /* CL25PublisherSubscriber.swift in Sources */,
 				9EA015BD29C7E01000E21971 /* BC15ScrollView.swift in Sources */,
 				9EF8AA3E2A05DA1800BB130B /* BC27Transitions.swift in Sources */,
+				9E3FC2A12A6332A400ECEE7E /* AL13UIViewRepresentable.swift in Sources */,
 				9EEA9D832A54A5FD0080B2FB /* CL12Hashable.swift in Sources */,
+				9E3FC29F2A630CB600ECEE7E /* AL12NavBarPreferenceKey.swift in Sources */,
 				9E48A39329C7A402006FCA0E /* BC12Spacer.swift in Sources */,
 				9EE6ABD22A59A584004FD078 /* SC8StructClassActor.swift in Sources */,
 				9E3D2A922A3BCA4E000DC05C /* BC33ActionSheet.swift in Sources */,
@@ -647,6 +685,8 @@
 				9EE6ABDA2A5C729A004FD078 /* SC11Sendable.swift in Sources */,
 				9EC1C0AA2A41014400FA8A16 /* BC49CustomModels.swift in Sources */,
 				9EE6ABDF2A5C9C89004FD078 /* AL1ViewModifiers.swift in Sources */,
+				9E3FC29B2A62E43900ECEE7E /* AL12CustomNavView.swift in Sources */,
+				9E3FC2942A62DFE900ECEE7E /* AL12AppNavBar.swift in Sources */,
 				9E09DA552A49D33E00D3691A /* BC63Toolbar.swift in Sources */,
 				9EE6ABD62A5A1F57004FD078 /* SC9Actors.swift in Sources */,
 				9E09DA532A48D19900D3691A /* BC62NavigationStack.swift in Sources */,
