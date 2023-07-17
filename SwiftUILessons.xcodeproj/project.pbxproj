@@ -30,6 +30,8 @@
 		9E3FC29F2A630CB600ECEE7E /* AL12NavBarPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3FC29E2A630CB600ECEE7E /* AL12NavBarPreferenceKey.swift */; };
 		9E3FC2A12A6332A400ECEE7E /* AL13UIViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3FC2A02A6332A400ECEE7E /* AL13UIViewRepresentable.swift */; };
 		9E3FC2A32A636BB000ECEE7E /* AL14UIViewControllerRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3FC2A22A636BB000ECEE7E /* AL14UIViewControllerRepresentable.swift */; };
+		9E3FC2A52A64507900ECEE7E /* AL15Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3FC2A42A64507900ECEE7E /* AL15Protocols.swift */; };
+		9E3FC2A72A64622E00ECEE7E /* AL16DependencyInjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3FC2A62A64622E00ECEE7E /* AL16DependencyInjection.swift */; };
 		9E45F6802A578CE8004D0077 /* SC4Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E45F67F2A578CE8004D0077 /* SC4Task.swift */; };
 		9E47FB172A463AAB0093A0CC /* BC51EnvironmentObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E47FB162A463AAB0093A0CC /* BC51EnvironmentObject.swift */; };
 		9E47FB192A4640750093A0CC /* BC52AppStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E47FB182A4640750093A0CC /* BC52AppStorage.swift */; };
@@ -162,6 +164,8 @@
 		9E3FC29E2A630CB600ECEE7E /* AL12NavBarPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AL12NavBarPreferenceKey.swift; sourceTree = "<group>"; };
 		9E3FC2A02A6332A400ECEE7E /* AL13UIViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AL13UIViewRepresentable.swift; sourceTree = "<group>"; };
 		9E3FC2A22A636BB000ECEE7E /* AL14UIViewControllerRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AL14UIViewControllerRepresentable.swift; sourceTree = "<group>"; };
+		9E3FC2A42A64507900ECEE7E /* AL15Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AL15Protocols.swift; sourceTree = "<group>"; };
+		9E3FC2A62A64622E00ECEE7E /* AL16DependencyInjection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AL16DependencyInjection.swift; sourceTree = "<group>"; };
 		9E45F67F2A578CE8004D0077 /* SC4Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SC4Task.swift; sourceTree = "<group>"; };
 		9E47FB162A463AAB0093A0CC /* BC51EnvironmentObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC51EnvironmentObject.swift; sourceTree = "<group>"; };
 		9E47FB182A4640750093A0CC /* BC52AppStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC52AppStorage.swift; sourceTree = "<group>"; };
@@ -499,6 +503,8 @@
 				9E3FC2922A62DFC900ECEE7E /* AL12CustomNavBar */,
 				9E3FC2A02A6332A400ECEE7E /* AL13UIViewRepresentable.swift */,
 				9E3FC2A22A636BB000ECEE7E /* AL14UIViewControllerRepresentable.swift */,
+				9E3FC2A42A64507900ECEE7E /* AL15Protocols.swift */,
+				9E3FC2A62A64622E00ECEE7E /* AL16DependencyInjection.swift */,
 			);
 			path = Advanced;
 			sourceTree = "<group>";
@@ -640,6 +646,7 @@
 				9EEA9D7F2A5488B50080B2FB /* CL10HapticsVibrations.swift in Sources */,
 				9EF8AA3C2A05D31400BB130B /* BC26AnimationCurves.swift in Sources */,
 				9EE48E1629C8C48500492FCB /* BC21ExtractViews.swift in Sources */,
+				9E3FC2A72A64622E00ECEE7E /* AL16DependencyInjection.swift in Sources */,
 				9EEA9D742A5470DC0080B2FB /* CL7MultipleSheets.swift in Sources */,
 				9EF812DA2A2275E100A15505 /* BC32ShowAlerts.swift in Sources */,
 				9E48A38129C76470006FCA0E /* BC3Shapes.swift in Sources */,
@@ -662,6 +669,7 @@
 				9E47FB1E2A4751C60093A0CC /* BC53OnboardingView.swift in Sources */,
 				9E45F6802A578CE8004D0077 /* SC4Task.swift in Sources */,
 				9EEA9D852A54A91F0080B2FB /* CL13SortFilterMap.swift in Sources */,
+				9E3FC2A52A64507900ECEE7E /* AL15Protocols.swift in Sources */,
 				9E48A38D29C7903D006FCA0E /* BC9Overlays.swift in Sources */,
 				9E4B81452A4C6CC8004A7DCD /* CL1LongPressGesture.swift in Sources */,
 				9E4B813F2A4B6141004A7DCD /* BC64ResizableSheets.swift in Sources */,
