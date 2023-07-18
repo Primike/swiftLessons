@@ -9,7 +9,7 @@ import SwiftUI
 
 struct BC7Images: View {
     var body: some View {
-        Image("Chungus")
+        Image("chungus")
 //            .renderingMode(.template)
             .resizable()
             .aspectRatio(contentMode: .fit)

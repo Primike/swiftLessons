@@ -11,6 +11,7 @@ struct BC34ContextMenu: View {
     
     @State var backgroundColor: Color = .blue
     
+    //Press and hold
     var body: some View {
         VStack(alignment: .leading, spacing: 10) {
             Image(systemName: "house.fill")

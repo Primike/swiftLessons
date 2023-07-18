@@ -311,6 +311,124 @@
 			path = AL12CustomNavBar;
 			sourceTree = "<group>";
 		};
+		9E3FC2CB2A6576A500ECEE7E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				9E48A37E29C75F44006FCA0E /* BC2Text.swift */,
+				9E48A38029C76470006FCA0E /* BC3Shapes.swift */,
+				9E48A38629C787FE006FCA0E /* BC6Icons.swift */,
+				9E48A38829C78A96006FCA0E /* BC7Images.swift */,
+				9EE48E0F29C8B3B900492FCB /* BC18Buttons.swift */,
+				9EF812D92A2275E100A15505 /* BC32ShowAlerts.swift */,
+				9E3D2A912A3BCA4E000DC05C /* BC33ActionSheet.swift */,
+				9E51D4CC2A3E3EFF005467A1 /* BC34ContextMenu.swift */,
+				9E51D4CE2A3E4595005467A1 /* BC35TextField.swift */,
+				9EC1C08F2A3F7EFE00FA8A16 /* BC36TextEditor.swift */,
+				9EC1C0912A3F812E00FA8A16 /* BC37Switch.swift */,
+				9EC1C0932A3F825200FA8A16 /* BC38Picker.swift */,
+				9EC1C0952A3F8A7B00FA8A16 /* BC39ColorPicker.swift */,
+				9EC1C0972A3F8FF000FA8A16 /* BC40DatePicker.swift */,
+				9EC1C09B2A3F946600FA8A16 /* BC42Slider.swift */,
+				9E47FB212A477D0D0093A0CC /* BC54AsyncImage.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		9E3FC2CC2A6576E100ECEE7E /* Decoration */ = {
+			isa = PBXGroup;
+			children = (
+				9E48A38229C766CC006FCA0E /* BC4Color.swift */,
+				9E48A38429C768E0006FCA0E /* BC5Gradients.swift */,
+				9E48A39029C7A21A006FCA0E /* BC11Padding.swift */,
+				9E48A39229C7A402006FCA0E /* BC12Spacer.swift */,
+				9EE48E0D29C8ACCC00492FCB /* BC17SafeArea.swift */,
+				9EF8AA392A05D06400BB130B /* BC25Animations.swift */,
+				9EF8AA3B2A05D31400BB130B /* BC26AnimationCurves.swift */,
+				9EC1C09F2A40CA4C00FA8A16 /* BC44DarkMode.swift */,
+				9E09DA462A478C4B00D3691A /* BC55SystemMaterials.swift */,
+				9E09DA482A479D6B00D3691A /* BC57ButtonStyles.swift */,
+				9E09DA4A2A47AFAA00D3691A /* BC58SwipeActions.swift */,
+				9E09DA4C2A47CC3F00D3691A /* BC59Badges.swift */,
+				9E09DA4E2A48A56A00D3691A /* BC60FocusState.swift */,
+				9E09DA502A48CE8E00D3691A /* BC61KeyboardSubmit.swift */,
+				9E4B81402A4C6246004A7DCD /* BC65SafeAreaInserts.swift */,
+			);
+			path = Decoration;
+			sourceTree = "<group>";
+		};
+		9E3FC2CD2A65772700ECEE7E /* Backgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				9E48A38A29C78C0A006FCA0E /* BC8Frames.swift */,
+				9E48A38C29C7903D006FCA0E /* BC9Overlays.swift */,
+				9E48A38E29C799DB006FCA0E /* BC10VHZStacks.swift */,
+				9EC1C09D2A3F9BB800FA8A16 /* BC43TabView.swift */,
+			);
+			path = Backgrounds;
+			sourceTree = "<group>";
+		};
+		9E3FC2CE2A65777E00ECEE7E /* Refactoring */ = {
+			isa = PBXGroup;
+			children = (
+				9E48A39429C7A8A3006FCA0E /* BC13InitsEnums.swift */,
+				9EE48E1329C8C2F100492FCB /* BC20ExtractFunctions.swift */,
+				9EE48E1529C8C48500492FCB /* BC21ExtractViews.swift */,
+				9EC1C0A52A40FD6D00FA8A16 /* BC47IfLetGuard.swift */,
+				9EC1C0A92A41014400FA8A16 /* BC49CustomModels.swift */,
+			);
+			path = Refactoring;
+			sourceTree = "<group>";
+		};
+		9E3FC2CF2A65779100ECEE7E /* Lists */ = {
+			isa = PBXGroup;
+			children = (
+				9E48A39629C7AACD006FCA0E /* BC14ForEach.swift */,
+				9EA015BC29C7E01000E21971 /* BC15ScrollView.swift */,
+				9EE48E0B29C8A88200492FCB /* BC16GridItems.swift */,
+				9E7D2ECB2A0DBCB100CDE614 /* BC31EditLists.swift */,
+			);
+			path = Lists;
+			sourceTree = "<group>";
+		};
+		9E3FC2D02A6577E000ECEE7E /* State */ = {
+			isa = PBXGroup;
+			children = (
+				9EE48E1129C8B5AB00492FCB /* BC19State.swift */,
+				9EE48E1729C8C5E400492FCB /* BC22Binding.swift */,
+				9EF8AA352A05B19F00BB130B /* BC23ConditionalStatements.swift */,
+				9EF8AA372A05B44300BB130B /* BC24Ternary.swift */,
+				9EC1C0992A3F92E700FA8A16 /* BC41Stepper.swift */,
+				9EC1C0A32A40F8F200FA8A16 /* BC46OnAppear.swift */,
+				9EC1C0A72A40FFE200FA8A16 /* BC48TapGesture.swift */,
+				9EC1C0AB2A41293700FA8A16 /* BC50StateObservableObject.swift */,
+				9E47FB162A463AAB0093A0CC /* BC51EnvironmentObject.swift */,
+				9E47FB182A4640750093A0CC /* BC52AppStorage.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		9E3FC2D12A65782A00ECEE7E /* Sheets */ = {
+			isa = PBXGroup;
+			children = (
+				9EF8AA3D2A05DA1800BB130B /* BC27Transitions.swift */,
+				9E9F96BA2A05DB9F009C11EC /* BC28FullScreenCover.swift */,
+				9E9F96BE2A08882C009C11EC /* BC29Popover.swift */,
+				9E4B813E2A4B6141004A7DCD /* BC64ResizableSheets.swift */,
+			);
+			path = Sheets;
+			sourceTree = "<group>";
+		};
+		9E3FC2D22A657B5700ECEE7E /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				9E9F96C02A088D1D009C11EC /* BC30Navigation.swift */,
+				9E09DA522A48D19900D3691A /* BC62NavigationStack.swift */,
+				9E47FB1A2A4750E30093A0CC /* BC53Onboarding */,
+				9E09DA542A49D33E00D3691A /* BC63Toolbar.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
 		9E47FB1A2A4750E30093A0CC /* BC53Onboarding */ = {
 			isa = PBXGroup;
 			children = (
@@ -372,68 +490,14 @@
 		9E4B81422A4C64E2004A7DCD /* Bootcamp */ = {
 			isa = PBXGroup;
 			children = (
-				9E48A37E29C75F44006FCA0E /* BC2Text.swift */,
-				9E48A38029C76470006FCA0E /* BC3Shapes.swift */,
-				9E48A38229C766CC006FCA0E /* BC4Color.swift */,
-				9E48A38429C768E0006FCA0E /* BC5Gradients.swift */,
-				9E48A38629C787FE006FCA0E /* BC6Icons.swift */,
-				9E48A38829C78A96006FCA0E /* BC7Images.swift */,
-				9E48A38A29C78C0A006FCA0E /* BC8Frames.swift */,
-				9E48A38C29C7903D006FCA0E /* BC9Overlays.swift */,
-				9E48A38E29C799DB006FCA0E /* BC10VHZStacks.swift */,
-				9E48A39029C7A21A006FCA0E /* BC11Padding.swift */,
-				9E48A39229C7A402006FCA0E /* BC12Spacer.swift */,
-				9E48A39429C7A8A3006FCA0E /* BC13InitsEnums.swift */,
-				9E48A39629C7AACD006FCA0E /* BC14ForEach.swift */,
-				9EA015BC29C7E01000E21971 /* BC15ScrollView.swift */,
-				9EE48E0B29C8A88200492FCB /* BC16GridItems.swift */,
-				9EE48E0D29C8ACCC00492FCB /* BC17SafeArea.swift */,
-				9EE48E0F29C8B3B900492FCB /* BC18Buttons.swift */,
-				9EE48E1129C8B5AB00492FCB /* BC19State.swift */,
-				9EE48E1329C8C2F100492FCB /* BC20ExtractFunctions.swift */,
-				9EE48E1529C8C48500492FCB /* BC21ExtractViews.swift */,
-				9EE48E1729C8C5E400492FCB /* BC22Binding.swift */,
-				9EF8AA352A05B19F00BB130B /* BC23ConditionalStatements.swift */,
-				9EF8AA372A05B44300BB130B /* BC24Ternary.swift */,
-				9EF8AA392A05D06400BB130B /* BC25Animations.swift */,
-				9EF8AA3B2A05D31400BB130B /* BC26AnimationCurves.swift */,
-				9EF8AA3D2A05DA1800BB130B /* BC27Transitions.swift */,
-				9E9F96BA2A05DB9F009C11EC /* BC28FullScreenCover.swift */,
-				9E9F96BE2A08882C009C11EC /* BC29Popover.swift */,
-				9E9F96C02A088D1D009C11EC /* BC30Navigation.swift */,
-				9E7D2ECB2A0DBCB100CDE614 /* BC31EditLists.swift */,
-				9EF812D92A2275E100A15505 /* BC32ShowAlerts.swift */,
-				9E3D2A912A3BCA4E000DC05C /* BC33ActionSheet.swift */,
-				9E51D4CC2A3E3EFF005467A1 /* BC34ContextMenu.swift */,
-				9E51D4CE2A3E4595005467A1 /* BC35TextField.swift */,
-				9EC1C08F2A3F7EFE00FA8A16 /* BC36TextEditor.swift */,
-				9EC1C0912A3F812E00FA8A16 /* BC37Switch.swift */,
-				9EC1C0932A3F825200FA8A16 /* BC38Picker.swift */,
-				9EC1C0952A3F8A7B00FA8A16 /* BC39ColorPicker.swift */,
-				9EC1C0972A3F8FF000FA8A16 /* BC40DatePicker.swift */,
-				9EC1C0992A3F92E700FA8A16 /* BC41Stepper.swift */,
-				9EC1C09B2A3F946600FA8A16 /* BC42Slider.swift */,
-				9EC1C09D2A3F9BB800FA8A16 /* BC43TabView.swift */,
-				9EC1C09F2A40CA4C00FA8A16 /* BC44DarkMode.swift */,
-				9EC1C0A32A40F8F200FA8A16 /* BC46OnAppear.swift */,
-				9EC1C0A52A40FD6D00FA8A16 /* BC47IfLetGuard.swift */,
-				9EC1C0A72A40FFE200FA8A16 /* BC48TapGesture.swift */,
-				9EC1C0A92A41014400FA8A16 /* BC49CustomModels.swift */,
-				9EC1C0AB2A41293700FA8A16 /* BC50StateObservableObject.swift */,
-				9E47FB162A463AAB0093A0CC /* BC51EnvironmentObject.swift */,
-				9E47FB182A4640750093A0CC /* BC52AppStorage.swift */,
-				9E47FB1A2A4750E30093A0CC /* BC53Onboarding */,
-				9E47FB212A477D0D0093A0CC /* BC54AsyncImage.swift */,
-				9E09DA462A478C4B00D3691A /* BC55SystemMaterials.swift */,
-				9E09DA482A479D6B00D3691A /* BC57ButtonStyles.swift */,
-				9E09DA4A2A47AFAA00D3691A /* BC58SwipeActions.swift */,
-				9E09DA4C2A47CC3F00D3691A /* BC59Badges.swift */,
-				9E09DA4E2A48A56A00D3691A /* BC60FocusState.swift */,
-				9E09DA502A48CE8E00D3691A /* BC61KeyboardSubmit.swift */,
-				9E09DA522A48D19900D3691A /* BC62NavigationStack.swift */,
-				9E09DA542A49D33E00D3691A /* BC63Toolbar.swift */,
-				9E4B813E2A4B6141004A7DCD /* BC64ResizableSheets.swift */,
-				9E4B81402A4C6246004A7DCD /* BC65SafeAreaInserts.swift */,
+				9E3FC2D22A657B5700ECEE7E /* Navigation */,
+				9E3FC2CF2A65779100ECEE7E /* Lists */,
+				9E3FC2D12A65782A00ECEE7E /* Sheets */,
+				9E3FC2D02A6577E000ECEE7E /* State */,
+				9E3FC2CB2A6576A500ECEE7E /* Components */,
+				9E3FC2CD2A65772700ECEE7E /* Backgrounds */,
+				9E3FC2CC2A6576E100ECEE7E /* Decoration */,
+				9E3FC2CE2A65777E00ECEE7E /* Refactoring */,
 			);
 			path = Bootcamp;
 			sourceTree = "<group>";
