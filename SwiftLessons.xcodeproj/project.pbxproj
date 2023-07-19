@@ -459,6 +459,7 @@
 			isa = PBXGroup;
 			children = (
 				9E48A37D29C75ECA006FCA0E /* Main */,
+				9E832EDC2A68927900A49E7E /* Preview Content */,
 				9E48A36F29C75E85006FCA0E /* SwiftLessonsApp.swift */,
 				9EAB41DA2A688FCD00A50B3A /* SwiftfulThinking */,
 				9EAB41DB2A68916B00A50B3A /* SwiftDocumentation */,
@@ -469,7 +470,6 @@
 		9E48A37D29C75ECA006FCA0E /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				9E48A37629C75E86006FCA0E /* Preview Assets.xcassets */,
 				9E48A37129C75E85006FCA0E /* ContentView.swift */,
 				9E48A37329C75E86006FCA0E /* Assets.xcassets */,
 				9EEA9D7B2A5487850080B2FB /* badum.mp3 */,
@@ -520,6 +520,14 @@
 				9EEA9D972A560F520080B2FB /* CL25PublisherSubscriber.swift */,
 			);
 			path = Intermediate;
+			sourceTree = "<group>";
+		};
+		9E832EDC2A68927900A49E7E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9E48A37629C75E86006FCA0E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		9E97B82E2A56FC27005FB32E /* Concurrency */ = {
