@@ -39,7 +39,7 @@
 		9E47FB1E2A4751C60093A0CC /* BC53OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E47FB1D2A4751C60093A0CC /* BC53OnboardingView.swift */; };
 		9E47FB202A4764D70093A0CC /* BC53ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E47FB1F2A4764D70093A0CC /* BC53ProfileView.swift */; };
 		9E47FB222A477D0D0093A0CC /* BC54AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E47FB212A477D0D0093A0CC /* BC54AsyncImage.swift */; };
-		9E48A37029C75E85006FCA0E /* SwiftUILessonsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E48A36F29C75E85006FCA0E /* SwiftUILessonsApp.swift */; };
+		9E48A37029C75E85006FCA0E /* SwiftLessonsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E48A36F29C75E85006FCA0E /* SwiftLessonsApp.swift */; };
 		9E48A37229C75E85006FCA0E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E48A37129C75E85006FCA0E /* ContentView.swift */; };
 		9E48A37429C75E86006FCA0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E48A37329C75E86006FCA0E /* Assets.xcassets */; };
 		9E48A37729C75E86006FCA0E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E48A37629C75E86006FCA0E /* Preview Assets.xcassets */; };
@@ -173,8 +173,8 @@
 		9E47FB1D2A4751C60093A0CC /* BC53OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC53OnboardingView.swift; sourceTree = "<group>"; };
 		9E47FB1F2A4764D70093A0CC /* BC53ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC53ProfileView.swift; sourceTree = "<group>"; };
 		9E47FB212A477D0D0093A0CC /* BC54AsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC54AsyncImage.swift; sourceTree = "<group>"; };
-		9E48A36C29C75E85006FCA0E /* SwiftUILessons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUILessons.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9E48A36F29C75E85006FCA0E /* SwiftUILessonsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILessonsApp.swift; sourceTree = "<group>"; };
+		9E48A36C29C75E85006FCA0E /* SwiftLessons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftLessons.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E48A36F29C75E85006FCA0E /* SwiftLessonsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLessonsApp.swift; sourceTree = "<group>"; };
 		9E48A37129C75E85006FCA0E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9E48A37329C75E86006FCA0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E48A37629C75E86006FCA0E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -442,7 +442,7 @@
 		9E48A36329C75E85006FCA0E = {
 			isa = PBXGroup;
 			children = (
-				9E48A36E29C75E85006FCA0E /* SwiftUILessons */,
+				9E48A36E29C75E85006FCA0E /* SwiftLessons */,
 				9E48A36D29C75E85006FCA0E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -450,39 +450,30 @@
 		9E48A36D29C75E85006FCA0E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9E48A36C29C75E85006FCA0E /* SwiftUILessons.app */,
+				9E48A36C29C75E85006FCA0E /* SwiftLessons.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9E48A36E29C75E85006FCA0E /* SwiftUILessons */ = {
+		9E48A36E29C75E85006FCA0E /* SwiftLessons */ = {
 			isa = PBXGroup;
 			children = (
-				9E48A36F29C75E85006FCA0E /* SwiftUILessonsApp.swift */,
-				9E97B82E2A56FC27005FB32E /* Concurrency */,
-				9EE6ABDD2A5C9B76004FD078 /* Advanced */,
-				9E4B81432A4C6C7D004A7DCD /* Intermediate */,
-				9E4B81422A4C64E2004A7DCD /* Bootcamp */,
 				9E48A37D29C75ECA006FCA0E /* Main */,
-				9EEA9D792A54873C0080B2FB /* Sounds */,
-				9E48A37529C75E86006FCA0E /* Preview Content */,
+				9E48A36F29C75E85006FCA0E /* SwiftLessonsApp.swift */,
+				9EAB41DA2A688FCD00A50B3A /* SwiftfulThinking */,
+				9EAB41DB2A68916B00A50B3A /* SwiftDocumentation */,
 			);
-			path = SwiftUILessons;
-			sourceTree = "<group>";
-		};
-		9E48A37529C75E86006FCA0E /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				9E48A37629C75E86006FCA0E /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
+			path = SwiftLessons;
 			sourceTree = "<group>";
 		};
 		9E48A37D29C75ECA006FCA0E /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				9E48A37629C75E86006FCA0E /* Preview Assets.xcassets */,
 				9E48A37129C75E85006FCA0E /* ContentView.swift */,
 				9E48A37329C75E86006FCA0E /* Assets.xcassets */,
+				9EEA9D7B2A5487850080B2FB /* badum.mp3 */,
+				9EEA9D7A2A5487850080B2FB /* tada.mp3 */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -490,13 +481,13 @@
 		9E4B81422A4C64E2004A7DCD /* Bootcamp */ = {
 			isa = PBXGroup;
 			children = (
-				9E3FC2D22A657B5700ECEE7E /* Navigation */,
-				9E3FC2CF2A65779100ECEE7E /* Lists */,
-				9E3FC2D12A65782A00ECEE7E /* Sheets */,
-				9E3FC2D02A6577E000ECEE7E /* State */,
 				9E3FC2CB2A6576A500ECEE7E /* Components */,
-				9E3FC2CD2A65772700ECEE7E /* Backgrounds */,
 				9E3FC2CC2A6576E100ECEE7E /* Decoration */,
+				9E3FC2CD2A65772700ECEE7E /* Backgrounds */,
+				9E3FC2D02A6577E000ECEE7E /* State */,
+				9E3FC2CF2A65779100ECEE7E /* Lists */,
+				9E3FC2D22A657B5700ECEE7E /* Navigation */,
+				9E3FC2D12A65782A00ECEE7E /* Sheets */,
 				9E3FC2CE2A65777E00ECEE7E /* Refactoring */,
 			);
 			path = Bootcamp;
@@ -550,6 +541,24 @@
 			path = Concurrency;
 			sourceTree = "<group>";
 		};
+		9EAB41DA2A688FCD00A50B3A /* SwiftfulThinking */ = {
+			isa = PBXGroup;
+			children = (
+				9E4B81422A4C64E2004A7DCD /* Bootcamp */,
+				9E4B81432A4C6C7D004A7DCD /* Intermediate */,
+				9EE6ABDD2A5C9B76004FD078 /* Advanced */,
+				9E97B82E2A56FC27005FB32E /* Concurrency */,
+			);
+			path = SwiftfulThinking;
+			sourceTree = "<group>";
+		};
+		9EAB41DB2A68916B00A50B3A /* SwiftDocumentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SwiftDocumentation;
+			sourceTree = "<group>";
+		};
 		9EE6ABDD2A5C9B76004FD078 /* Advanced */ = {
 			isa = PBXGroup;
 			children = (
@@ -583,21 +592,12 @@
 			path = AL10PreferenceKey;
 			sourceTree = "<group>";
 		};
-		9EEA9D792A54873C0080B2FB /* Sounds */ = {
-			isa = PBXGroup;
-			children = (
-				9EEA9D7B2A5487850080B2FB /* badum.mp3 */,
-				9EEA9D7A2A5487850080B2FB /* tada.mp3 */,
-			);
-			path = Sounds;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9E48A36B29C75E85006FCA0E /* SwiftUILessons */ = {
+		9E48A36B29C75E85006FCA0E /* SwiftLessons */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9E48A37A29C75E86006FCA0E /* Build configuration list for PBXNativeTarget "SwiftUILessons" */;
+			buildConfigurationList = 9E48A37A29C75E86006FCA0E /* Build configuration list for PBXNativeTarget "SwiftLessons" */;
 			buildPhases = (
 				9E48A36829C75E85006FCA0E /* Sources */,
 				9E48A36929C75E85006FCA0E /* Frameworks */,
@@ -607,9 +607,9 @@
 			);
 			dependencies = (
 			);
-			name = SwiftUILessons;
+			name = SwiftLessons;
 			productName = SwiftUILessons;
-			productReference = 9E48A36C29C75E85006FCA0E /* SwiftUILessons.app */;
+			productReference = 9E48A36C29C75E85006FCA0E /* SwiftLessons.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -627,7 +627,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9E48A36729C75E85006FCA0E /* Build configuration list for PBXProject "SwiftUILessons" */;
+			buildConfigurationList = 9E48A36729C75E85006FCA0E /* Build configuration list for PBXProject "SwiftLessons" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -640,7 +640,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9E48A36B29C75E85006FCA0E /* SwiftUILessons */,
+				9E48A36B29C75E85006FCA0E /* SwiftLessons */,
 			);
 		};
 /* End PBXProject section */
@@ -786,7 +786,7 @@
 				9EE48E1829C8C5E400492FCB /* BC22Binding.swift in Sources */,
 				9E51D4CF2A3E4596005467A1 /* BC35TextField.swift in Sources */,
 				9E48A38729C787FE006FCA0E /* BC6Icons.swift in Sources */,
-				9E48A37029C75E85006FCA0E /* SwiftUILessonsApp.swift in Sources */,
+				9E48A37029C75E85006FCA0E /* SwiftLessonsApp.swift in Sources */,
 				9EC1C0AC2A41293700FA8A16 /* BC50StateObservableObject.swift in Sources */,
 				9E48A39529C7A8A3006FCA0E /* BC13InitsEnums.swift in Sources */,
 				9EE6ABF12A5EFDD2004FD078 /* AL10PreferenceKey.swift in Sources */,
@@ -918,7 +918,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUILessons/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftLessons/Preview Content\"";
 				DEVELOPMENT_TEAM = MDPY9LF665;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -947,7 +947,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUILessons/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftLessons/Preview Content\"";
 				DEVELOPMENT_TEAM = MDPY9LF665;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -972,7 +972,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9E48A36729C75E85006FCA0E /* Build configuration list for PBXProject "SwiftUILessons" */ = {
+		9E48A36729C75E85006FCA0E /* Build configuration list for PBXProject "SwiftLessons" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9E48A37829C75E86006FCA0E /* Debug */,
@@ -981,7 +981,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9E48A37A29C75E86006FCA0E /* Build configuration list for PBXNativeTarget "SwiftUILessons" */ = {
+		9E48A37A29C75E86006FCA0E /* Build configuration list for PBXNativeTarget "SwiftLessons" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9E48A37B29C75E86006FCA0E /* Debug */,
