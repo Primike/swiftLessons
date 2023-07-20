@@ -65,6 +65,7 @@
 		9E51D4CD2A3E3EFF005467A1 /* BC34ContextMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E51D4CC2A3E3EFF005467A1 /* BC34ContextMenu.swift */; };
 		9E51D4CF2A3E4596005467A1 /* BC35TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E51D4CE2A3E4595005467A1 /* BC35TextField.swift */; };
 		9E7D2ECC2A0DBCB100CDE614 /* BC31EditLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7D2ECB2A0DBCB100CDE614 /* BC31EditLists.swift */; };
+		9E832EDE2A6892D300A49E7E /* SwiftBasics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E832EDD2A6892D300A49E7E /* SwiftBasics.swift */; };
 		9E97B8302A56FC7D005FB32E /* SC2DownloadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E97B82F2A56FC7D005FB32E /* SC2DownloadImage.swift */; };
 		9E9F96BB2A05DB9F009C11EC /* BC28FullScreenCover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9F96BA2A05DB9F009C11EC /* BC28FullScreenCover.swift */; };
 		9E9F96BF2A08882C009C11EC /* BC29Popover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9F96BE2A08882C009C11EC /* BC29Popover.swift */; };
@@ -200,6 +201,7 @@
 		9E51D4CC2A3E3EFF005467A1 /* BC34ContextMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC34ContextMenu.swift; sourceTree = "<group>"; };
 		9E51D4CE2A3E4595005467A1 /* BC35TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC35TextField.swift; sourceTree = "<group>"; };
 		9E7D2ECB2A0DBCB100CDE614 /* BC31EditLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC31EditLists.swift; sourceTree = "<group>"; };
+		9E832EDD2A6892D300A49E7E /* SwiftBasics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBasics.swift; sourceTree = "<group>"; };
 		9E97B82F2A56FC7D005FB32E /* SC2DownloadImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SC2DownloadImage.swift; sourceTree = "<group>"; };
 		9E9F96BA2A05DB9F009C11EC /* BC28FullScreenCover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC28FullScreenCover.swift; sourceTree = "<group>"; };
 		9E9F96BE2A08882C009C11EC /* BC29Popover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC29Popover.swift; sourceTree = "<group>"; };
@@ -563,6 +565,7 @@
 		9EAB41DB2A68916B00A50B3A /* SwiftDocumentation */ = {
 			isa = PBXGroup;
 			children = (
+				9E832EDD2A6892D300A49E7E /* SwiftBasics.swift */,
 			);
 			path = SwiftDocumentation;
 			sourceTree = "<group>";
@@ -750,6 +753,7 @@
 				9E3FC28B2A61873E00ECEE7E /* AL11AppTabBar.swift in Sources */,
 				9E48A39729C7AACD006FCA0E /* BC14ForEach.swift in Sources */,
 				9EE6ABCE2A58BBA1004FD078 /* SC6TaskGroup.swift in Sources */,
+				9E832EDE2A6892D300A49E7E /* SwiftBasics.swift in Sources */,
 				9EE6ABD82A5AFC09004FD078 /* SC10GlobalActors.swift in Sources */,
 				9E48A38929C78A96006FCA0E /* BC7Images.swift in Sources */,
 				9E48A38329C766CC006FCA0E /* BC4Color.swift in Sources */,

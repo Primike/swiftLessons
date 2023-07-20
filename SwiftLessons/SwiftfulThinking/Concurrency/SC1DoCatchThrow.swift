@@ -8,7 +8,7 @@
 import SwiftUI
 
 class SC1DataManager {
-    let isActive: Bool = false
+    let isActive: Bool = true
     
     func getTitle() -> (title: String?, error: Error?) {
         if isActive {
@@ -61,6 +61,10 @@ class SC1DoCatchThrowViewModel: ObservableObject {
     }
     
     func fetchTitle3() {
+//        let newTitle = try? dataManager.getTitle3()
+//        self.text = newTitle ?? ""
+        
+        //If one non optional try fails catch will be run
         do {
             let newTitle = try dataManager.getTitle3()
             self.text = newTitle
