@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftLessonsApp: App {
     var body: some Scene {
         WindowGroup {
-            CL9SoundEffects()
+            BC18Buttons()
         }
     }
 }

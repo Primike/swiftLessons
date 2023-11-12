@@ -88,6 +88,7 @@
 		9EC1C0A82A40FFE200FA8A16 /* BC48TapGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC1C0A72A40FFE200FA8A16 /* BC48TapGesture.swift */; };
 		9EC1C0AA2A41014400FA8A16 /* BC49CustomModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC1C0A92A41014400FA8A16 /* BC49CustomModels.swift */; };
 		9EC1C0AC2A41293700FA8A16 /* BC50StateObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC1C0AB2A41293700FA8A16 /* BC50StateObservableObject.swift */; };
+		9ED96E542B00075C00CD1FB5 /* STReview in Resources */ = {isa = PBXBuildFile; fileRef = 9ED96E532B00075C00CD1FB5 /* STReview */; };
 		9EE48E0C29C8A88200492FCB /* BC16GridItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE48E0B29C8A88200492FCB /* BC16GridItems.swift */; };
 		9EE48E0E29C8ACCC00492FCB /* BC17SafeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE48E0D29C8ACCC00492FCB /* BC17SafeArea.swift */; };
 		9EE48E1029C8B3B900492FCB /* BC18Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE48E0F29C8B3B900492FCB /* BC18Buttons.swift */; };
@@ -224,6 +225,7 @@
 		9EC1C0A72A40FFE200FA8A16 /* BC48TapGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC48TapGesture.swift; sourceTree = "<group>"; };
 		9EC1C0A92A41014400FA8A16 /* BC49CustomModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC49CustomModels.swift; sourceTree = "<group>"; };
 		9EC1C0AB2A41293700FA8A16 /* BC50StateObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC50StateObservableObject.swift; sourceTree = "<group>"; };
+		9ED96E532B00075C00CD1FB5 /* STReview */ = {isa = PBXFileReference; lastKnownFileType = text; path = STReview; sourceTree = "<group>"; };
 		9EE48E0B29C8A88200492FCB /* BC16GridItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC16GridItems.swift; sourceTree = "<group>"; };
 		9EE48E0D29C8ACCC00492FCB /* BC17SafeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC17SafeArea.swift; sourceTree = "<group>"; };
 		9EE48E0F29C8B3B900492FCB /* BC18Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC18Buttons.swift; sourceTree = "<group>"; };
@@ -501,23 +503,22 @@
 				9E6623692A71F74500B22143 /* Asynchronous */,
 				9E6623682A71F70200B22143 /* Theory */,
 				9E6623652A71F66300B22143 /* Components */,
-				9E6623642A71F61500B22143 /* Customization */,
+				9E6623642A71F61500B22143 /* Gestures */,
 				9E6623662A71F69300B22143 /* Sheets */,
 				9E6623672A71F6C300B22143 /* Misc */,
 			);
 			path = Intermediate;
 			sourceTree = "<group>";
 		};
-		9E6623642A71F61500B22143 /* Customization */ = {
+		9E6623642A71F61500B22143 /* Gestures */ = {
 			isa = PBXGroup;
 			children = (
 				9E4B81442A4C6CC8004A7DCD /* CL1LongPressGesture.swift */,
 				9E4B81462A4C7DFF004A7DCD /* CL2MagnificationGesture.swift */,
 				9EB4F3052A51E87A00666693 /* CL3RotationGesture.swift */,
 				9EB4F3072A51EA2700666693 /* CL4DragGesture.swift */,
-				9EEA9D952A55ED860080B2FB /* CL24TimerReceive.swift */,
 			);
-			path = Customization;
+			path = Gestures;
 			sourceTree = "<group>";
 		};
 		9E6623652A71F66300B22143 /* Components */ = {
@@ -534,6 +535,7 @@
 			isa = PBXGroup;
 			children = (
 				9EEA9D732A5470DC0080B2FB /* CL7MultipleSheets.swift */,
+				9EEA9D952A55ED860080B2FB /* CL24TimerReceive.swift */,
 			);
 			path = Sheets;
 			sourceTree = "<group>";
@@ -602,6 +604,7 @@
 		9EAB41DA2A688FCD00A50B3A /* SwiftfulThinking */ = {
 			isa = PBXGroup;
 			children = (
+				9ED96E532B00075C00CD1FB5 /* STReview */,
 				9E4B81422A4C64E2004A7DCD /* Bootcamp */,
 				9E4B81432A4C6C7D004A7DCD /* Intermediate */,
 				9EE6ABDD2A5C9B76004FD078 /* Advanced */,
@@ -709,6 +712,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9ED96E542B00075C00CD1FB5 /* STReview in Resources */,
 				9EEA9D7D2A5487850080B2FB /* badum.mp3 in Resources */,
 				9E48A37729C75E86006FCA0E /* Preview Assets.xcassets in Resources */,
 				9E48A37429C75E86006FCA0E /* Assets.xcassets in Resources */,
