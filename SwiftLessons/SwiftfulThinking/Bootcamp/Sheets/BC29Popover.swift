@@ -37,8 +37,8 @@ struct BC29Popover: View {
 //            .zIndex(2.0)
             
             BC29NewScreen(showNewScreen: $showNewScreen)
-                .padding(.top, 100)
-                .offset(y: showNewScreen ? 0 : UIScreen.main.bounds.height)
+//                .padding(.top, 100)
+                .offset(y: showNewScreen ? UIScreen.main.bounds.height/2 : UIScreen.main.bounds.height)
                 .animation(.spring())
         }
     }

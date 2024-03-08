@@ -30,7 +30,6 @@ class CL9SoundManager {
             print("Error playing sound. \(error.localizedDescription)")
         }
     }
-    
 }
 
 struct CL9SoundEffects: View {

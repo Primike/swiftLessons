@@ -7,10 +7,13 @@
 
 import SwiftUI
 
+//Type Body so it can return the specific type not a generic View
 struct AL1ButtonModifier: ViewModifier {
     
     let backgroundColor: Color
     
+    //Takes a view and returns a modified view
+    //Content may be changed when turned to Body
     func body(content: Content) -> some View {
         content
             .font(.headline)
@@ -25,6 +28,7 @@ struct AL1ButtonModifier: ViewModifier {
 }
 
 extension View {
+    //returns a modified view
     func withDefaultButtonFormatting(color: Color = .blue) -> some View {
         modifier(AL1ButtonModifier(backgroundColor: color))
     }

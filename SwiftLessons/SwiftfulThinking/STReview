@@ -1,6 +1,7 @@
 Button for state navlink for nav
 onAppear/onTapGesture/other
 ForEach hashable
+frame maxWidth - for equal widths
 
 BC25Animations
 BC9Overlays
@@ -8,3 +9,7 @@ BC23ConditionalStatements
 BC24Ternary
 BC51EnvironmentObject
 BC62NavigationStack
+
+CL23Combine
+CL25PublisherSubscriber
+CL6GeometryReader

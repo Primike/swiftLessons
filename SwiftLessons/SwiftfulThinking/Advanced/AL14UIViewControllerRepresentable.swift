@@ -68,7 +68,7 @@ struct AL14UIImagePickerControllerRepresentable: UIViewControllerRepresentable {
             self._showScreen = showScreen
         }
         
-        func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+        func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey: Any]) {
             guard let newImage = info[.originalImage] as? UIImage else {
                 return
             }
