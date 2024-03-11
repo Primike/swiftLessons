@@ -8,6 +8,14 @@
 import Foundation
 
 class SwiftBasics {
+
+//    var textColor: Color {
+//      switch colorScheme {
+//        case .light: return .white
+//        case .dark: return .black
+//        @unknown default: return .red
+//      }
+//    }
     
     func controlFlow() {
         var score = 1

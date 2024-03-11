@@ -71,6 +71,9 @@
 		9E9F96BF2A08882C009C11EC /* BC29Popover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9F96BE2A08882C009C11EC /* BC29Popover.swift */; };
 		9E9F96C12A088D1D009C11EC /* BC30Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9F96C02A088D1D009C11EC /* BC30Navigation.swift */; };
 		9EA015BD29C7E01000E21971 /* BC15ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA015BC29C7E01000E21971 /* BC15ScrollView.swift */; };
+		9EA5ED752B9F40E90017626C /* SwiftInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA5ED742B9F40E90017626C /* SwiftInt.swift */; };
+		9EA5ED772B9F41050017626C /* SwiftDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA5ED762B9F41050017626C /* SwiftDemoView.swift */; };
+		9EA5ED7B2B9F932C0017626C /* SwiftDouble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA5ED7A2B9F932C0017626C /* SwiftDouble.swift */; };
 		9EB4F3062A51E87A00666693 /* CL3RotationGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB4F3052A51E87A00666693 /* CL3RotationGesture.swift */; };
 		9EB4F3082A51EA2700666693 /* CL4DragGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB4F3072A51EA2700666693 /* CL4DragGesture.swift */; };
 		9EBE410C2A57960E00428C8A /* SC5AsyncLet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBE410B2A57960E00428C8A /* SC5AsyncLet.swift */; };
@@ -208,6 +211,9 @@
 		9E9F96BE2A08882C009C11EC /* BC29Popover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC29Popover.swift; sourceTree = "<group>"; };
 		9E9F96C02A088D1D009C11EC /* BC30Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC30Navigation.swift; sourceTree = "<group>"; };
 		9EA015BC29C7E01000E21971 /* BC15ScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC15ScrollView.swift; sourceTree = "<group>"; };
+		9EA5ED742B9F40E90017626C /* SwiftInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftInt.swift; sourceTree = "<group>"; };
+		9EA5ED762B9F41050017626C /* SwiftDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDemoView.swift; sourceTree = "<group>"; };
+		9EA5ED7A2B9F932C0017626C /* SwiftDouble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDouble.swift; sourceTree = "<group>"; };
 		9EB4F3052A51E87A00666693 /* CL3RotationGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CL3RotationGesture.swift; sourceTree = "<group>"; };
 		9EB4F3072A51EA2700666693 /* CL4DragGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CL4DragGesture.swift; sourceTree = "<group>"; };
 		9EBE410B2A57960E00428C8A /* SC5AsyncLet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SC5AsyncLet.swift; sourceTree = "<group>"; };
@@ -577,7 +583,10 @@
 		9E7DDD682B54508A00CC4A27 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
+				9EA5ED762B9F41050017626C /* SwiftDemoView.swift */,
 				9E832EDD2A6892D300A49E7E /* SwiftBasics.swift */,
+				9EA5ED742B9F40E90017626C /* SwiftInt.swift */,
+				9EA5ED7A2B9F932C0017626C /* SwiftDouble.swift */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -810,6 +819,7 @@
 				9EC1C0A42A40F8F200FA8A16 /* BC46OnAppear.swift in Sources */,
 				9E4998222A5738FD0030595A /* SC1DoCatchThrow.swift in Sources */,
 				9EF8AA3A2A05D06400BB130B /* BC25Animations.swift in Sources */,
+				9EA5ED7B2B9F932C0017626C /* SwiftDouble.swift in Sources */,
 				9E09DA512A48CE8E00D3691A /* BC61KeyboardSubmit.swift in Sources */,
 				9EE6ABE32A5CAC7C004FD078 /* AL3Transitions.swift in Sources */,
 				9E3FC28D2A61B02100ECEE7E /* AL11TabBarContainer.swift in Sources */,
@@ -868,6 +878,7 @@
 				9E09DA4B2A47AFAA00D3691A /* BC58SwipeActions.swift in Sources */,
 				9E09DA472A478C4B00D3691A /* BC55SystemMaterials.swift in Sources */,
 				9E09DA4F2A48A56A00D3691A /* BC60FocusState.swift in Sources */,
+				9EA5ED772B9F41050017626C /* SwiftDemoView.swift in Sources */,
 				9EE6ABE92A5DA881004FD078 /* AL6CustomCurves.swift in Sources */,
 				9E3FC28F2A6200CF00ECEE7E /* AL11TabBarPreferenceKey.swift in Sources */,
 				9EEA9D702A546A460080B2FB /* CL5ScrollViewReader.swift in Sources */,
@@ -880,6 +891,7 @@
 				9E48A38D29C7903D006FCA0E /* BC9Overlays.swift in Sources */,
 				9E4B81452A4C6CC8004A7DCD /* CL1LongPressGesture.swift in Sources */,
 				9E4B813F2A4B6141004A7DCD /* BC64ResizableSheets.swift in Sources */,
+				9EA5ED752B9F40E90017626C /* SwiftInt.swift in Sources */,
 				9E47FB222A477D0D0093A0CC /* BC54AsyncImage.swift in Sources */,
 				9E3FC2912A6219FD00ECEE7E /* AL11TabBarItem.swift in Sources */,
 				9E3FC28B2A61873E00ECEE7E /* AL11AppTabBar.swift in Sources */,
