@@ -19,10 +19,11 @@ class SC7DataManager {
     }
     
     func getData2(url: URL) async throws -> Data {
-        //Used for functions with are not compatible with async
+        // Used for functions with are not yet updated with async
         return try await withCheckedThrowingContinuation { continuation in
             URLSession.shared.dataTask(with: url) { data, response, error in
-                //Continuation must be called only once
+                // Continuation must be called once
+                // otherwise there will be a memory leak
                 if let data = data {
                     continuation.resume(returning: data)
                 } else if let error = error {

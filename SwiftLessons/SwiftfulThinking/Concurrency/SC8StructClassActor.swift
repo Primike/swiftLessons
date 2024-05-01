@@ -22,9 +22,8 @@ struct SC8StructClassActor_Previews: PreviewProvider {
     }
 }
 
-//When a structs propery changes it creates a new object
-//views are reinit when properties change unlike VC
-//StateObjects are never reinit
+// views are reinit when properties change unlike VC
+// StateObjects are never reinit
 struct SC8MyStruct {
     var title: String
 }
@@ -37,7 +36,7 @@ class SC8MyClass {
     }
 }
 
-//another way of changing values
+// another way of changing values
 struct SC8MutatingStruct {
     private(set) var title: String
     
@@ -50,6 +49,7 @@ struct SC8MutatingStruct {
     }
 }
 
+// Cant change actor properties from outside
 actor SC8MyActor {
     var title: String
     
@@ -93,9 +93,6 @@ extension SC8StructClassActor {
             let objectB = objectA
             
             await print("B: \(objectB.title), A: \(objectA.title)")
-            
-            //Cant change actor properties from outside
-//            objectB.title = "Second Title"
             await objectB.updateTitle(newTitle: "Second title")
             await print("B: \(objectB.title), A: \(objectA.title)")
 

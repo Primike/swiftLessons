@@ -14,7 +14,9 @@ class SC4TaskViewModel: ObservableObject {
     func fetchImage() async {
         try? await Task.sleep(nanoseconds: 5_000_000_000)
         
-        //Incase .task does not fully cancel
+        // Incase .task does not fully cancel
+        // Used if the function has expensive work
+        // throws an error
 //        try Task.checkCancellation()
         
         do {
@@ -24,7 +26,6 @@ class SC4TaskViewModel: ObservableObject {
             
             await MainActor.run(body: {
                 self.image = UIImage(data: data)
-                print("Done")
             })
         } catch {
             print(error.localizedDescription)
@@ -40,7 +41,6 @@ class SC4TaskViewModel: ObservableObject {
             await MainActor.run(body: {
                 self.image = UIImage(data: data)
             })
-            print("Done")
         } catch {
             print(error.localizedDescription)
         }
@@ -81,15 +81,20 @@ struct SC4Task: View {
                     .frame(width: 200 ,height: 200)
             }
         }
-        //Cancels task if view disappears without onDisappear
+        // if view is removed task is canceled
+        // used instead of the onDisappear and onAppear
         .task {
             await viewModel.fetchImage()
         }
-//        .onDisappear{
-//            fetchImageTask?.cancel()
-//        }
-//        .onAppear {
-//            //Assign priority can also yeild
+        .onDisappear{
+            fetchImageTask?.cancel()
+        }
+        .onAppear {
+            fetchImageTask = Task {
+                await viewModel.fetchImage()
+            }
+            
+            // Assign priority can also yeild
 //            Task(priority: .medium) {
 //                await Task.yield()
 //                print("Medium: \(Task.currentPriority)")
@@ -99,6 +104,7 @@ struct SC4Task: View {
 //                }
 //            }
 //
+//            // Write the code for Tasks in order of priority
 //            Task {
 //                print("Image: \(Task.currentPriority)")
 //                await viewModel.fetchImage()
@@ -107,7 +113,7 @@ struct SC4Task: View {
 //                print("Image: \(Task.currentPriority)")
 //                await viewModel.fetchImage2()
 //            }
-//        }
+        }
     }
 }
 

@@ -13,9 +13,9 @@ actor SC11DataManager {
     }
 }
 
-//Sendable indicates object can be used in concurrent code
-//Classes not thread safe if mutable variables
-//Have to use a lock if sending mutable class
+// Sendable indicates object can be used in concurrent code
+// Classes not thread safe if it has mutable variables
+// Have to use a lock if sending mutable class
 final class SC11MyClassUserInfo: @unchecked Sendable {
     private var name: String
     let lock = DispatchQueue(label: "queue")

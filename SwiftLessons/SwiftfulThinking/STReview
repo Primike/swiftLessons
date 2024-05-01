@@ -3,13 +3,33 @@ onAppear/onTapGesture/other
 ForEach hashable
 frame maxWidth - for equal widths
 
+// Components
+BC33ActionSheet
+BC34ContextMenu
+
+// Decoration
 BC25Animations
+BC25AnimationCurves
+
+// Backgrounds
 BC9Overlays
-BC23ConditionalStatements
-BC24Ternary
-BC51EnvironmentObject
+
+// State
+BC41Stepper
+BC48TapGesture
+
+// Lists
+BC31EditLists
+
+// Navigation
 BC62NavigationStack
 
-CL23Combine
+// Refactoring
+BC47IfLetGuard
+
+// Asynchronous
+CL20Escaping
 CL25PublisherSubscriber
+
+// Components
 CL6GeometryReader

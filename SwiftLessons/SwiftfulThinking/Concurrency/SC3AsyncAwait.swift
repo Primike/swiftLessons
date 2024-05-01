@@ -29,13 +29,14 @@ class SC3AsyncAwaitViewModel: ObservableObject {
         }
     }
     
-    //Using async func the system decides on the thread
-    //Code will run in order on different threads
+    // Using async func the system decides on the thread
+    // Code will run in order on different threads
     func addAuthor1() async {
         let author1 = "Before Await: \(Thread.current)"
         
         try? await Task.sleep(nanoseconds: 1_000_000_000)
         
+        // guarantees it will be on the main thread
         await MainActor.run(body: {
             self.dataArray.append(author1)
 
@@ -59,7 +60,7 @@ struct SC3AsyncAwait: View {
         }
         .onAppear {
             Task {
-                //Code runs in order
+                // Code runs in order waits for await to finish
                 await viewModel.addAuthor1()
                 
                 viewModel.addTitle1()

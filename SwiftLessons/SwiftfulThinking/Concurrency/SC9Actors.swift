@@ -38,6 +38,7 @@ actor SC9ActorDataManager {
         return self.data.randomElement()
     }
     
+    // doesnt need to be called with await.
     nonisolated func getSavedData() -> String {
         return "Non await data"
     }
