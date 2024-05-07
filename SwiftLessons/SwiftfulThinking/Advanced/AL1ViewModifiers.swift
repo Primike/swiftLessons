@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-//Type Body so it can return the specific type not a generic View
+// Type Body so it can return the specific type not a generic View
 struct AL1ButtonModifier: ViewModifier {
     
     let backgroundColor: Color

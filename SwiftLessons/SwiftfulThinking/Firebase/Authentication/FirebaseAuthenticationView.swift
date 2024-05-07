@@ -8,10 +8,13 @@
 import SwiftUI
 
 struct FirebaseAuthenticationView: View {
+    
+    @Binding var showSignInView: Bool
+    
     var body: some View {
         VStack {
             NavigationLink {
-                FirebaseSignInEmailView()
+                FirebaseSignInEmailView(showSignInView: $showSignInView)
             } label: {
                 Text("Sign in with email")
                     .font(.headline)
@@ -30,5 +33,5 @@ struct FirebaseAuthenticationView: View {
 }
 
 #Preview {
-    FirebaseAuthenticationView()
+    FirebaseAuthenticationView(showSignInView: .constant(false))
 }

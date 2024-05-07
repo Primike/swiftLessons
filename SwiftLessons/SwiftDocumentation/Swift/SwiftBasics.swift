@@ -9,6 +9,15 @@ import Foundation
 
 class SwiftBasics {
 
+    static func getData() -> String {
+        // Actions that happen at the end of function execution
+        defer {
+            print("Complete")
+        }
+        
+        return "Data"
+    }
+    
 //    var textColor: Color {
 //      switch colorScheme {
 //        case .light: return .white
@@ -16,30 +25,7 @@ class SwiftBasics {
 //        @unknown default: return .red
 //      }
 //    }
-    
-    func controlFlow() {
-        var score = 1
-        if score < 10 {
-            defer {
-                print(score)
-            }
-            score += 5
-        }
-        // Prints "6"
-        
-        if #available(iOS 10, macOS 10.12, *) {
-            // Use iOS 10 APIs on iOS, and use macOS 10.12 APIs on macOS
-        } else {
-            // Fall back to earlier iOS and macOS APIs
-        }
-    }
-    
-    func chooseStepFunction(backward: Bool) -> (Int) -> Int {
-        func stepForward(input: Int) -> Int { return input + 1 }
-        func stepBackward(input: Int) -> Int { return input - 1 }
-        return backward ? stepBackward : stepForward
-    }
-    
+            
     enum ArithmeticExpression {
         case number(Int)
         indirect case addition(ArithmeticExpression, ArithmeticExpression)
@@ -76,20 +62,7 @@ class SwiftBasics {
 //        rangeOfFourItems.firstValue = 6
         // this will report an error, even though firstValue is a variable property
     }
-    
-    class StepCounter {
-        var totalSteps: Int = 0 {
-            willSet(newTotalSteps) {
-                print("About to set totalSteps to \(newTotalSteps)")
-            }
-            didSet {
-                if totalSteps > oldValue  {
-                    print("Added \(totalSteps - oldValue) steps")
-                }
-            }
-        }
-    }
-    
+        
     @propertyWrapper
     struct SmallNumber {
         private var maximum: Int

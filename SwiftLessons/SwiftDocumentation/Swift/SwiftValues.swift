@@ -1,5 +1,5 @@
 //
-//  SwiftInt.swift
+//  SwiftValues.swift
 //  SwiftLessons
 //
 //  Created by Prince Avecillas on 3/11/24.
@@ -76,3 +76,5 @@ class SwiftString {
     static let stringProtocol: any StringProtocol = "String Protocol"
     static let stringTypeCast: String = stringProtocol as! String
 }
+
+// Dicts: UnorderedCollection, keys must be Hashable

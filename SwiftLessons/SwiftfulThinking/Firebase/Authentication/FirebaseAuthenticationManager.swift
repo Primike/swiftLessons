@@ -35,6 +35,7 @@ final class FirebaseAuthenticationManager {
         return FirebaseAuthDataResultModel(user: user)
     }
     
+    @discardableResult
     func createUser(email: String, password: String) async throws -> FirebaseAuthDataResultModel {
         let authDataResult = try await Auth.auth().createUser(withEmail: email, password: password)
         return FirebaseAuthDataResultModel(user: authDataResult.user)

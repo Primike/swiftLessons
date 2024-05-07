@@ -15,6 +15,7 @@
 		9E09DA512A48CE8E00D3691A /* BC61KeyboardSubmit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E09DA502A48CE8E00D3691A /* BC61KeyboardSubmit.swift */; };
 		9E09DA532A48D19900D3691A /* BC62NavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E09DA522A48D19900D3691A /* BC62NavigationStack.swift */; };
 		9E09DA552A49D33E00D3691A /* BC63Toolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E09DA542A49D33E00D3691A /* BC63Toolbar.swift */; };
+		9E3011852BE887B70046E7C4 /* SwiftFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3011842BE887B70046E7C4 /* SwiftFunctions.swift */; };
 		9E3D2A922A3BCA4E000DC05C /* BC33ActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3D2A912A3BCA4E000DC05C /* BC33ActionSheet.swift */; };
 		9E3FC2862A6074C700ECEE7E /* AL10ScrollViewPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3FC2852A6074C700ECEE7E /* AL10ScrollViewPreferenceKey.swift */; };
 		9E3FC2892A61858700ECEE7E /* AL11CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3FC2882A61858700ECEE7E /* AL11CustomTabBar.swift */; };
@@ -84,7 +85,7 @@
 		9E9F96BF2A08882C009C11EC /* BC29Popover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9F96BE2A08882C009C11EC /* BC29Popover.swift */; };
 		9E9F96C12A088D1D009C11EC /* BC30Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9F96C02A088D1D009C11EC /* BC30Navigation.swift */; };
 		9EA015BD29C7E01000E21971 /* BC15ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA015BC29C7E01000E21971 /* BC15ScrollView.swift */; };
-		9EA5ED752B9F40E90017626C /* SwiftTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA5ED742B9F40E90017626C /* SwiftTypes.swift */; };
+		9EA5ED752B9F40E90017626C /* SwiftValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA5ED742B9F40E90017626C /* SwiftValues.swift */; };
 		9EA5ED772B9F41050017626C /* SwiftDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA5ED762B9F41050017626C /* SwiftDemoView.swift */; };
 		9EB4F3062A51E87A00666693 /* CL3RotationGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB4F3052A51E87A00666693 /* CL3RotationGesture.swift */; };
 		9EB4F3082A51EA2700666693 /* CL4DragGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB4F3072A51EA2700666693 /* CL4DragGesture.swift */; };
@@ -166,6 +167,7 @@
 		9E09DA502A48CE8E00D3691A /* BC61KeyboardSubmit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC61KeyboardSubmit.swift; sourceTree = "<group>"; };
 		9E09DA522A48D19900D3691A /* BC62NavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC62NavigationStack.swift; sourceTree = "<group>"; };
 		9E09DA542A49D33E00D3691A /* BC63Toolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC63Toolbar.swift; sourceTree = "<group>"; };
+		9E3011842BE887B70046E7C4 /* SwiftFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFunctions.swift; sourceTree = "<group>"; };
 		9E3D2A912A3BCA4E000DC05C /* BC33ActionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC33ActionSheet.swift; sourceTree = "<group>"; };
 		9E3FC2852A6074C700ECEE7E /* AL10ScrollViewPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AL10ScrollViewPreferenceKey.swift; sourceTree = "<group>"; };
 		9E3FC2882A61858700ECEE7E /* AL11CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AL11CustomTabBar.swift; sourceTree = "<group>"; };
@@ -230,7 +232,7 @@
 		9E9F96BE2A08882C009C11EC /* BC29Popover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC29Popover.swift; sourceTree = "<group>"; };
 		9E9F96C02A088D1D009C11EC /* BC30Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC30Navigation.swift; sourceTree = "<group>"; };
 		9EA015BC29C7E01000E21971 /* BC15ScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC15ScrollView.swift; sourceTree = "<group>"; };
-		9EA5ED742B9F40E90017626C /* SwiftTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTypes.swift; sourceTree = "<group>"; };
+		9EA5ED742B9F40E90017626C /* SwiftValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftValues.swift; sourceTree = "<group>"; };
 		9EA5ED762B9F41050017626C /* SwiftDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDemoView.swift; sourceTree = "<group>"; };
 		9EB4F3052A51E87A00666693 /* CL3RotationGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CL3RotationGesture.swift; sourceTree = "<group>"; };
 		9EB4F3072A51EA2700666693 /* CL4DragGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CL4DragGesture.swift; sourceTree = "<group>"; };
@@ -560,10 +562,10 @@
 		9E594D212BDF09C2009CF99B /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
-				9E594D222BDF1B6C009CF99B /* FirebaseAuthenticationView.swift */,
-				9E594D242BDF1C53009CF99B /* FirebaseSignInEmailView.swift */,
 				9E594D262BDF1D7E009CF99B /* FirebaseAuthenticationManager.swift */,
 				9E67856D2BE18831006F81F8 /* FirebaseRootView.swift */,
+				9E594D222BDF1B6C009CF99B /* FirebaseAuthenticationView.swift */,
+				9E594D242BDF1C53009CF99B /* FirebaseSignInEmailView.swift */,
 				9E67856F2BE19022006F81F8 /* FirebaseSettingsView.swift */,
 			);
 			path = Authentication;
@@ -638,8 +640,9 @@
 			children = (
 				9EA5ED762B9F41050017626C /* SwiftDemoView.swift */,
 				9E832EDD2A6892D300A49E7E /* SwiftBasics.swift */,
-				9EA5ED742B9F40E90017626C /* SwiftTypes.swift */,
+				9EA5ED742B9F40E90017626C /* SwiftValues.swift */,
 				9E594D0E2BDDBC4B009CF99B /* SwiftTask.swift */,
+				9E3011842BE887B70046E7C4 /* SwiftFunctions.swift */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -887,6 +890,7 @@
 				9E4998222A5738FD0030595A /* SC1DoCatchThrow.swift in Sources */,
 				9EF8AA3A2A05D06400BB130B /* BC25Animations.swift in Sources */,
 				9E09DA512A48CE8E00D3691A /* BC61KeyboardSubmit.swift in Sources */,
+				9E3011852BE887B70046E7C4 /* SwiftFunctions.swift in Sources */,
 				9EE6ABE32A5CAC7C004FD078 /* AL3Transitions.swift in Sources */,
 				9E3FC28D2A61B02100ECEE7E /* AL11TabBarContainer.swift in Sources */,
 				9EE6ABE72A5CDCEF004FD078 /* AL5CustomShapes.swift in Sources */,
@@ -961,7 +965,7 @@
 				9E48A38D29C7903D006FCA0E /* BC9Overlays.swift in Sources */,
 				9E4B81452A4C6CC8004A7DCD /* CL1LongPressGesture.swift in Sources */,
 				9E4B813F2A4B6141004A7DCD /* BC64ResizableSheets.swift in Sources */,
-				9EA5ED752B9F40E90017626C /* SwiftTypes.swift in Sources */,
+				9EA5ED752B9F40E90017626C /* SwiftValues.swift in Sources */,
 				9E47FB222A477D0D0093A0CC /* BC54AsyncImage.swift in Sources */,
 				9E3FC2912A6219FD00ECEE7E /* AL11TabBarItem.swift in Sources */,
 				9E3FC28B2A61873E00ECEE7E /* AL11AppTabBar.swift in Sources */,

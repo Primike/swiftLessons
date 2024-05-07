@@ -23,7 +23,7 @@ struct FirebaseRootView: View {
         }
         .fullScreenCover(isPresented: $showSignInView, content: {
             NavigationStack {
-                FirebaseAuthenticationView()
+                FirebaseAuthenticationView(showSignInView: $showSignInView)
             }
         })
     }
