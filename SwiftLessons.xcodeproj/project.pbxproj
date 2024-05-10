@@ -16,6 +16,9 @@
 		9E09DA532A48D19900D3691A /* BC62NavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E09DA522A48D19900D3691A /* BC62NavigationStack.swift */; };
 		9E09DA552A49D33E00D3691A /* BC63Toolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E09DA542A49D33E00D3691A /* BC63Toolbar.swift */; };
 		9E3011852BE887B70046E7C4 /* SwiftFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3011842BE887B70046E7C4 /* SwiftFunctions.swift */; };
+		9E3011872BEAE4220046E7C4 /* SwiftClosures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3011862BEAE4220046E7C4 /* SwiftClosures.swift */; };
+		9E3011892BEC28CB0046E7C4 /* SwiftEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3011882BEC28CB0046E7C4 /* SwiftEnums.swift */; };
+		9E30118B2BED41CE0046E7C4 /* SwiftStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E30118A2BED41CE0046E7C4 /* SwiftStructs.swift */; };
 		9E3D2A922A3BCA4E000DC05C /* BC33ActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3D2A912A3BCA4E000DC05C /* BC33ActionSheet.swift */; };
 		9E3FC2862A6074C700ECEE7E /* AL10ScrollViewPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3FC2852A6074C700ECEE7E /* AL10ScrollViewPreferenceKey.swift */; };
 		9E3FC2892A61858700ECEE7E /* AL11CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3FC2882A61858700ECEE7E /* AL11CustomTabBar.swift */; };
@@ -168,6 +171,9 @@
 		9E09DA522A48D19900D3691A /* BC62NavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC62NavigationStack.swift; sourceTree = "<group>"; };
 		9E09DA542A49D33E00D3691A /* BC63Toolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC63Toolbar.swift; sourceTree = "<group>"; };
 		9E3011842BE887B70046E7C4 /* SwiftFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFunctions.swift; sourceTree = "<group>"; };
+		9E3011862BEAE4220046E7C4 /* SwiftClosures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftClosures.swift; sourceTree = "<group>"; };
+		9E3011882BEC28CB0046E7C4 /* SwiftEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftEnums.swift; sourceTree = "<group>"; };
+		9E30118A2BED41CE0046E7C4 /* SwiftStructs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftStructs.swift; sourceTree = "<group>"; };
 		9E3D2A912A3BCA4E000DC05C /* BC33ActionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC33ActionSheet.swift; sourceTree = "<group>"; };
 		9E3FC2852A6074C700ECEE7E /* AL10ScrollViewPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AL10ScrollViewPreferenceKey.swift; sourceTree = "<group>"; };
 		9E3FC2882A61858700ECEE7E /* AL11CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AL11CustomTabBar.swift; sourceTree = "<group>"; };
@@ -643,6 +649,9 @@
 				9EA5ED742B9F40E90017626C /* SwiftValues.swift */,
 				9E594D0E2BDDBC4B009CF99B /* SwiftTask.swift */,
 				9E3011842BE887B70046E7C4 /* SwiftFunctions.swift */,
+				9E3011862BEAE4220046E7C4 /* SwiftClosures.swift */,
+				9E3011882BEC28CB0046E7C4 /* SwiftEnums.swift */,
+				9E30118A2BED41CE0046E7C4 /* SwiftStructs.swift */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -931,11 +940,14 @@
 				9E6785702BE19022006F81F8 /* FirebaseSettingsView.swift in Sources */,
 				9EE48E1029C8B3B900492FCB /* BC18Buttons.swift in Sources */,
 				9EE6ABEF2A5E19CA004FD078 /* AL9ViewBuilder.swift in Sources */,
+				9E30118B2BED41CE0046E7C4 /* SwiftStructs.swift in Sources */,
 				9EE6ABEB2A5DCF8B004FD078 /* AL7AnimateableData.swift in Sources */,
+				9E3011872BEAE4220046E7C4 /* SwiftClosures.swift in Sources */,
 				9E51D4CD2A3E3EFF005467A1 /* BC34ContextMenu.swift in Sources */,
 				9EE48E0C29C8A88200492FCB /* BC16GridItems.swift in Sources */,
 				9EEA9D7F2A5488B50080B2FB /* CL10HapticsVibrations.swift in Sources */,
 				9EF8AA3C2A05D31400BB130B /* BC26AnimationCurves.swift in Sources */,
+				9E3011892BEC28CB0046E7C4 /* SwiftEnums.swift in Sources */,
 				9EE48E1629C8C48500492FCB /* BC21ExtractViews.swift in Sources */,
 				9E3FC2A72A64622E00ECEE7E /* AL16DependencyInjection.swift in Sources */,
 				9EEA9D742A5470DC0080B2FB /* CL7MultipleSheets.swift in Sources */,

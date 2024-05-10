@@ -9,6 +9,17 @@ import Foundation
 
 class SwiftFunctions {
     
+    static func getData() -> String {
+        // Actions that happen at the end of function execution
+        defer {
+            print("Complete")
+        }
+        
+        return "Data"
+    }
+    
+
+    
     // Returns a function
     static func makeIncrementer() -> ((Int) -> Int) {
         func addOne(number: Int) -> Int {
@@ -20,6 +31,8 @@ class SwiftFunctions {
 
     static let eight = makeIncrementer()(7)
     
+    
+    
     // Takes in a function
     static func hasAnyMatches(list: [Int], condition: (Int) -> Bool) -> Bool {
         for item in list {
@@ -28,6 +41,8 @@ class SwiftFunctions {
         
         return false
     }
+    
+    
     
     static func lessThanTen(number: Int) -> Bool {
         return number < 10

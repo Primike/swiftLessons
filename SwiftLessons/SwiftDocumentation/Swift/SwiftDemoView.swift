@@ -12,7 +12,7 @@ struct SwiftDemoView: View {
     let string: String = "\(SwiftDouble.isEqual(0.7, 0.8))"
     
     var body: some View {
-        Text("\(SwiftFunctions.eight)")
+        Text("\(SwiftClosures.returnForty())")
     }
 }
 
