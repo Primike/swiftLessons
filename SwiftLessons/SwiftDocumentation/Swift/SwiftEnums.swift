@@ -20,10 +20,16 @@ class SwiftEnums {
     
     
     // implicitly set the next cases values 2,3,4...
+    // subscript property access with []
     enum Planet: Int {
         case mercury = 1, venus, earth, mars, jupiter, saturn, uranus, neptune
+        
+        static subscript(n: Int) -> Planet {
+            return Planet(rawValue: n)!
+        }
     }
 
+    // enum have default failable inits
     static let possiblePlanet = Planet(rawValue: 7) ?? .earth
 
     // implicitly set the values as the case names

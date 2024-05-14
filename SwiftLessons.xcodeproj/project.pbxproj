@@ -19,6 +19,10 @@
 		9E3011872BEAE4220046E7C4 /* SwiftClosures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3011862BEAE4220046E7C4 /* SwiftClosures.swift */; };
 		9E3011892BEC28CB0046E7C4 /* SwiftEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3011882BEC28CB0046E7C4 /* SwiftEnums.swift */; };
 		9E30118B2BED41CE0046E7C4 /* SwiftStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E30118A2BED41CE0046E7C4 /* SwiftStructs.swift */; };
+		9E30118D2BF06A760046E7C4 /* SwiftErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E30118C2BF06A760046E7C4 /* SwiftErrors.swift */; };
+		9E30118F2BF13BF50046E7C4 /* SwiftConcurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E30118E2BF13BF50046E7C4 /* SwiftConcurrency.swift */; };
+		9E3011912BF2F7E60046E7C4 /* SwiftProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3011902BF2F7E60046E7C4 /* SwiftProtocols.swift */; };
+		9E3011932BF2FF950046E7C4 /* SwiftTypeCasting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3011922BF2FF950046E7C4 /* SwiftTypeCasting.swift */; };
 		9E3D2A922A3BCA4E000DC05C /* BC33ActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3D2A912A3BCA4E000DC05C /* BC33ActionSheet.swift */; };
 		9E3FC2862A6074C700ECEE7E /* AL10ScrollViewPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3FC2852A6074C700ECEE7E /* AL10ScrollViewPreferenceKey.swift */; };
 		9E3FC2892A61858700ECEE7E /* AL11CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3FC2882A61858700ECEE7E /* AL11CustomTabBar.swift */; };
@@ -82,7 +86,7 @@
 		9E67856E2BE18831006F81F8 /* FirebaseRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E67856D2BE18831006F81F8 /* FirebaseRootView.swift */; };
 		9E6785702BE19022006F81F8 /* FirebaseSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E67856F2BE19022006F81F8 /* FirebaseSettingsView.swift */; };
 		9E7D2ECC2A0DBCB100CDE614 /* BC31EditLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7D2ECB2A0DBCB100CDE614 /* BC31EditLists.swift */; };
-		9E832EDE2A6892D300A49E7E /* SwiftBasics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E832EDD2A6892D300A49E7E /* SwiftBasics.swift */; };
+		9E832EDE2A6892D300A49E7E /* SwiftClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E832EDD2A6892D300A49E7E /* SwiftClasses.swift */; };
 		9E97B8302A56FC7D005FB32E /* SC2DownloadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E97B82F2A56FC7D005FB32E /* SC2DownloadImage.swift */; };
 		9E9F96BB2A05DB9F009C11EC /* BC28FullScreenCover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9F96BA2A05DB9F009C11EC /* BC28FullScreenCover.swift */; };
 		9E9F96BF2A08882C009C11EC /* BC29Popover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9F96BE2A08882C009C11EC /* BC29Popover.swift */; };
@@ -174,6 +178,10 @@
 		9E3011862BEAE4220046E7C4 /* SwiftClosures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftClosures.swift; sourceTree = "<group>"; };
 		9E3011882BEC28CB0046E7C4 /* SwiftEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftEnums.swift; sourceTree = "<group>"; };
 		9E30118A2BED41CE0046E7C4 /* SwiftStructs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftStructs.swift; sourceTree = "<group>"; };
+		9E30118C2BF06A760046E7C4 /* SwiftErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftErrors.swift; sourceTree = "<group>"; };
+		9E30118E2BF13BF50046E7C4 /* SwiftConcurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftConcurrency.swift; sourceTree = "<group>"; };
+		9E3011902BF2F7E60046E7C4 /* SwiftProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftProtocols.swift; sourceTree = "<group>"; };
+		9E3011922BF2FF950046E7C4 /* SwiftTypeCasting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTypeCasting.swift; sourceTree = "<group>"; };
 		9E3D2A912A3BCA4E000DC05C /* BC33ActionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC33ActionSheet.swift; sourceTree = "<group>"; };
 		9E3FC2852A6074C700ECEE7E /* AL10ScrollViewPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AL10ScrollViewPreferenceKey.swift; sourceTree = "<group>"; };
 		9E3FC2882A61858700ECEE7E /* AL11CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AL11CustomTabBar.swift; sourceTree = "<group>"; };
@@ -232,7 +240,7 @@
 		9E67856D2BE18831006F81F8 /* FirebaseRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseRootView.swift; sourceTree = "<group>"; };
 		9E67856F2BE19022006F81F8 /* FirebaseSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseSettingsView.swift; sourceTree = "<group>"; };
 		9E7D2ECB2A0DBCB100CDE614 /* BC31EditLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC31EditLists.swift; sourceTree = "<group>"; };
-		9E832EDD2A6892D300A49E7E /* SwiftBasics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBasics.swift; sourceTree = "<group>"; };
+		9E832EDD2A6892D300A49E7E /* SwiftClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftClasses.swift; sourceTree = "<group>"; };
 		9E97B82F2A56FC7D005FB32E /* SC2DownloadImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SC2DownloadImage.swift; sourceTree = "<group>"; };
 		9E9F96BA2A05DB9F009C11EC /* BC28FullScreenCover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC28FullScreenCover.swift; sourceTree = "<group>"; };
 		9E9F96BE2A08882C009C11EC /* BC29Popover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC29Popover.swift; sourceTree = "<group>"; };
@@ -645,13 +653,17 @@
 			isa = PBXGroup;
 			children = (
 				9EA5ED762B9F41050017626C /* SwiftDemoView.swift */,
-				9E832EDD2A6892D300A49E7E /* SwiftBasics.swift */,
 				9EA5ED742B9F40E90017626C /* SwiftValues.swift */,
 				9E594D0E2BDDBC4B009CF99B /* SwiftTask.swift */,
 				9E3011842BE887B70046E7C4 /* SwiftFunctions.swift */,
 				9E3011862BEAE4220046E7C4 /* SwiftClosures.swift */,
 				9E3011882BEC28CB0046E7C4 /* SwiftEnums.swift */,
 				9E30118A2BED41CE0046E7C4 /* SwiftStructs.swift */,
+				9E832EDD2A6892D300A49E7E /* SwiftClasses.swift */,
+				9E30118C2BF06A760046E7C4 /* SwiftErrors.swift */,
+				9E30118E2BF13BF50046E7C4 /* SwiftConcurrency.swift */,
+				9E3011922BF2FF950046E7C4 /* SwiftTypeCasting.swift */,
+				9E3011902BF2F7E60046E7C4 /* SwiftProtocols.swift */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -968,6 +980,7 @@
 				9EE6ABE92A5DA881004FD078 /* AL6CustomCurves.swift in Sources */,
 				9E3FC28F2A6200CF00ECEE7E /* AL11TabBarPreferenceKey.swift in Sources */,
 				9EEA9D702A546A460080B2FB /* CL5ScrollViewReader.swift in Sources */,
+				9E3011912BF2F7E60046E7C4 /* SwiftProtocols.swift in Sources */,
 				9E47FB172A463AAB0093A0CC /* BC51EnvironmentObject.swift in Sources */,
 				9EC1C09C2A3F946600FA8A16 /* BC42Slider.swift in Sources */,
 				9E47FB1E2A4751C60093A0CC /* BC53OnboardingView.swift in Sources */,
@@ -983,7 +996,7 @@
 				9E3FC28B2A61873E00ECEE7E /* AL11AppTabBar.swift in Sources */,
 				9E48A39729C7AACD006FCA0E /* BC14ForEach.swift in Sources */,
 				9EE6ABCE2A58BBA1004FD078 /* SC6TaskGroup.swift in Sources */,
-				9E832EDE2A6892D300A49E7E /* SwiftBasics.swift in Sources */,
+				9E832EDE2A6892D300A49E7E /* SwiftClasses.swift in Sources */,
 				9EE6ABD82A5AFC09004FD078 /* SC10GlobalActors.swift in Sources */,
 				9E48A38929C78A96006FCA0E /* BC7Images.swift in Sources */,
 				9E48A38329C766CC006FCA0E /* BC4Color.swift in Sources */,
@@ -998,6 +1011,7 @@
 				9EC1C0962A3F8A7B00FA8A16 /* BC39ColorPicker.swift in Sources */,
 				9EE6ABDA2A5C729A004FD078 /* SC11Sendable.swift in Sources */,
 				9EC1C0AA2A41014400FA8A16 /* BC49CustomModels.swift in Sources */,
+				9E3011932BF2FF950046E7C4 /* SwiftTypeCasting.swift in Sources */,
 				9EE6ABDF2A5C9C89004FD078 /* AL1ViewModifiers.swift in Sources */,
 				9E3FC29B2A62E43900ECEE7E /* AL12CustomNavView.swift in Sources */,
 				9E3FC2942A62DFE900ECEE7E /* AL12AppNavBar.swift in Sources */,
@@ -1008,6 +1022,8 @@
 				9EEA9D922A55CE090080B2FB /* CL22DownloadJSON.swift in Sources */,
 				9EE6ABE52A5CD8FC004FD078 /* AL4MatchedGeometryEffect.swift in Sources */,
 				9EE6ABF42A603176004FD078 /* AL10GeometryPreference.swift in Sources */,
+				9E30118D2BF06A760046E7C4 /* SwiftErrors.swift in Sources */,
+				9E30118F2BF13BF50046E7C4 /* SwiftConcurrency.swift in Sources */,
 				9EC1C0902A3F7EFE00FA8A16 /* BC36TextEditor.swift in Sources */,
 				9EC1C0A82A40FFE200FA8A16 /* BC48TapGesture.swift in Sources */,
 				9EEA9D8E2A550C950080B2FB /* CL20Escaping.swift in Sources */,

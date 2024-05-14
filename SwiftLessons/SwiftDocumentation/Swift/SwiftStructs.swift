@@ -88,20 +88,23 @@ class SwiftStructs {
             set { _width.wrappedValue = newValue }
         }
     }
-    
+
     
     
     struct Matrix {
         let rows: Int, columns: Int
         var grid: [Double]
+        
         init(rows: Int, columns: Int) {
             self.rows = rows
             self.columns = columns
             grid = Array(repeating: 0.0, count: rows * columns)
         }
+        
         func indexIsValid(row: Int, column: Int) -> Bool {
             return row >= 0 && row < rows && column >= 0 && column < columns
         }
+        
         subscript(row: Int, column: Int) -> Double {
             get {
                 assert(indexIsValid(row: row, column: column), "Index out of range")
@@ -113,5 +116,42 @@ class SwiftStructs {
             }
         }
     }
+    
+    
+    
+    // mutating can change properties or create a new instance
+    struct Point {
+        var x = 0.0, y = 0.0
+        
+        mutating func moveBy(x deltaX: Double, y deltaY: Double) {
+            x += deltaX
+            y += deltaY
+            self = Point(x: x + deltaX, y: y + deltaY)
+        }
+    }
 
+    struct Size {
+        var width = 0.0, height = 0.0
+    }
+
+    // structs dont differentiate between convenience and designated inits
+    // any init can call any other init
+    struct Rect {
+        var origin = Point()
+        var size = Size()
+        
+        init() {}
+        
+        init(origin: Point, size: Size) {
+            self.init()
+            self.origin = origin
+            self.size = size
+        }
+        
+        init(center: Point, size: Size) {
+            let originX = center.x - (size.width / 2)
+            let originY = center.y - (size.height / 2)
+            self.init(origin: Point(x: originX, y: originY), size: size)
+        }
+    }
 }
