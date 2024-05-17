@@ -46,7 +46,6 @@ class SwiftProtocols {
     
 }
 
-
 // Conditionally conforming to protocol for elements that are TextRepresentable
 //extension Array: TextRepresentable where Element: TextRepresentable {
 //    var textualDescription: String {

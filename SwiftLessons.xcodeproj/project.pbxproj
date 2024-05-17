@@ -23,6 +23,9 @@
 		9E30118F2BF13BF50046E7C4 /* SwiftConcurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E30118E2BF13BF50046E7C4 /* SwiftConcurrency.swift */; };
 		9E3011912BF2F7E60046E7C4 /* SwiftProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3011902BF2F7E60046E7C4 /* SwiftProtocols.swift */; };
 		9E3011932BF2FF950046E7C4 /* SwiftTypeCasting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3011922BF2FF950046E7C4 /* SwiftTypeCasting.swift */; };
+		9E3011952BF450560046E7C4 /* SwiftGenerics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3011942BF450560046E7C4 /* SwiftGenerics.swift */; };
+		9E3011972BF54E8A0046E7C4 /* SwiftOpaqueTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3011962BF54E8A0046E7C4 /* SwiftOpaqueTypes.swift */; };
+		9E3011992BF7C8580046E7C4 /* SwiftARC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3011982BF7C8580046E7C4 /* SwiftARC.swift */; };
 		9E3D2A922A3BCA4E000DC05C /* BC33ActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3D2A912A3BCA4E000DC05C /* BC33ActionSheet.swift */; };
 		9E3FC2862A6074C700ECEE7E /* AL10ScrollViewPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3FC2852A6074C700ECEE7E /* AL10ScrollViewPreferenceKey.swift */; };
 		9E3FC2892A61858700ECEE7E /* AL11CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3FC2882A61858700ECEE7E /* AL11CustomTabBar.swift */; };
@@ -182,6 +185,9 @@
 		9E30118E2BF13BF50046E7C4 /* SwiftConcurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftConcurrency.swift; sourceTree = "<group>"; };
 		9E3011902BF2F7E60046E7C4 /* SwiftProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftProtocols.swift; sourceTree = "<group>"; };
 		9E3011922BF2FF950046E7C4 /* SwiftTypeCasting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTypeCasting.swift; sourceTree = "<group>"; };
+		9E3011942BF450560046E7C4 /* SwiftGenerics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGenerics.swift; sourceTree = "<group>"; };
+		9E3011962BF54E8A0046E7C4 /* SwiftOpaqueTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftOpaqueTypes.swift; sourceTree = "<group>"; };
+		9E3011982BF7C8580046E7C4 /* SwiftARC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftARC.swift; sourceTree = "<group>"; };
 		9E3D2A912A3BCA4E000DC05C /* BC33ActionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC33ActionSheet.swift; sourceTree = "<group>"; };
 		9E3FC2852A6074C700ECEE7E /* AL10ScrollViewPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AL10ScrollViewPreferenceKey.swift; sourceTree = "<group>"; };
 		9E3FC2882A61858700ECEE7E /* AL11CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AL11CustomTabBar.swift; sourceTree = "<group>"; };
@@ -664,6 +670,9 @@
 				9E30118E2BF13BF50046E7C4 /* SwiftConcurrency.swift */,
 				9E3011922BF2FF950046E7C4 /* SwiftTypeCasting.swift */,
 				9E3011902BF2F7E60046E7C4 /* SwiftProtocols.swift */,
+				9E3011942BF450560046E7C4 /* SwiftGenerics.swift */,
+				9E3011962BF54E8A0046E7C4 /* SwiftOpaqueTypes.swift */,
+				9E3011982BF7C8580046E7C4 /* SwiftARC.swift */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -964,8 +973,11 @@
 				9E3FC2A72A64622E00ECEE7E /* AL16DependencyInjection.swift in Sources */,
 				9EEA9D742A5470DC0080B2FB /* CL7MultipleSheets.swift in Sources */,
 				9EF812DA2A2275E100A15505 /* BC32ShowAlerts.swift in Sources */,
+				9E3011972BF54E8A0046E7C4 /* SwiftOpaqueTypes.swift in Sources */,
 				9E48A38129C76470006FCA0E /* BC3Shapes.swift in Sources */,
+				9E3011992BF7C8580046E7C4 /* SwiftARC.swift in Sources */,
 				9E97B8302A56FC7D005FB32E /* SC2DownloadImage.swift in Sources */,
+				9E3011952BF450560046E7C4 /* SwiftGenerics.swift in Sources */,
 				9E48A39129C7A21A006FCA0E /* BC11Padding.swift in Sources */,
 				9EE6ABE12A5CA019004FD078 /* AL2ButtonStyles.swift in Sources */,
 				9EEA9D8A2A54CC2D0080B2FB /* CL18WeakSelf.swift in Sources */,
