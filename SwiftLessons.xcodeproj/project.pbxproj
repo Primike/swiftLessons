@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E009ED82C149F91001FC94A /* SwiftAccessControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E009ED72C149F91001FC94A /* SwiftAccessControl.swift */; };
+		9E009EDA2C149FA3001FC94A /* SwiftAdvancedOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E009ED92C149FA3001FC94A /* SwiftAdvancedOperators.swift */; };
+		9E009EDC2C149FBE001FC94A /* SwiftMemorySafety.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E009EDB2C149FBE001FC94A /* SwiftMemorySafety.swift */; };
+		9E009EDE2C149FD1001FC94A /* SwiftTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E009EDD2C149FD1001FC94A /* SwiftTypes.swift */; };
 		9E09DA472A478C4B00D3691A /* BC55SystemMaterials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E09DA462A478C4B00D3691A /* BC55SystemMaterials.swift */; };
 		9E09DA492A479D6B00D3691A /* BC57ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E09DA482A479D6B00D3691A /* BC57ButtonStyles.swift */; };
 		9E09DA4B2A47AFAA00D3691A /* BC58SwipeActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E09DA4A2A47AFAA00D3691A /* BC58SwipeActions.swift */; };
@@ -169,6 +173,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E009ED72C149F91001FC94A /* SwiftAccessControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAccessControl.swift; sourceTree = "<group>"; };
+		9E009ED92C149FA3001FC94A /* SwiftAdvancedOperators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAdvancedOperators.swift; sourceTree = "<group>"; };
+		9E009EDB2C149FBE001FC94A /* SwiftMemorySafety.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMemorySafety.swift; sourceTree = "<group>"; };
+		9E009EDD2C149FD1001FC94A /* SwiftTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTypes.swift; sourceTree = "<group>"; };
 		9E09DA462A478C4B00D3691A /* BC55SystemMaterials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC55SystemMaterials.swift; sourceTree = "<group>"; };
 		9E09DA482A479D6B00D3691A /* BC57ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC57ButtonStyles.swift; sourceTree = "<group>"; };
 		9E09DA4A2A47AFAA00D3691A /* BC58SwipeActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC58SwipeActions.swift; sourceTree = "<group>"; };
@@ -673,71 +681,12 @@
 				9E3011942BF450560046E7C4 /* SwiftGenerics.swift */,
 				9E3011962BF54E8A0046E7C4 /* SwiftOpaqueTypes.swift */,
 				9E3011982BF7C8580046E7C4 /* SwiftARC.swift */,
+				9E009ED72C149F91001FC94A /* SwiftAccessControl.swift */,
+				9E009ED92C149FA3001FC94A /* SwiftAdvancedOperators.swift */,
+				9E009EDB2C149FBE001FC94A /* SwiftMemorySafety.swift */,
+				9E009EDD2C149FD1001FC94A /* SwiftTypes.swift */,
 			);
 			path = Swift;
-			sourceTree = "<group>";
-		};
-		9E7DDD692B5450A000CC4A27 /* Combine */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Combine;
-			sourceTree = "<group>";
-		};
-		9E7DDD6A2B5450B300CC4A27 /* CoreLocation */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CoreLocation;
-			sourceTree = "<group>";
-		};
-		9E7DDD6B2B5450CE00CC4A27 /* CloudKit */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CloudKit;
-			sourceTree = "<group>";
-		};
-		9E7DDD6C2B5450E000CC4A27 /* CoreData */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CoreData;
-			sourceTree = "<group>";
-		};
-		9E7DDD6D2B5450EC00CC4A27 /* Dispatch */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Dispatch;
-			sourceTree = "<group>";
-		};
-		9E7DDD6E2B5450FD00CC4A27 /* HealthKit */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = HealthKit;
-			sourceTree = "<group>";
-		};
-		9E7DDD6F2B54511700CC4A27 /* MapKit */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = MapKit;
-			sourceTree = "<group>";
-		};
-		9E7DDD702B54513500CC4A27 /* Observation */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Observation;
-			sourceTree = "<group>";
-		};
-		9E7DDD712B5451F900CC4A27 /* XCTest */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = XCTest;
 			sourceTree = "<group>";
 		};
 		9E832EDC2A68927900A49E7E /* Preview Content */ = {
@@ -783,15 +732,6 @@
 		9EAB41DB2A68916B00A50B3A /* SwiftDocumentation */ = {
 			isa = PBXGroup;
 			children = (
-				9E7DDD712B5451F900CC4A27 /* XCTest */,
-				9E7DDD702B54513500CC4A27 /* Observation */,
-				9E7DDD6F2B54511700CC4A27 /* MapKit */,
-				9E7DDD6E2B5450FD00CC4A27 /* HealthKit */,
-				9E7DDD6D2B5450EC00CC4A27 /* Dispatch */,
-				9E7DDD6C2B5450E000CC4A27 /* CoreData */,
-				9E7DDD6B2B5450CE00CC4A27 /* CloudKit */,
-				9E7DDD6A2B5450B300CC4A27 /* CoreLocation */,
-				9E7DDD692B5450A000CC4A27 /* Combine */,
 				9E7DDD682B54508A00CC4A27 /* Swift */,
 			);
 			path = SwiftDocumentation;
@@ -954,6 +894,7 @@
 				9E3D2A922A3BCA4E000DC05C /* BC33ActionSheet.swift in Sources */,
 				9E4998242A574DD70030595A /* SC3AsyncAwait.swift in Sources */,
 				9EE48E1229C8B5AB00492FCB /* BC19State.swift in Sources */,
+				9E009EDE2C149FD1001FC94A /* SwiftTypes.swift in Sources */,
 				9E48A37229C75E85006FCA0E /* ContentView.swift in Sources */,
 				9E3FC2892A61858700ECEE7E /* AL11CustomTabBar.swift in Sources */,
 				9E7D2ECC2A0DBCB100CDE614 /* BC31EditLists.swift in Sources */,
@@ -970,6 +911,8 @@
 				9EF8AA3C2A05D31400BB130B /* BC26AnimationCurves.swift in Sources */,
 				9E3011892BEC28CB0046E7C4 /* SwiftEnums.swift in Sources */,
 				9EE48E1629C8C48500492FCB /* BC21ExtractViews.swift in Sources */,
+				9E009ED82C149F91001FC94A /* SwiftAccessControl.swift in Sources */,
+				9E009EDA2C149FA3001FC94A /* SwiftAdvancedOperators.swift in Sources */,
 				9E3FC2A72A64622E00ECEE7E /* AL16DependencyInjection.swift in Sources */,
 				9EEA9D742A5470DC0080B2FB /* CL7MultipleSheets.swift in Sources */,
 				9EF812DA2A2275E100A15505 /* BC32ShowAlerts.swift in Sources */,
@@ -1013,6 +956,7 @@
 				9E48A38929C78A96006FCA0E /* BC7Images.swift in Sources */,
 				9E48A38329C766CC006FCA0E /* BC4Color.swift in Sources */,
 				9EEA9D902A55B9750080B2FB /* CL21Codable.swift in Sources */,
+				9E009EDC2C149FBE001FC94A /* SwiftMemorySafety.swift in Sources */,
 				9EEA9D762A5478340080B2FB /* CL8Mask.swift in Sources */,
 				9EC1C0982A3F8FF000FA8A16 /* BC40DatePicker.swift in Sources */,
 				9EB4F3082A51EA2700666693 /* CL4DragGesture.swift in Sources */,
