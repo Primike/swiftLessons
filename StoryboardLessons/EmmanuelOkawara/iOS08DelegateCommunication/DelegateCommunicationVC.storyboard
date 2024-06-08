@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ddE-xc-ZkK">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Bulb View Controller-->
+        <scene sceneID="h5t-r4-CQQ">
+            <objects>
+                <viewController id="ddE-xc-ZkK" customClass="BulbViewController" customModule="SwiftLessonsPlaylist" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3AF-QR-S71">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bulbOff" translatesAutoresizingMaskIntoConstraints="NO" id="iyB-wq-ZEK">
+                                <rect key="frame" x="132.66666666666666" y="374.66666666666669" width="127.99999999999997" height="128"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ZWb-Z8-fBc"/>
+                        <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="iyB-wq-ZEK" firstAttribute="centerX" secondItem="ZWb-Z8-fBc" secondAttribute="centerX" id="8CZ-UA-AAu"/>
+                            <constraint firstItem="iyB-wq-ZEK" firstAttribute="centerY" secondItem="ZWb-Z8-fBc" secondAttribute="centerY" id="Lbp-cR-14U"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="bulbImageView" destination="iyB-wq-ZEK" id="Lhj-Iy-uHr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="62T-RD-Cs6" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-57.971014492753625" y="121.875"/>
+        </scene>
+        <!--Bulb Switch View Controller-->
+        <scene sceneID="BJq-Mf-gUj">
+            <objects>
+                <viewController storyboardIdentifier="BulbSwitchViewController" id="3bq-Da-OgU" customClass="BulbSwitchViewController" customModule="SwiftLessonsPlaylist" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ovu-xd-3UN">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lCT-9E-Now">
+                                <rect key="frame" x="172" y="423" width="51" height="31"/>
+                                <connections>
+                                    <action selector="switchToggled:" destination="3bq-Da-OgU" eventType="valueChanged" id="tcq-8U-sph"/>
+                                </connections>
+                            </switch>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="0cV-rS-ml4"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="lCT-9E-Now" firstAttribute="centerX" secondItem="0cV-rS-ml4" secondAttribute="centerX" id="iY5-Ze-2CW"/>
+                            <constraint firstItem="lCT-9E-Now" firstAttribute="centerY" secondItem="0cV-rS-ml4" secondAttribute="centerY" id="t2J-R3-rfD"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="HKK-00-dYt"/>
+                    <connections>
+                        <outlet property="switchView" destination="lCT-9E-Now" id="D6g-nd-whF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3nt-Iv-r48" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="751" y="122"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bulbOff" width="128" height="128"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

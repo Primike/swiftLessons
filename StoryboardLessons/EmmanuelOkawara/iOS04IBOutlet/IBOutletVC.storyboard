@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Outlet View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController id="Y6W-OH-hqX" customClass="IBOutletViewController" customModule="SwiftLessonsPlaylist" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="deY-P8-oUF">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rkl-jy-ZYx">
+                                <rect key="frame" x="20" y="88" width="51" height="31"/>
+                                <connections>
+                                    <action selector="switchToggled:" destination="Y6W-OH-hqX" eventType="valueChanged" id="Lzj-al-apv"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xzz-NW-Wbz">
+                                <rect key="frame" x="161" y="131" width="71" height="20.333333333333343"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="e2L-uJ-WlU">
+                                <rect key="frame" x="20" y="367" width="353" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EYP-FJ-rTO">
+                                <rect key="frame" x="157.66666666666666" y="421" width="78" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Submit"/>
+                                <connections>
+                                    <action selector="submitButtonClicked:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="Dhp-8i-1ay"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Dpf-BK-Qcp"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="EYP-FJ-rTO" firstAttribute="centerX" secondItem="Dpf-BK-Qcp" secondAttribute="centerX" id="7ab-7e-isk"/>
+                            <constraint firstItem="rkl-jy-ZYx" firstAttribute="leading" secondItem="Dpf-BK-Qcp" secondAttribute="leading" constant="20" id="Aco-xw-Xc6"/>
+                            <constraint firstAttribute="trailing" secondItem="e2L-uJ-WlU" secondAttribute="trailing" constant="20" id="ERA-ed-BAJ"/>
+                            <constraint firstItem="Xzz-NW-Wbz" firstAttribute="centerX" secondItem="Dpf-BK-Qcp" secondAttribute="centerX" id="Rhq-Cg-hxx"/>
+                            <constraint firstItem="EYP-FJ-rTO" firstAttribute="centerY" secondItem="Dpf-BK-Qcp" secondAttribute="centerY" id="W38-FU-KX8"/>
+                            <constraint firstItem="Xzz-NW-Wbz" firstAttribute="top" secondItem="Dpf-BK-Qcp" secondAttribute="top" constant="72" id="cjG-BH-wOH"/>
+                            <constraint firstItem="e2L-uJ-WlU" firstAttribute="leading" secondItem="Dpf-BK-Qcp" secondAttribute="leading" constant="20" id="j51-x5-oMw"/>
+                            <constraint firstItem="rkl-jy-ZYx" firstAttribute="top" secondItem="Dpf-BK-Qcp" secondAttribute="top" constant="29" id="pRg-fT-68B"/>
+                            <constraint firstItem="EYP-FJ-rTO" firstAttribute="top" secondItem="e2L-uJ-WlU" secondAttribute="bottom" constant="20" id="t9Q-wV-bpR"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="headerLabel" destination="Xzz-NW-Wbz" id="thU-jg-PZk"/>
+                        <outlet property="nameField" destination="e2L-uJ-WlU" id="OdW-8Q-xFI"/>
+                        <outlet property="toggleSwitch" destination="rkl-jy-ZYx" id="63X-BK-gv1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="102" y="4"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
