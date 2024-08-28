@@ -100,7 +100,7 @@
 		9E00A10B2C14C258001FC94A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 9E00A10A2C14C258001FC94A /* Base */; };
 		9E00A1142C14D711001FC94A /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E00A1132C14D711001FC94A /* UIApplication.swift */; };
 		9E00A1162C14E9B9001FC94A /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E00A1152C14E9B9001FC94A /* UIDevice.swift */; };
-		9E00A1192C14FB2A001FC94A /* UIKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E00A1182C14FB2A001FC94A /* UIKitView.swift */; };
+		9E00A1192C14FB2A001FC94A /* UIKitUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E00A1182C14FB2A001FC94A /* UIKitUIView.swift */; };
 		9E09DA472A478C4B00D3691A /* BC55SystemMaterials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E09DA462A478C4B00D3691A /* BC55SystemMaterials.swift */; };
 		9E09DA492A479D6B00D3691A /* BC57ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E09DA482A479D6B00D3691A /* BC57ButtonStyles.swift */; };
 		9E09DA4B2A47AFAA00D3691A /* BC58SwipeActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E09DA4A2A47AFAA00D3691A /* BC58SwipeActions.swift */; };
@@ -184,6 +184,9 @@
 		9E6785702BE19022006F81F8 /* FirebaseSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E67856F2BE19022006F81F8 /* FirebaseSettingsView.swift */; };
 		9E7D2ECC2A0DBCB100CDE614 /* BC31EditLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7D2ECB2A0DBCB100CDE614 /* BC31EditLists.swift */; };
 		9E832EDE2A6892D300A49E7E /* SwiftClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E832EDD2A6892D300A49E7E /* SwiftClasses.swift */; };
+		9E88AA6E2C77D39F005D411B /* Publishers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E88AA6D2C77D39F005D411B /* Publishers.swift */; };
+		9E88AA702C792737005D411B /* SwiftDemoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E88AA6F2C792737005D411B /* SwiftDemoViewModel.swift */; };
+		9E91BDB82C7D688C009DBE68 /* AL19AdvancedCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E91BDB72C7D688C009DBE68 /* AL19AdvancedCombine.swift */; };
 		9E97B8302A56FC7D005FB32E /* SC2DownloadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E97B82F2A56FC7D005FB32E /* SC2DownloadImage.swift */; };
 		9E9F96BB2A05DB9F009C11EC /* BC28FullScreenCover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9F96BA2A05DB9F009C11EC /* BC28FullScreenCover.swift */; };
 		9E9F96BF2A08882C009C11EC /* BC29Popover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9F96BE2A08882C009C11EC /* BC29Popover.swift */; };
@@ -360,7 +363,7 @@
 		9E00A10C2C14C258001FC94A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E00A1132C14D711001FC94A /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
 		9E00A1152C14E9B9001FC94A /* UIDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDevice.swift; sourceTree = "<group>"; };
-		9E00A1182C14FB2A001FC94A /* UIKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitView.swift; sourceTree = "<group>"; };
+		9E00A1182C14FB2A001FC94A /* UIKitUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitUIView.swift; sourceTree = "<group>"; };
 		9E09DA462A478C4B00D3691A /* BC55SystemMaterials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC55SystemMaterials.swift; sourceTree = "<group>"; };
 		9E09DA482A479D6B00D3691A /* BC57ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC57ButtonStyles.swift; sourceTree = "<group>"; };
 		9E09DA4A2A47AFAA00D3691A /* BC58SwipeActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC58SwipeActions.swift; sourceTree = "<group>"; };
@@ -439,6 +442,9 @@
 		9E67856F2BE19022006F81F8 /* FirebaseSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseSettingsView.swift; sourceTree = "<group>"; };
 		9E7D2ECB2A0DBCB100CDE614 /* BC31EditLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC31EditLists.swift; sourceTree = "<group>"; };
 		9E832EDD2A6892D300A49E7E /* SwiftClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftClasses.swift; sourceTree = "<group>"; };
+		9E88AA6D2C77D39F005D411B /* Publishers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Publishers.swift; sourceTree = "<group>"; };
+		9E88AA6F2C792737005D411B /* SwiftDemoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDemoViewModel.swift; sourceTree = "<group>"; };
+		9E91BDB72C7D688C009DBE68 /* AL19AdvancedCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AL19AdvancedCombine.swift; sourceTree = "<group>"; };
 		9E97B82F2A56FC7D005FB32E /* SC2DownloadImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SC2DownloadImage.swift; sourceTree = "<group>"; };
 		9E9F96BA2A05DB9F009C11EC /* BC28FullScreenCover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC28FullScreenCover.swift; sourceTree = "<group>"; };
 		9E9F96BE2A08882C009C11EC /* BC29Popover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC29Popover.swift; sourceTree = "<group>"; };
@@ -977,7 +983,7 @@
 		9E00A1172C14EA9A001FC94A /* UserInterface */ = {
 			isa = PBXGroup;
 			children = (
-				9E00A1182C14FB2A001FC94A /* UIKitView.swift */,
+				9E00A1182C14FB2A001FC94A /* UIKitUIView.swift */,
 			);
 			path = UserInterface;
 			sourceTree = "<group>";
@@ -1302,7 +1308,6 @@
 		9E7DDD682B54508A00CC4A27 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
-				9EA5ED762B9F41050017626C /* SwiftDemoView.swift */,
 				9EA5ED742B9F40E90017626C /* SwiftValues.swift */,
 				9E594D0E2BDDBC4B009CF99B /* SwiftTask.swift */,
 				9E3011842BE887B70046E7C4 /* SwiftFunctions.swift */,
@@ -1331,6 +1336,14 @@
 				9E48A37629C75E86006FCA0E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9E88AA6C2C77D35F005D411B /* Combine */ = {
+			isa = PBXGroup;
+			children = (
+				9E88AA6D2C77D39F005D411B /* Publishers.swift */,
+			);
+			path = Combine;
 			sourceTree = "<group>";
 		};
 		9E97B82E2A56FC27005FB32E /* Concurrency */ = {
@@ -1368,6 +1381,9 @@
 		9EAB41DB2A68916B00A50B3A /* SwiftDocumentation */ = {
 			isa = PBXGroup;
 			children = (
+				9EA5ED762B9F41050017626C /* SwiftDemoView.swift */,
+				9E88AA6F2C792737005D411B /* SwiftDemoViewModel.swift */,
+				9E88AA6C2C77D35F005D411B /* Combine */,
 				9E7DDD682B54508A00CC4A27 /* Swift */,
 			);
 			path = SwiftDocumentation;
@@ -1392,6 +1408,7 @@
 				9E3FC2A22A636BB000ECEE7E /* AL14UIViewControllerRepresentable.swift */,
 				9E3FC2A42A64507900ECEE7E /* AL15Protocols.swift */,
 				9E3FC2A62A64622E00ECEE7E /* AL16DependencyInjection.swift */,
+				9E91BDB72C7D688C009DBE68 /* AL19AdvancedCombine.swift */,
 			);
 			path = Advanced;
 			sourceTree = "<group>";
@@ -1641,7 +1658,7 @@
 				9E00A1162C14E9B9001FC94A /* UIDevice.swift in Sources */,
 				9E00A1142C14D711001FC94A /* UIApplication.swift in Sources */,
 				9E00A1032C14C257001FC94A /* UIKitLessonsViewController.swift in Sources */,
-				9E00A1192C14FB2A001FC94A /* UIKitView.swift in Sources */,
+				9E00A1192C14FB2A001FC94A /* UIKitUIView.swift in Sources */,
 				9E00A0FF2C14C257001FC94A /* AppDelegate.swift in Sources */,
 				9E00A1012C14C257001FC94A /* SceneDelegate.swift in Sources */,
 			);
@@ -1663,6 +1680,7 @@
 				9EF8AA362A05B19F00BB130B /* BC23ConditionalStatements.swift in Sources */,
 				9E3FC29D2A62E5A100ECEE7E /* AL12CustomNavLink.swift in Sources */,
 				9E48A38529C768E0006FCA0E /* BC5Gradients.swift in Sources */,
+				9E91BDB82C7D688C009DBE68 /* AL19AdvancedCombine.swift in Sources */,
 				9EEA9D8C2A550B140080B2FB /* CL19Typealias.swift in Sources */,
 				9E594D252BDF1C53009CF99B /* FirebaseSignInEmailView.swift in Sources */,
 				9E3FC2A32A636BB000ECEE7E /* AL14UIViewControllerRepresentable.swift in Sources */,
@@ -1695,12 +1713,14 @@
 				9E3FC2892A61858700ECEE7E /* AL11CustomTabBar.swift in Sources */,
 				9E7D2ECC2A0DBCB100CDE614 /* BC31EditLists.swift in Sources */,
 				9E594D232BDF1B6C009CF99B /* FirebaseAuthenticationView.swift in Sources */,
+				9E88AA6E2C77D39F005D411B /* Publishers.swift in Sources */,
 				9E6785702BE19022006F81F8 /* FirebaseSettingsView.swift in Sources */,
 				9EE48E1029C8B3B900492FCB /* BC18Buttons.swift in Sources */,
 				9EE6ABEF2A5E19CA004FD078 /* AL9ViewBuilder.swift in Sources */,
 				9E30118B2BED41CE0046E7C4 /* SwiftStructs.swift in Sources */,
 				9EE6ABEB2A5DCF8B004FD078 /* AL7AnimateableData.swift in Sources */,
 				9E3011872BEAE4220046E7C4 /* SwiftClosures.swift in Sources */,
+				9E88AA702C792737005D411B /* SwiftDemoViewModel.swift in Sources */,
 				9E51D4CD2A3E3EFF005467A1 /* BC34ContextMenu.swift in Sources */,
 				9EE48E0C29C8A88200492FCB /* BC16GridItems.swift in Sources */,
 				9EEA9D7F2A5488B50080B2FB /* CL10HapticsVibrations.swift in Sources */,

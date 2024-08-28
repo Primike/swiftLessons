@@ -12,8 +12,8 @@ struct AL1ButtonModifier: ViewModifier {
     
     let backgroundColor: Color
     
-    //Takes a view and returns a modified view
-    //Content may be changed when turned to Body
+    // Takes a view and returns a modified view
+    // Content may be changed when turned to Body
     func body(content: Content) -> some View {
         content
             .font(.headline)

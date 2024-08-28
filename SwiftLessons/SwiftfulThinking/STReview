@@ -9,26 +9,18 @@ BC34ContextMenu
 
 // Decoration
 BC25Animations
-BC25AnimationCurves
+BC26AnimationCurves
 
 // Backgrounds
 BC9Overlays
 
 // State
 BC41Stepper
-BC48TapGesture
-
-// Lists
-BC31EditLists
 
 // Navigation
 BC62NavigationStack
 
-// Refactoring
-BC47IfLetGuard
-
 // Asynchronous
-CL20Escaping
 CL25PublisherSubscriber
 
 // Components

@@ -24,7 +24,7 @@ class CL25PSubscriberViewModel: ObservableObject {
     
     func addtextFieldSubscriber() {
         $textFieldText
-            .debounce(for: .seconds(0.1), scheduler: DispatchQueue.main)
+//            .debounce(for: .seconds(4), scheduler: DispatchQueue.main)
             .map { text -> Bool in
                 text.count > 3 ? true : false
             }
@@ -42,11 +42,12 @@ class CL25PSubscriberViewModel: ObservableObject {
                 guard let self = self else { return }
                 self.count += 1
                 
-//                if self.count >= 10 {
-//                    for item in self.cancellables {
-//                        item.cancel()
-//                    }
-//                }
+                // after 10s no more updates, state will remain
+                if self.count >= 10 {
+                    for item in self.cancellables {
+                        item.cancel()
+                    }
+                }
             }
             .store(in: &cancellables)
     }

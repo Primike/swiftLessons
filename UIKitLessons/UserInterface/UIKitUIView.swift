@@ -1,5 +1,5 @@
 //
-//  UIKitView.swift
+//  UIKitUIView.swift
 //  UIKitLessons
 //
 //  Created by Prince Avecillas on 6/8/24.
@@ -8,11 +8,12 @@
 import Foundation
 import UIKit
 
+// trigerring auto layout
 // MARK: - UIViewController
 class UIKitViewVC: UIViewController {
     
     lazy var uiKitView: UIView = {
-        var view = UIKitView()
+        var view = UIKitUIView()
         view.translatesAutoresizingMaskIntoConstraints = false
         return view
     }()
@@ -73,7 +74,7 @@ class UIKitViewVC: UIViewController {
 
 
 // MARK: - UIView
-class UIKitView: UIView {
+class UIKitUIView: UIView {
     
     lazy var textLabel: UILabel = {
         var label = UILabel()
@@ -86,6 +87,8 @@ class UIKitView: UIView {
         return label
     }()
         
+    // The frame property of a view defines the view's
+    // location and size in its superview's coordinate system.
     init() {
         super.init(frame: .zero)
         setup()
@@ -108,6 +111,9 @@ class UIKitView: UIView {
 
         NSLayoutConstraint.activate([
             textLabel.centerXAnchor.constraint(equalTo: centerXAnchor),
+            
+            // aligned with first line of text
+//            textLabel.firstBaselineAnchor = firstBaselineAnchor
         ])
         
         let constraint = textLabel.centerYAnchor.constraint(equalTo: centerYAnchor)
@@ -115,9 +121,15 @@ class UIKitView: UIView {
     }
 }
 
-extension UIKitView {
+extension UIKitUIView {
     
-    /// Customization
+    // There are a few view event handling methods like this one
+    // Superclass(UIView) implementation does nothing
+    override func didAddSubview(_ subview: UIView) {
+        print("Added a subview")
+    }
+
+    // MARK: - Customization
     private func customization() {
         backgroundColor = .lightGray
         isHidden = false
@@ -128,7 +140,7 @@ extension UIKitView {
         isExclusiveTouch = false
     }
     
-    /// Transformations
+    // MARK: - Transformations
     private func transformations() {
         // transform = CGAffineTransform(rotationAngle: .pi / 4)
         var transform = CATransform3DIdentity
@@ -140,7 +152,7 @@ extension UIKitView {
         center = CGPoint(x: 50, y: 50)
     }
     
-    /// View Hierarchy
+    // MARK: - View Hierarchy
     private func viewHierarchy() {
         if let parentView = superview { print(parentView) }
         print(subviews)
@@ -161,9 +173,19 @@ extension UIKitView {
         }
     }
     
-    // There are a few view event handleing methods like this one
-    // Superclass implementation does nothing
-    override func didAddSubview(_ subview: UIView) {
-        print("Added a subview")
+    // MARK: - Frame methods
+    override func alignmentRect(forFrame frame: CGRect) -> CGRect {
+        // Define a smaller alignment rectangle within the view's frame
+        // Example: Inset the frame by 10 points on each side
+        let alignmentRect = frame.insetBy(dx: 10, dy: 10)
+        return alignmentRect
     }
+
+    override func frame(forAlignmentRect alignmentRect: CGRect) -> CGRect {
+        // Define the actual frame rectangle from the alignment rectangle
+        // Example: Expand the alignment rectangle by 10 points on each side to get the original frame
+        let frame = alignmentRect.insetBy(dx: -10, dy: -10)
+        return frame
+    }
+
 }
