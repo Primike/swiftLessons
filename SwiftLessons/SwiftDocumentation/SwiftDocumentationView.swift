@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SwiftDemoView: View {
+struct SwiftDocumentationView: View {
         
     let viewModel = SwiftDemoViewModel()
     let string: String = "\(SwiftDouble.isEqual(0.7, 0.8))"
@@ -18,5 +18,5 @@ struct SwiftDemoView: View {
 }
 
 #Preview {
-    SwiftDemoView()
+    SwiftDocumentationView()
 }

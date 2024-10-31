@@ -8,7 +8,7 @@
 import Foundation
 import Combine
 
-class SwiftDemoViewModel {
+class SwiftDocumentationViewModel {
     init() {
 //        let myPublisher = MyPublisher()
 //
