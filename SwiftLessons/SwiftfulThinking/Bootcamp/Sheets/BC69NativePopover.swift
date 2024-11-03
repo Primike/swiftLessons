@@ -7,9 +7,51 @@
 
 import SwiftUI
 
+/// Popover that can be sheet, fullscreen cover, caption...
 struct BC69NativePopover: View {
+    
+    @State private var showPopover: Bool = false
+    @State private var feedbackOptions: [String] = [
+        "Very Good 😀",
+        "Average 😐",
+        "Very Bad 😠"
+    ]
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            Color.gray.ignoresSafeArea()
+            
+            VStack {
+                Spacer()
+                
+                Button {
+                    showPopover.toggle()
+                } label: {
+                    Text("Provide feedback?")
+                }
+                .padding(20)
+                .background(Color.yellow)
+                .popover(isPresented: $showPopover, attachmentAnchor: .point(.top)) {
+                    ScrollView {
+                        VStack(alignment: .leading, spacing: 12) {
+                            ForEach(feedbackOptions, id: \.self) { option in
+                                Button {
+                                    
+                                } label: {
+                                    Text(option)
+                                }
+                                
+                                if option != feedbackOptions.last {
+                                    Divider()
+                                }
+                            }
+                        }
+                        .padding(20)
+                    }
+                    .presentationCompactAdaptation(.popover)
+                }
+            }
+        }
     }
 }
 

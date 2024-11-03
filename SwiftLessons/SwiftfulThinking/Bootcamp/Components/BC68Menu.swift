@@ -9,7 +9,28 @@ import SwiftUI
 
 struct BC68Menu: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Menu("Click Me") {
+            Button {
+                
+            } label: {
+                Text("One")
+            }
+            Button {
+                
+            } label: {
+                Text("Two")
+            }
+            Button {
+                
+            } label: {
+                Text("Three")
+            }
+            Button {
+                
+            } label: {
+                Text("Four")
+            }
+        }
     }
 }
 
