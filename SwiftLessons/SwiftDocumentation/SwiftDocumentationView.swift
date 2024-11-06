@@ -9,7 +9,7 @@ import SwiftUI
 
 struct SwiftDocumentationView: View {
         
-    let viewModel = SwiftDemoViewModel()
+    let viewModel = SwiftDocumentationViewModel()
     let string: String = "\(SwiftDouble.isEqual(0.7, 0.8))"
     
     var body: some View {

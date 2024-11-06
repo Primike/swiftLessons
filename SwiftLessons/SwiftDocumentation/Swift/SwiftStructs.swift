@@ -9,7 +9,7 @@ import Foundation
 
 class SwiftStructs {
     
-    // changing let range: FixedLengthRange properties is an error
+    // changing 'let range: FixedLengthRange' properties is an error
     // becuase range is a constant and structs are value types
     struct FixedLengthRange {
         var firstValue: Int
