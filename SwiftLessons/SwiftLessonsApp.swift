@@ -15,7 +15,7 @@ struct SwiftLessonsApp: App {
     
     var body: some Scene {
         WindowGroup {
-            SwiftDemoView()
+            SwiftExtrasView()
         }
     }
 }
