@@ -20,9 +20,6 @@ struct BC64ResizableSheets: View {
         }
         .sheet(isPresented: $showSheet) {
             BC64MyNextView(detents: $detents)
-//                .presentationDetents([.medium, .large])
-//                .presentationDetents([.fraction(0.3), .large])
-//                .presentationDragIndicator(.hidden)
 //                .interactiveDismissDisabled()
         }
     }
@@ -37,9 +34,16 @@ struct BC64MyNextView: View {
             Color.red.ignoresSafeArea()
             
             VStack(spacing: 20) {
-                //can only set detents used in the presentation
+                Button("20%") {
+                    detents = .fraction(0.2)
+                }
+                
                 Button("Medium") {
                     detents = .medium
+                }
+                
+                Button("600 PX") {
+                    detents = .height(600)
                 }
 
                 Button("Large") {
@@ -47,7 +51,8 @@ struct BC64MyNextView: View {
                 }
             }
         }
-        .presentationDetents([.medium, .large], selection: $detents)
+        .presentationDetents([.fraction(0.2), .medium, .height(600), .large], selection: $detents)
+        .presentationDragIndicator(.hidden)
     }
 }
 

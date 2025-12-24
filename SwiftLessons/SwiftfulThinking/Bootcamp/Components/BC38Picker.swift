@@ -24,39 +24,40 @@ struct BC38Picker: View {
     }
     
     var body: some View {
-        
-        Picker(selection: $selection) {
-            ForEach(filterOptions.indices) { index in
-                Text(filterOptions[index])
-                    .tag(filterOptions[index])
+        VStack {
+            Picker(selection: $selection) {
+                ForEach(filterOptions.indices, id: \.self) { index in
+                    Text(filterOptions[index])
+                        .tag(filterOptions[index])
+                }
+            } label: {
+                Text("Picker")
             }
-        } label: {
-            Text("Picker")
-        }
-        .pickerStyle(SegmentedPickerStyle())
+            .pickerStyle(SegmentedPickerStyle())
 
-//        Picker(selection: $selection) {
-//            ForEach(filterOptions, id: \.self) { option in
-//                HStack {
-//                    Text(option)
-//                    Image(systemName: "heart.fill")
-//                }
-//                .tag(option)
-//            }
-//        } label: {
-//            HStack {
-//                Text("Filter:")
-//                Text(selection)
-//            }
-//            .font(.headline)
-//            .foregroundColor(.white)
-//            .padding()
-//            .padding(.horizontal)
-//            .background(.blue)
-//            .cornerRadius(10)
-//            .shadow(color: .blue.opacity(0.3), radius: 10, x: 0, y: 10)
-//        }
-//        .pickerStyle(MenuPickerStyle())
+            Picker(selection: $selection) {
+                ForEach(filterOptions, id: \.self) { option in
+                    HStack {
+                        Text(option)
+                        Image(systemName: "heart.fill")
+                    }
+                    .tag(option)
+                }
+            } label: {
+                HStack {
+                    Text("Filter:")
+                    Text(selection)
+                }
+                .font(.headline)
+                .foregroundColor(.white)
+                .padding()
+                .padding(.horizontal)
+                .background(.blue)
+                .cornerRadius(10)
+                .shadow(color: .blue.opacity(0.3), radius: 10, x: 0, y: 10)
+            }
+            .pickerStyle(MenuPickerStyle())
+        }
     }
 }
 
@@ -82,7 +83,6 @@ struct BC38PickerWheel: View {
                 Text("Picker")
             }
             .pickerStyle(WheelPickerStyle())
-//            .background(Color.gray.opacity(0.3))
         }
     }
 }

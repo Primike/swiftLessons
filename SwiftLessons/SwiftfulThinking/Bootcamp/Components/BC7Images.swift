@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct BC7Images: View {
+    
     var body: some View {
         Image("Chungus")
 //            .renderingMode(.template)

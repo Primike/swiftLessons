@@ -9,6 +9,7 @@
 import SwiftUI
 
 struct BC10VHZStacks: View {
+    
     var body: some View {
         ZStack(alignment: .top) {
             Rectangle()

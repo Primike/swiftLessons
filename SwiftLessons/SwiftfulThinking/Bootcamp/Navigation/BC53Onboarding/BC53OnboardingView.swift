@@ -74,7 +74,6 @@ extension BC53OnboardingView {
             .frame(maxWidth: .infinity)
             .background(.white)
             .cornerRadius(10)
-            .animation(nil)
             .onTapGesture {
                 handleNextButtonPressed()
             }

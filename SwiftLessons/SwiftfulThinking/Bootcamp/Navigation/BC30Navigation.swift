@@ -8,19 +8,24 @@
 import SwiftUI
 
 struct BC30Navigation: View {
+    
     var body: some View {
         //navigation view for title and stuff
         NavigationView {
             ScrollView {
-                
                 NavigationLink("Hello", destination: BC30MyOtherScreen())
+                    .padding()
+                    .background(.blue.opacity(0.3))
                 
-                Text("Hello")
-                Text("Hello")
-                Text("Hello")
+                ForEach(0..<10) { index in
+                    Text("Hello")
+                        .frame(maxWidth: .infinity)
+                        .padding()
+                        .background(.blue.opacity(0.3))
+                }
             }
             .navigationTitle("All Inboxes")
-//            .navigationBarTitleDisplayMode(.inline)
+            .navigationBarTitleDisplayMode(.inline)
 //            .toolbar(.hidden)
             .navigationBarItems(
                 leading: HStack {
@@ -35,11 +40,13 @@ struct BC30Navigation: View {
                 })
             )
             .accentColor(.red)
+            .padding(1)
         }
     }
 }
 
 struct BC30MyOtherScreen: View {
+    
     @Environment(\.presentationMode) var presentationMode
     
     var body: some View {
@@ -52,10 +59,14 @@ struct BC30MyOtherScreen: View {
                 Button("Back Button") {
                     presentationMode.wrappedValue.dismiss()
                 }
+                .padding()
+                .background(.white)
                                 
-                NavigationLink("Click") {
+                NavigationLink("Third Screen") {
                     Text("3rd screen")
                 }
+                .padding()
+                .background(.white)
             }
         }
     }

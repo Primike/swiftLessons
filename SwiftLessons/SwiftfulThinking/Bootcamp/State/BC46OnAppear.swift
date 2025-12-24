@@ -16,22 +16,27 @@ struct BC46OnAppear: View {
         NavigationView {
             ScrollView {
                 Text(myText)
+                
                 LazyVStack {
                     ForEach(0..<50) { _ in
                         RoundedRectangle(cornerRadius: 25)
                             .frame(height: 200)
                             .padding()
+                        // Triggers for items still not on screen
                             .onAppear {
                                 count += 1
                             }
                     }
                 }
             }
-            .onAppear(perform: {
-                DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
-                    myText = "New Text"
+            .onAppear {
+                Task {
+                    try? await Task.sleep(nanoseconds: 5_000_000_000)
+                    await MainActor.run {
+                        myText = "New Text"
+                    }
                 }
-            })
+            }
             .navigationTitle("On Appear \(count)")
         }
     }

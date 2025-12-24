@@ -7,7 +7,25 @@
 
 import SwiftUI
 
+struct MyItem: View {
+    
+    let title: String
+    let count: Int
+    let color: Color
+    
+    var body: some View {
+        VStack {
+            Text("\(count)")
+            Text(title)
+        }
+        .padding()
+        .background(color)
+        .cornerRadius(10)
+    }
+}
+
 struct BC21ExtractViews: View {
+    
     var body: some View {
         ZStack {
             Color(.cyan).ignoresSafeArea()
@@ -28,21 +46,5 @@ struct BC21ExtractViews: View {
 struct BC21ExtractViews_Previews: PreviewProvider {
     static var previews: some View {
         BC21ExtractViews()
-    }
-}
-
-struct MyItem: View {
-    let title: String
-    let count: Int
-    let color: Color
-    
-    var body: some View {
-        VStack {
-            Text("\(count)")
-            Text(title)
-        }
-        .padding()
-        .background(color)
-        .cornerRadius(10)
     }
 }

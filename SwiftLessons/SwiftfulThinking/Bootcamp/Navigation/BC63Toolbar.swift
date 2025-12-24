@@ -9,43 +9,34 @@ import SwiftUI
 
 struct BC63Toolbar: View {
     
-    @State private var text: String = ""
     @State private var paths: [String] = []
 
     var body: some View {
         NavigationStack(path: $paths) {
-            ZStack {
-                Color.white.ignoresSafeArea()
-                
-                ScrollView {
-                    TextField("Placeholder", text: $text)
-                    
-                    ForEach(0..<50) { _ in
-                        Rectangle()
-                            .fill(.blue)
-                            .frame(width: 200, height: 200)
-                    }
+            ScrollView {
+                ForEach(0..<50) { _ in
+                    Rectangle()
+                        .fill(.blue)
+                        .frame(width: 200, height: 200)
                 }
+                .frame(maxWidth: .infinity)
             }
             .navigationTitle("Toolbar")
-//            .navigationBarItems(
-//                leading: Image(systemName: "heart.fill"),
-//                trailing: Image(systemName: "gear"))
             .toolbar {
                 ToolbarItem(placement: .navigationBarLeading) {
                     Image(systemName: "heart.fill")
                 }
+                
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Image(systemName: "gear")
                 }
+                
                 ToolbarItem(placement: .keyboard) {
                     Image(systemName: "person")
                 }
             }
-//            .navigationBarHidden(true)
-//            .toolbar(.hidden, for: .navigationBar)
-//            .toolbarBackground(.hidden, for: .navigationBar)
-//            .toolbarColorScheme(.dark, for: .navigationBar)
+            .toolbarBackground(.white, for: .navigationBar)
+            .toolbarBackground(.visible, for: .navigationBar)
             .navigationBarTitleDisplayMode(.inline)
             .toolbarTitleMenu {
                 Button {

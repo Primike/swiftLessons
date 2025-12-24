@@ -8,35 +8,50 @@
 import SwiftUI
 
 struct BC28FullScreenCover: View {
-    @State var showSheet: Bool = false
     
+    @State var showSheet: Bool = false
+    @State var showFullScreenCover: Bool = false
+
     var body: some View {
         ZStack {
             Color.green
                 .edgesIgnoringSafeArea(.all)
             
-            Button(action: {
-                showSheet.toggle()
-            }, label: {
-                Text("Button")
-                    .foregroundColor(.green)
-                    .font(.headline)
-                    .padding(20)
-                    .background(Color.white.cornerRadius(10))
-            })
-            .fullScreenCover(isPresented: $showSheet, content: {
-                BC28SecondScreen()
-            })
-//            .sheet(isPresented: $showSheet, content: {
-//                //No conditionals
-//                BC28SecondScreen()
-//            })
-
+            HStack {
+                Button(action: {
+                    showSheet.toggle()
+                }, label: {
+                    Text("Show Sheet")
+                        .foregroundColor(.green)
+                        .font(.headline)
+                        .padding(20)
+                        .background(Color.white.cornerRadius(10))
+                })
+                
+                Button(action: {
+                    showFullScreenCover.toggle()
+                }, label: {
+                    Text("Show Cover")
+                        .foregroundColor(.green)
+                        .font(.headline)
+                        .padding(20)
+                        .background(Color.white.cornerRadius(10))
+                })
+            }
         }
+        .sheet(isPresented: $showSheet, content: {
+            //Dont add if/else
+            BC28SecondScreen()
+        })
+        // Will create as soon as the view loads
+        .fullScreenCover(isPresented: $showFullScreenCover, content: {
+            BC28SecondScreen()
+        })
     }
 }
 
 struct BC28SecondScreen: View {
+    
     //required to dismiss view
     @Environment(\.presentationMode) var presentationMode
     

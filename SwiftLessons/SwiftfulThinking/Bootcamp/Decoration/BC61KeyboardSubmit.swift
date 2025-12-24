@@ -18,7 +18,20 @@ struct BC61KeyboardSubmit: View {
                 .onSubmit {
                     print("Return pressed")
                 }
+            
+            TextField("Placeholder...", text: $text)
+                .submitLabel(.next)
+                .onSubmit {
+                    print("Return pressed")
+                }
+            
+            TextField("Placeholder...", text: $text)
+                .submitLabel(.search)
+                .onSubmit {
+                    print("Return pressed")
+                }
         }
+        .padding()
     }
 }
 

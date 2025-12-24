@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct BC8Frames: View {
+    
     var body: some View {
         Text("Hello, World!")
             .background(Color("Chungus"))

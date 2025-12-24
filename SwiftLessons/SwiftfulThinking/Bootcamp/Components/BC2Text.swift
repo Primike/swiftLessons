@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct BC2Text: View {
+    
     var body: some View {
         Text("Hello this is big chungus I am a big fat rabbit from cartoons. This is some text for Text.".capitalized)
 //            .font(.body)

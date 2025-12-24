@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct BC14ForEach: View {
+    
     let data: [String] = ["Hi", "Hello", "Hey everyone"]
     let myString: String = "Hello"
     

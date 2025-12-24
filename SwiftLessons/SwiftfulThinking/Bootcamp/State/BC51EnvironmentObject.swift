@@ -16,9 +16,10 @@ class EnvironmentViewModel: ObservableObject {
     }
     
     func getData() {
-        self.dataArray.append(contentsOf: ["iPhone", "iPad", "iMac", "Apple Watch"])
+        dataArray.append(contentsOf: ["iPhone", "iPad", "iMac", "Apple Watch"])
     }
 }
+
 struct BC51EnvironmentObject: View {
     
     @StateObject var viewModel: EnvironmentViewModel = EnvironmentViewModel()
@@ -32,13 +33,10 @@ struct BC51EnvironmentObject: View {
                     } label: {
                         Text(item)
                     }
-
-
                 }
             }
             .navigationTitle("iOS Devices")
         }
-        //All child views have access to this viewModel
         .environmentObject(viewModel)
     }
 }

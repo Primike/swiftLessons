@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct BC15ScrollView: View {
+    
     var body: some View {
         ScrollView(.vertical, showsIndicators: false) {
             LazyVStack {

@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct BC22Binding: View {
+    
     @State var backgroundColor: Color = .green
     @State var title: String = "Title"
     
@@ -27,6 +28,7 @@ struct BC22Binding: View {
 }
 
 struct ButtonView: View {
+    
     @Binding var backgroundColor: Color
     @Binding var title: String
     @State var buttonColor: Color = .blue

@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct BC29Popover: View {
+    
     @State var showNewScreen: Bool = false
     
     var body: some View {
@@ -20,6 +21,7 @@ struct BC29Popover: View {
                     showNewScreen.toggle()
                 }
                 .font(.largeTitle)
+                
                 Spacer()
             }
 //            .sheet(isPresented: $showNewScreen) {
@@ -31,7 +33,7 @@ struct BC29Popover: View {
 //                    BC29NewScreen(showNewScreen: $showNewScreen)
 //                        .padding(.top, 100)
 //                        .transition(.move(edge: .bottom))
-//                        .animation(.spring())
+//                        .animation(.spring(), value: showNewScreen)
 //                }
 //            }
 //            .zIndex(2.0)
@@ -39,12 +41,13 @@ struct BC29Popover: View {
             BC29NewScreen(showNewScreen: $showNewScreen)
 //                .padding(.top, 100)
                 .offset(y: showNewScreen ? UIScreen.main.bounds.height/2 : UIScreen.main.bounds.height)
-                .animation(.spring())
+                .animation(.spring(), value: showNewScreen)
         }
     }
 }
 
 struct BC29NewScreen: View {
+    
     @Environment(\.presentationMode) var presentationMode
     @Binding var showNewScreen: Bool
     

@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct BC17SafeArea: View {
+    
     var body: some View {
         ScrollView {
             VStack{

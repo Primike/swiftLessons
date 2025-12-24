@@ -22,7 +22,6 @@ struct BC49CustomModels: View {
         BC49UserModel(displayName: "Emily", userName: "itsemily1996", followerCount: 55, isVerified: false),
         BC49UserModel(displayName: "Samantha", userName: "ninja", followerCount: 355, isVerified: false),
         BC49UserModel(displayName: "Chris", userName: "chrish2009", followerCount: 88, isVerified: true),
-
     ]
     
     var body: some View {
@@ -32,9 +31,11 @@ struct BC49CustomModels: View {
                     HStack(spacing: 15) {
                         Circle()
                             .frame(width: 35, height: 35)
+                        
                         VStack(alignment: .leading) {
                             Text(user.displayName)
                                 .font(.headline)
+                            
                             Text("@\(user.userName)")
                                 .foregroundColor(.gray)
                                 .font(.caption)
@@ -50,6 +51,7 @@ struct BC49CustomModels: View {
                         VStack {
                             Text("\(user.followerCount)")
                                 .font(.headline)
+                            
                             Text("Followers")
                                 .foregroundColor(.gray)
                                 .font(.caption)

@@ -15,6 +15,7 @@ struct BC42Slider: View {
     var body: some View {
         VStack {
             Text("Rating:")
+            
             Text(String(format: "%.1f", sliderValue))
                 .foregroundColor(color)
             

@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct BC24Ternary: View {
+    
     @State var isStartingState: Bool = false
     
     var body: some View {

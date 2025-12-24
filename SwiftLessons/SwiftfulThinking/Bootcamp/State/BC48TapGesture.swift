@@ -42,6 +42,7 @@ struct BC48TapGesture: View {
                 .onTapGesture(count: 2) {
                     isSelected.toggle()
                 }
+            
             Spacer()
         }
         .padding(40)

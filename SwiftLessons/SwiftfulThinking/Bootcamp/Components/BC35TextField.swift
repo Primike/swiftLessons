@@ -40,6 +40,7 @@ struct BC35TextField: View {
                 ForEach(dataArray, id: \.self) { data in
                     Text(data)
                 }
+                
                 Spacer()
             }
         }

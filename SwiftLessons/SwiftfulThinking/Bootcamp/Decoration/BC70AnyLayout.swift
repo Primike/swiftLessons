@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-/// Layout based on portrait or landscape
 struct BC70AnyLayout: View {
     
     @Environment(\.horizontalSizeClass) private var horizontalSizeClass

@@ -9,7 +9,6 @@ import SwiftUI
 
 struct BC52AppStorage: View {
     
-//    @State var currentUserName: String?
     @AppStorage("name") var currentUserName: String?
     
     var body: some View {
@@ -23,11 +22,7 @@ struct BC52AppStorage: View {
             Button("Save".uppercased()) {
                 let name = "Doge"
                 currentUserName = name
-//                UserDefaults.standard.set(name, forKey: "name")
             }
-        }
-        .onAppear {
-//            currentUserName = UserDefaults.standard.string(forKey: "name")
         }
     }
 }

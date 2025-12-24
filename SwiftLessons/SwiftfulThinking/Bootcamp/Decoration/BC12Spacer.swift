@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct BC12Spacer: View {
+    
     var body: some View {
         VStack {
             HStack(spacing: 0) {

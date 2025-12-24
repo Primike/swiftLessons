@@ -18,7 +18,7 @@ struct BC36TextEditor: View {
                 TextEditor(text: $textEditorText)
                     .frame(height: 250)
 //                    .foregroundColor(.red)
-                    .colorMultiply(Color(uiColor: .lightGray))
+                    .colorMultiply(Color(uiColor: .lightGray).opacity(0.5))
                     .cornerRadius(10)
                     
                 Button {

@@ -15,42 +15,41 @@ struct BC43TabView: View {
     ]
     
     var body: some View {
-        TabView {
-            ForEach(icons, id: \.self) { icon in
-                Image(systemName: icon)
-                    .resizable()
-                    .scaledToFit()
-                    .padding(30)
+        TabView(selection: $selectedTab) {
+            BC43HomeView(selectedTab: $selectedTab)
+                .tabItem {
+                    Image(systemName: "house.fill")
+                    Text("Home")
+                }
+                .tag(0)
+            
+            TabView {
+                ForEach(icons, id: \.self) { icon in
+                    Image(systemName: icon)
+                        .resizable()
+                        .scaledToFit()
+                        .padding(30)
+                }
             }
+            .background(
+                RadialGradient(gradient: Gradient(colors: [.red, .blue]), center: .center, startRadius: 5, endRadius: 300)
+            )
+            .frame(height: 300)
+            .tabViewStyle(PageTabViewStyle())
+            .tabItem {
+                Image(systemName: "globe")
+                Text("Browse")
+            }
+            .tag(1)
+
+            Text("Profile")
+                .tabItem {
+                    Image(systemName: "person.fill")
+                    Text("Profile")
+                }
+                .tag(2)
         }
-        .background(
-            RadialGradient(gradient: Gradient(colors: [.red, .blue]), center: .center, startRadius: 5, endRadius: 300)
-        )
-        .frame(height: 300)
-        .tabViewStyle(PageTabViewStyle())
-//        TabView(selection: $selectedTab) {
-//            BC43HomeView(selectedTab: $selectedTab)
-//                .tabItem {
-//                    Image(systemName: "house.fill")
-//                    Text("Home")
-//                }
-//                .tag(0)
-//
-//            Text("Browse")
-//                .tabItem {
-//                    Image(systemName: "globe")
-//                    Text("Browse")
-//                }
-//                .tag(1)
-//
-//            Text("Profile")
-//                .tabItem {
-//                    Image(systemName: "person.fill")
-//                    Text("Profile")
-//                }
-//                .tag(2)
-//        }
-//        .accentColor(.red)
+        .accentColor(.red)
     }
 }
 

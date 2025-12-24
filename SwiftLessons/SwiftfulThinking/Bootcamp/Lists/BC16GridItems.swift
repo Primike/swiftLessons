@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct BC16GridItems: View {
+    
     //Also adaptive()
     let columns: [GridItem] = [
         GridItem(.flexible(), spacing: nil, alignment: nil),

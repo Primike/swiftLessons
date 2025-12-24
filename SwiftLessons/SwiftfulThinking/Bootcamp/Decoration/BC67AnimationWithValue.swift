@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-/// Animations linked to state variables
 struct BC67AnimationWithValue: View {
     
     @State private var animate1: Bool = false
@@ -41,7 +40,7 @@ struct BC67AnimationWithValue: View {
             }
         }
         .animation(.spring(), value: animate1)
-        .animation(.linear(duration: 5), value: animate2)
+        .animation(.linear, value: animate2)
     }
 }
 

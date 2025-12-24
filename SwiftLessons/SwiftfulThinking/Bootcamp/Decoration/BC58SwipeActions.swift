@@ -18,7 +18,7 @@ struct BC58SwipeActions: View {
             ForEach(fruits, id: \.self) {
                 Text($0.capitalized)
             }
-//            .onDelete(perform: delete)
+            .onDelete(perform: delete)
             .swipeActions(edge: .trailing, allowsFullSwipe: false) {
                 Button("Archive") {
                     

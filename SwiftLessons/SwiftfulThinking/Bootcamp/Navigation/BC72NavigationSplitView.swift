@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// For iPad
 struct BC72NavigationSplitView: View {
     
     @State private var visibility: NavigationSplitViewVisibility = .all

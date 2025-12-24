@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct BC6Icons: View {
+    
     var body: some View {
         Image(systemName: "person.fill.badge.plus")
             .renderingMode(.original)

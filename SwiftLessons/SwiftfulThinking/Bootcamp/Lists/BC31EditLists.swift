@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct BC31EditLists: View {
+    
     @State var fruits: [String] = [
         "apple", "orange", "banana", "peach"
     ]

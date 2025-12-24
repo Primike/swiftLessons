@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct BC5Gradients: View {
+    
     var body: some View {
         RoundedRectangle(cornerRadius: 25.0)
             .fill(

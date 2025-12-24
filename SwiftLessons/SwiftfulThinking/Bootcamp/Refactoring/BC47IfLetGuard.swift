@@ -36,18 +36,6 @@ struct BC47IfLetGuard: View {
         }
     }
     
-    func loadData() {
-        if let userID = currentUserID {
-            isLoading = true
-            DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
-                displayText = "This is the new data. User id: \(userID)"
-                isLoading = false
-            }
-        } else {
-            displayText = "Error no user id"
-        }
-    }
-    
     func loadDataGuard() {
         guard let userID = currentUserID else {
             displayText = "Error no user id"
@@ -55,6 +43,7 @@ struct BC47IfLetGuard: View {
         }
         
         isLoading = true
+        
         DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
             displayText = "This is the new data. User id: \(userID)"
             isLoading = false

@@ -8,7 +8,9 @@
 import SwiftUI
 
 struct BC18Buttons: View {
+    
     @State var title: String = "This is my title"
+    
     var body: some View {
         VStack(spacing: 20) {
             Text(title)

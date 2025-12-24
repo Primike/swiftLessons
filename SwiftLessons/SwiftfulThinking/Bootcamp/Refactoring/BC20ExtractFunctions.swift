@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct BC20ExtractFunctions: View {
+    
     @State var backgroundColor: Color = .pink
     
     var body: some View {
@@ -34,12 +35,11 @@ struct BC20ExtractFunctions: View {
                     .background(.black)
                     .cornerRadius(10)
             }
-
         }
     }
     
     func buttonPressed() {
-        backgroundColor = .yellow
+        backgroundColor = backgroundColor == .yellow ? .pink : .yellow
     }
 }
 

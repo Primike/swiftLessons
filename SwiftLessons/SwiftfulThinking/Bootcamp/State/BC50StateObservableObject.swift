@@ -13,27 +13,23 @@ struct FruitModel: Identifiable {
     let count: Int
 }
 
+@MainActor
 class FruitViewModel: ObservableObject {
+    
     @Published var fruitArray: [FruitModel] = []
     @Published var isLoading: Bool = false
     
-    init() {
-        getFruits()
-    }
-    
-    func getFruits() {
+    func getFruits() async {
         let fruit1 = FruitModel(name: "Orange", count: 1)
         let fruit2 = FruitModel(name: "Banana", count: 2)
         let fruit3 = FruitModel(name: "Watermelon", count: 88)
         
         isLoading = true
         
-        DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
-            self.fruitArray.append(fruit1)
-            self.fruitArray.append(fruit2)
-            self.fruitArray.append(fruit3)
-            self.isLoading = false
-        }
+        try? await Task.sleep(nanoseconds: 3_000_000_000)
+        
+        fruitArray = [fruit1, fruit2, fruit3]
+        isLoading = false
     }
     
     func deleteFruit(index: IndexSet) {
@@ -43,15 +39,12 @@ class FruitViewModel: ObservableObject {
 
 struct BC50StateObservableObject: View {
     
-//    @State var fruitArray: [FruitModel] = []
-//    @ObservedObject var fruitViewModel: FruitViewModel = FruitViewModel()
     @StateObject var fruitViewModel: FruitViewModel = FruitViewModel()
 
     
     var body: some View {
         NavigationView {
             List {
-                
                 if fruitViewModel.isLoading {
                     ProgressView()
                 } else {
@@ -69,12 +62,15 @@ struct BC50StateObservableObject: View {
             }
             .listStyle(GroupedListStyle())
             .navigationTitle("Fruit List")
-            .navigationBarItems(trailing:
-                                    NavigationLink(destination: BC50SecondScreen(fruitViewModel: fruitViewModel), label: {
-                Image(systemName: "arrow.right")
-                    .font(.largeTitle)
-            })
+            .navigationBarItems(
+                trailing: NavigationLink(destination: BC50SecondScreen(fruitViewModel: fruitViewModel), label: {
+                    Image(systemName: "arrow.right")
+                        .font(.largeTitle)
+                })
             )
+        }
+        .task {
+            await fruitViewModel.getFruits()
         }
     }
 }

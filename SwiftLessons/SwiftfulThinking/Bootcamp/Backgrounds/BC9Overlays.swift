@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct BC9Overlays: View {
+    
     var body: some View {
         VStack {
             Spacer()
@@ -24,6 +25,7 @@ struct BC9Overlays: View {
 }
 
 struct BC9OverlaysGradient: View {
+    
     var body: some View {
         Text("Hello, World!")
             .background(
@@ -41,6 +43,7 @@ struct BC9OverlaysGradient: View {
 }
 
 struct BC9OverlaysCircle: View {
+    
     var body: some View {
         Circle()
             .fill(.pink)
@@ -59,6 +62,7 @@ struct BC9OverlaysCircle: View {
 }
 
 struct BC9OverlaysRectangle: View {
+    
     var body: some View {
         Rectangle()
             .frame(width: 100, height: 100)
@@ -78,6 +82,7 @@ struct BC9OverlaysRectangle: View {
 }
 
 struct BC9OverlaysIconNotification: View {
+    
     var body: some View {
         Image(systemName: "heart.fill")
             .font(.system(size: 40))

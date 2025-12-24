@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct BC13InitsEnums: View {
+    
     let backgroundColor: Color
     let count: Int
     let title: String

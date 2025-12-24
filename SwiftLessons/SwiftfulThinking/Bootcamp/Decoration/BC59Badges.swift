@@ -8,35 +8,35 @@
 import SwiftUI
 
 struct BC59Badges: View {
+    
     var body: some View {
-        List {
-            Text("Some Text")
-                .badge("Items")
-            Text("Some Text")
-                .badge(1)
-            Text("Some Text")
+        TabView {
+            List {
+                Text("Some Text")
+                    .badge("Items")
+                Text("Some Text")
+                    .badge(1)
+                Text("Some Text")
+            }
+            .tabItem {
+                Image(systemName: "heart.fill")
+                Text("Hello")
+            }
+            .badge(1)
+
+            Color.green
+                .tabItem {
+                    Image(systemName: "heart.fill")
+                    Text("Hello")
+                }
+                .badge(0)
+
+            Color.blue
+                .tabItem {
+                    Image(systemName: "heart.fill")
+                    Text("Hello")
+                }
         }
-//        TabView {
-//            Color.red
-//                .tabItem {
-//                    Image(systemName: "heart.fill")
-//                    Text("Hello")
-//                }
-//                .badge(1)
-//
-//            Color.green
-//                .tabItem {
-//                    Image(systemName: "heart.fill")
-//                    Text("Hello")
-//                }
-//                .badge(0)
-//
-//            Color.blue
-//                .tabItem {
-//                    Image(systemName: "heart.fill")
-//                    Text("Hello")
-//                }
-//        }
     }
 }
 

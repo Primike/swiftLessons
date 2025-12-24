@@ -8,21 +8,23 @@
 import SwiftUI
 
 struct BC26AnimationCurves: View {
+    
     @State var isAnimating: Bool = false
     let timing: Double = 1.0
     
     var body: some View {
         VStack {
             Button("Button") {
-                withAnimation(.spring(response: 0.5, dampingFraction: 0.7, blendDuration: 1.0)) {
+                withAnimation(Animation.spring(response: 0.5, dampingFraction: 0.7, blendDuration: 1.0)) {
                     isAnimating.toggle()
                 }
             }
+            
             RoundedRectangle(cornerRadius: 20)
                 .frame(width: isAnimating ? 350 : 50, height: 100)
             RoundedRectangle(cornerRadius: 20)
                 .frame(width: isAnimating ? 350 : 50, height: 100)
-                .animation(Animation.linear(duration: timing))
+                .animation(Animation.linear(duration: timing), value: isAnimating)
         }
     }
 }

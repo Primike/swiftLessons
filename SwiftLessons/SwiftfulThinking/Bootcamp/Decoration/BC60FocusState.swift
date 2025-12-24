@@ -14,17 +14,14 @@ struct BC60FocusState: View {
         case password
     }
     
-    @State private var username: String = ""
-//    @FocusState private var usernameInFocus: Bool
-    @State private var password: String = ""
-//    @FocusState private var passwordInFocus: Bool
     @FocusState private var fieldInFocus: OnboardingField?
+    @State private var username: String = ""
+    @State private var password: String = ""
 
     var body: some View {
         VStack {
             TextField("Add you name here ...", text: $username)
                 .focused($fieldInFocus, equals: .username)
-//                .focused($usernameInFocus)
                 .padding(.leading)
                 .frame(height: 55)
                 .frame(maxWidth: .infinity)
@@ -32,8 +29,7 @@ struct BC60FocusState: View {
                 .cornerRadius(10)
             
             SecureField("Add you password here ...", text: $password)
-                .focused($fieldInFocus, equals: .username)
-//                .focused($passwordInFocus)
+                .focused($fieldInFocus, equals: .password)
                 .padding(.leading)
                 .frame(height: 55)
                 .frame(maxWidth: .infinity)
@@ -43,28 +39,17 @@ struct BC60FocusState: View {
             Button("Sign up") {
                 let usernameValid = !username.isEmpty
                 let passwordVaild = !password.isEmpty
+                
                 if usernameValid && passwordVaild {
                     print("Sign up")
                 } else if usernameValid {
                     fieldInFocus = .password
-//                    usernameInFocus = false
-//                    passwordInFocus = true
                 } else {
                     fieldInFocus = .username
-//                    usernameInFocus = true
-//                    passwordInFocus = false
                 }
             }
-//            Button("Toggle Focus State") {
-//                usernameInFocus.toggle()
-//            }
         }
         .padding(40)
-//        .onAppear {
-//            DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
-//                self.usernameInFocus = true
-//            }
-//        }
     }
 }
 
