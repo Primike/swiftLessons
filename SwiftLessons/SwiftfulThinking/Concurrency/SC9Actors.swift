@@ -7,15 +7,16 @@
 
 import SwiftUI
 
-class SC9DataManager {
+final class SC9DataManager: @unchecked Sendable {
     
     static let shared = SC9DataManager()
     private init() {}
     
     var data: [String] = []
+    /// Uses qos the task that calls it enters with
     private let lock = DispatchQueue(label: "threadsafe")
     
-    func getRandomData(completion: @escaping (_ title: String?) -> ()) {
+    func getRandomData(completion: @escaping @Sendable (_ title: String?) -> ()) {
         lock.async {
             self.data.append(UUID().uuidString)
             print(Thread.current)
@@ -25,6 +26,7 @@ class SC9DataManager {
 }
 
 actor SC9ActorDataManager {
+    
     static let shared = SC9ActorDataManager()
     private init() {}
     
@@ -87,12 +89,10 @@ struct SC9BrowseView: View {
                 .font(.headline)
         }
         .onReceive(timer) { _ in
-            DispatchQueue.global(qos: .background).async {
-                dataManager.getRandomData { title in
-                    if let data = title {
-                        DispatchQueue.main.async {
-                            self.text = data
-                        }
+            dataManager.getRandomData { title in
+                if let data = title {
+                    DispatchQueue.main.async {
+                        self.text = data
                     }
                 }
             }

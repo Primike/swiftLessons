@@ -8,7 +8,8 @@
 import SwiftUI
 import Combine
 
-class SC2DataManager {
+struct SC2DataManager {
+    
     let url = URL(string: "https://picsum.photos/200")!
     
     func handleResponse(data: Data?, response: URLResponse?) -> UIImage? {
@@ -19,9 +20,12 @@ class SC2DataManager {
         return image
     }
     
-    func downloadWithEscaping(completion: @escaping (_ image: UIImage?, _ error: Error?) -> ()) {
-        URLSession.shared.dataTask(with: url) { [weak self] data, response, error in
-            let image = self?.handleResponse(data: data, response: response)
+    /// Closure and its contents passed in must be sendable
+    func downloadWithEscaping(completion: @escaping @Sendable (_ image: UIImage?, _ error: Error?) -> ()) {
+        
+        /// Data manager is sendable so it can be sent to the dataTask
+        URLSession.shared.dataTask(with: url) { data, response, error in
+            let image = handleResponse(data: data, response: response)
             
             completion(image, error)
         }
@@ -45,15 +49,20 @@ class SC2DataManager {
     }
 }
 
+/// All the ViewModel's properties can only be read and modified on the main actor
+@MainActor
 class SC2DownloadImageViewModel: ObservableObject {
+    
     @Published var image: UIImage? = nil
     let dataManager = SC2DataManager()
     var cancellables = Set<AnyCancellable>()
     
     func fetchImage() {
         dataManager.downloadWithEscaping { [weak self] image, error in
-            DispatchQueue.main.async {
-                self?.image = image
+            guard let self else { return }
+            
+            Task { @MainActor in
+                self.image = image
             }
         }
     }
@@ -69,17 +78,14 @@ class SC2DownloadImageViewModel: ObservableObject {
             .store(in: &cancellables)
     }
     
+    /// Always runs on main actor because class and its properties run on main actor
     func fetchAsync() async {
-        let image = try? await dataManager.downloadWithAsync()
-        
-        await MainActor.run(body: {
-            self.image = image
-        })
+        image = try? await dataManager.downloadWithAsync()
     }
 }
 
-
 struct SC2DownloadImage: View {
+    
     @StateObject private var viewModel = SC2DownloadImageViewModel()
     
     var body: some View {
@@ -91,10 +97,8 @@ struct SC2DownloadImage: View {
                     .frame(width: 250, height: 250)
             }
         }
-        .onAppear {
-            Task {
-                await viewModel.fetchAsync()
-            }
+        .task {
+            await viewModel.fetchAsync()
         }
     }
 }

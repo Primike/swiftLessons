@@ -7,48 +7,57 @@
 
 import SwiftUI
 
+struct SC4DataManager {
+    func imageTask() async throws -> UIImage? {
+        guard let url = URL(string: "https://picsum.photos/200") else {
+            return nil
+        }
+        
+        let (data, _) = try await URLSession.shared.data(from: url)
+        
+        return UIImage(data: data)
+    }
+}
+
+@MainActor
 class SC4TaskViewModel: ObservableObject {
+    
+    private let dataManager: SC4DataManager
     @Published var image: UIImage? = nil
     @Published var image2: UIImage? = nil
+    @Published var image3: UIImage? = nil
+    
+    init(dataManager: SC4DataManager = SC4DataManager()) {
+        self.dataManager = dataManager
+    }
     
     func fetchImage() async {
-        try? await Task.sleep(nanoseconds: 5_000_000_000)
-        
-        // Incase .task does not fully cancel
-        // Used if the function has expensive work
-        // throws an error
-//        try Task.checkCancellation()
-        
-        do {
-            guard let url = URL(string: "https://picsum.photos/200") else { return }
-            
-            let (data, _) = try await URLSession.shared.data(from: url)
-            
-            await MainActor.run(body: {
-                self.image = UIImage(data: data)
-            })
-        } catch {
-            print(error.localizedDescription)
+        guard let image = try? await dataManager.imageTask() else {
+            return
         }
+        
+        self.image = image
     }
     
     func fetchImage2() async {
-        do {
-            guard let url = URL(string: "https://picsum.photos/200") else { return }
-            
-            let (data, _) = try await URLSession.shared.data(from: url)
-            
-            await MainActor.run(body: {
-                self.image = UIImage(data: data)
-            })
-        } catch {
-            print(error.localizedDescription)
+        guard let image = try? await dataManager.imageTask() else {
+            return
         }
+        
+        self.image2 = image
     }
-
+    
+    func fetchImage3() async {
+        guard let image = try? await dataManager.imageTask() else {
+            return
+        }
+        
+        self.image3 = image
+    }
 }
 
 struct SC4TaskHome: View {
+    
     var body: some View {
         NavigationView {
             ZStack {
@@ -61,8 +70,8 @@ struct SC4TaskHome: View {
 }
 
 struct SC4Task: View {
+    
     @StateObject private var viewModel = SC4TaskViewModel()
-    //Can make non publish in viewmodel
     @State private var fetchImageTask: Task<(), Never>? = nil
     
     var body: some View {
@@ -71,18 +80,23 @@ struct SC4Task: View {
                 Image(uiImage: image)
                     .resizable()
                     .scaledToFit()
-                    .frame(width: 200 ,height: 200)
+                    .frame(width: 150 ,height: 150)
             }
             
             if let image = viewModel.image2 {
                 Image(uiImage: image)
                     .resizable()
                     .scaledToFit()
-                    .frame(width: 200 ,height: 200)
+                    .frame(width: 150 ,height: 150)
+            }
+            
+            if let image = viewModel.image3 {
+                Image(uiImage: image)
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 150 ,height: 150)
             }
         }
-        // if view is removed task is canceled
-        // used instead of the onDisappear and onAppear
         .task {
             await viewModel.fetchImage()
         }
@@ -94,25 +108,25 @@ struct SC4Task: View {
                 await viewModel.fetchImage()
             }
             
-            // Assign priority can also yeild
-//            Task(priority: .medium) {
-//                await Task.yield()
-//                print("Medium: \(Task.currentPriority)")
-//
-//                Task {
-//                    print("Inherited: \(Task.currentPriority)")
-//                }
-//            }
-//
-//            // Write the code for Tasks in order of priority
-//            Task {
-//                print("Image: \(Task.currentPriority)")
-//                await viewModel.fetchImage()
-//            }
-//            Task {
-//                print("Image: \(Task.currentPriority)")
-//                await viewModel.fetchImage2()
-//            }
+            Task(priority: .medium) {
+                await Task.yield()
+                
+                print("Medium: \(Task.currentPriority)")
+
+                Task {
+                    print("Inherited: \(Task.currentPriority)")
+                }
+            }
+
+            Task {
+                print("Image: \(Task.currentPriority)")
+                await viewModel.fetchImage2()
+            }
+            
+            Task {
+                print("Image: \(Task.currentPriority)")
+                await viewModel.fetchImage3()
+            }
         }
     }
 }

@@ -7,18 +7,7 @@
 
 import SwiftUI
 
-class SC6DataManager {
-    
-    func fetchImageWithAsync() async throws -> [UIImage] {
-        async let fetchImage1 = fetchImage(url: "https://picsum.photos/1000")
-        async let fetchImage2 = fetchImage(url: "https://picsum.photos/1000")
-        async let fetchImage3 = fetchImage(url: "https://picsum.photos/1000")
-        async let fetchImage4 = fetchImage(url: "https://picsum.photos/1000")
-        
-        let (image1, image2, image3, image4) = await (try fetchImage1, try fetchImage2, try fetchImage3, try fetchImage4)
-
-        return [image1, image2, image3, image4]
-    }
+struct SC6DataManager {
     
     func fetchImageWithTaskGroup() async throws -> [UIImage] {
         let urlStrings = [
@@ -32,7 +21,7 @@ class SC6DataManager {
             var images: [UIImage] = []
             images.reserveCapacity(urlStrings.count)
             
-            //If one try fails all fails if not optional
+            // If one try fails all fails if try not optional
             for urlString in urlStrings {
                 group.addTask {
                     try? await self.fetchImage(url: urlString)
@@ -68,18 +57,21 @@ class SC6DataManager {
     }
 }
 
+@MainActor
 class SC6TaskGroupViewModel: ObservableObject {
+    
     @Published var images: [UIImage] = []
     let dataManager = SC6DataManager()
     
     func getImages() async {
-        if let images = try? await dataManager.fetchImageWithAsync() {
+        if let images = try? await dataManager.fetchImageWithTaskGroup() {
             self.images.append(contentsOf: images)
         }
     }
 }
 
 struct SC6TaskGroup: View {
+    
     @StateObject private var viewModel = SC6TaskGroupViewModel()
     let columns = [GridItem(.flexible()), GridItem(.flexible())]
     

@@ -9,14 +9,15 @@ import SwiftUI
 
 actor SC11DataManager {
     func updateDatabase(userInfo: SC11MyClassUserInfo) {
-        
+        print("Updating database")
     }
 }
 
 // Sendable indicates object can be used in concurrent code
 // Classes not thread safe if it has mutable variables
-// Have to use a lock if sending mutable class
+// Should use a lock if sending mutable class
 final class SC11MyClassUserInfo: @unchecked Sendable {
+    
     private var name: String
     let lock = DispatchQueue(label: "queue")
     
@@ -31,7 +32,9 @@ final class SC11MyClassUserInfo: @unchecked Sendable {
     }
 }
 
+@MainActor
 class SC11SendableViewModel: ObservableObject {
+    
     let dataManager = SC11DataManager()
     
     func updateCurrentUserInfo() async {
@@ -41,12 +44,13 @@ class SC11SendableViewModel: ObservableObject {
 }
 
 struct SC11Sendable: View {
+    
     @StateObject private var viewModel = SC11SendableViewModel()
     
     var body: some View {
         Text("Hello, World!")
             .task {
-                
+                await viewModel.updateCurrentUserInfo()
             }
     }
 }

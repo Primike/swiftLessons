@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct SC8StructClassActor: View {
+    
     var body: some View {
         Text("Hello, World!")
             .onAppear {
@@ -63,6 +64,7 @@ actor SC8MyActor {
 }
 
 extension SC8StructClassActor {
+    
     private func runTest() {
         classTest()
     }
@@ -112,19 +114,15 @@ extension SC8StructClassActor {
  - Classes, Function, Actor
  - Stored in the Heap
  - Slower, but synchronized
- - Not thread safe
+ - Not thread safe by default
  - When assigning a new reference is created
  
  STACKS:
  - Stores Value types
- - Variables on the stack are stored to the moemory, access is fast
+ - Variables on the stack are stored to the memory, access is fast
  - Each thread has its own stack
  
  HEAP:
  - Stores reference types
  - Shared across threads
- 
- Task:
-- SwiftUI updates the view on the main thread
-- tasks may be performed on different threads
  */

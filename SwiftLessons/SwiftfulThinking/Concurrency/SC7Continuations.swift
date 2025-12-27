@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-class SC7DataManager {
+struct SC7DataManager {
     
     func getData(url: URL) async throws -> Data {
         do {
@@ -19,11 +19,9 @@ class SC7DataManager {
     }
     
     func getData2(url: URL) async throws -> Data {
-        // Used for functions with are not yet updated with async
         return try await withCheckedThrowingContinuation { continuation in
             URLSession.shared.dataTask(with: url) { data, response, error in
-                // Continuation must be called once
-                // otherwise there will be a memory leak
+                // Continuation must be called only once
                 if let data = data {
                     continuation.resume(returning: data)
                 } else if let error = error {
@@ -36,22 +34,24 @@ class SC7DataManager {
         }
     }
     
-    func getHeartImageFromDatabase(completion: @escaping (_ image: UIImage) -> ()) {
-        DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
-            completion(UIImage(systemName: "heart.fill")!)
+    private func getHeartImageFromDatabase(completion: @escaping @Sendable (_ image: UIImage) -> ()) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+            completion(UIImage(systemName: "heart.fill") ?? UIImage())
         }
     }
     
     func getHeartImageAsync() async -> UIImage {
         await withCheckedContinuation({ continuation in
-            DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
-                continuation.resume(returning: UIImage(systemName: "heart.fill")!)
+            getHeartImageFromDatabase { image in
+                continuation.resume(returning: image)
             }
         })
     }
 }
 
+@MainActor
 class SC7ContinuationsViewModel: ObservableObject {
+    
     @Published var image: UIImage? = nil
     let dataManager = SC7DataManager()
     
@@ -61,11 +61,7 @@ class SC7ContinuationsViewModel: ObservableObject {
         do {
             let data = try await dataManager.getData2(url: url)
             
-            if let image = UIImage(data: data) {
-                await MainActor.run(body: {
-                    self.image = image
-                })
-            }
+            self.image = UIImage(data: data)
 
         } catch {
             print(error)
@@ -78,7 +74,9 @@ class SC7ContinuationsViewModel: ObservableObject {
 }
 
 struct SC7Continuations: View {
+    
     @StateObject private var viewModel = SC7ContinuationsViewModel()
+    
     var body: some View {
         ZStack {
             if let image = viewModel.image {

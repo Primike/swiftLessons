@@ -8,12 +8,13 @@
 import SwiftUI
 
 struct SC5AsyncLet: View {
+    
     @State private var images: [UIImage] = []
     let columns = [GridItem(.flexible()), GridItem(.flexible())]
     let url = URL(string: "https://picsum.photos/1000")!
     
     var body: some View {
-        NavigationView {
+        NavigationStack {
             ScrollView {
                 LazyVGrid(columns: columns) {
                     ForEach(images, id: \.self) { image in
@@ -24,6 +25,7 @@ struct SC5AsyncLet: View {
                     }
                 }
             }
+            .toolbarBackground(.white, for: .navigationBar)
             .navigationTitle("Async")
             .onAppear {
                 Task {
@@ -38,18 +40,20 @@ struct SC5AsyncLet: View {
                         
                         self.images.append(contentsOf: [image1, image2, image3, image4])
                         
-                        //Appear one by one
-//                        let image1 = try await fetchImage()
-//                        self.images.append(image1)
-//
-//                        let image2 = try await fetchImage()
-//                        self.images.append(image2)
-//
-//                        let image3 = try await fetchImage()
-//                        self.images.append(image3)
-//
-//                        let image4 = try await fetchImage()
-//                        self.images.append(image4)
+                        try? await Task.sleep(nanoseconds: 1_000_000_000)
+                        
+                        // Appear one by one
+                        let image5 = try await fetchImage()
+                        self.images.append(image5)
+
+                        let image6 = try await fetchImage()
+                        self.images.append(image6)
+
+                        let image7 = try await fetchImage()
+                        self.images.append(image7)
+
+                        let image8 = try await fetchImage()
+                        self.images.append(image8)
                     } catch {
                         
                     }

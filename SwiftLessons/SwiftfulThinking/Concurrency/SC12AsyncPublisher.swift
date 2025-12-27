@@ -8,7 +8,9 @@
 import SwiftUI
 import Combine
 
+@MainActor
 class SC12DataManager {
+    
     @Published var myData: [String] = []
     
     func addData() async {
@@ -21,39 +23,41 @@ class SC12DataManager {
     }
 }
 
+@MainActor
 class SC12AsyncPublisherViewModel: ObservableObject {
-    @MainActor @Published var dataArray: [String] = []
+    
+    @Published var dataArray: [String] = []
     let dataManager = SC12DataManager()
     var cancellables = Set<AnyCancellable>()
     
     init() {
-        addSubscribers()
+        subscribeWithAwait()
     }
     
-    private func addSubscribers() {
+    private func subscribeWithAwait() {
         Task {
             //Waits forever
             for await value in dataManager.$myData.values {
-                await MainActor.run(body: {
-                    self.dataArray = value
-                })
+                self.dataArray = value
             }
             
             //Never executes code:
-            //print("QWE")
+            print("QWE")
         }
         
         //For other code use another task
         Task {
-            print("QWE")
+            print("Executed")
         }
-        
-//        dataManager.$myData
-//            .receive(on: DispatchQueue.main, options: nil)
-//            .sink { data in
-//                self.dataArray = data
-//            }
-//            .store(in: &cancellables)
+    }
+    
+    private func subscribeWithCombine() {
+        dataManager.$myData
+            .receive(on: DispatchQueue.main, options: nil)
+            .sink { data in
+                self.dataArray = data
+            }
+            .store(in: &cancellables)
     }
     
     func start() async {
@@ -62,7 +66,8 @@ class SC12AsyncPublisherViewModel: ObservableObject {
 }
 
 struct SC12AsyncPublisher: View {
-@StateObject private var viewModel = SC12AsyncPublisherViewModel()
+    
+    @StateObject private var viewModel = SC12AsyncPublisherViewModel()
     
     var body: some View {
         ScrollView {

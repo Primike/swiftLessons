@@ -8,49 +8,33 @@
 import SwiftUI
 
 class SC1DataManager {
+    
     let isActive: Bool = true
-    
-    func getTitle() -> (title: String?, error: Error?) {
+        
+    func getTitleWithResult() -> Result<String, Error> {
         if isActive {
-            return ("New Text", nil)
+            return .success("New Text Result")
         } else {
-            return (nil, URLError(.badURL))
+            return .failure(URLError(.badURL))
         }
     }
     
-    func getTitle2() -> Result<String, Error> {
+    func getTitleThrows() throws -> String {
         if isActive {
-            return .success("New Text")
+            return "New Text Throws"
         } else {
-            return .failure(URLError(.appTransportSecurityRequiresSecureConnection))
-        }
-    }
-    
-    func getTitle3() throws -> String {
-        if isActive {
-            return "New Text"
-        } else {
-            throw URLError(.badServerResponse)
+            throw URLError(.badURL)
         }
     }
 }
 
 class SC1DoCatchThrowViewModel: ObservableObject {
+    
     @Published var text: String = "Text"
     let dataManager = SC1DataManager()
-    
-    func fetchTitle() {
-        let returnedValue = dataManager.getTitle()
         
-        if let newTitle = returnedValue.title {
-            self.text = newTitle
-        } else if let error = returnedValue.error {
-            self.text = error.localizedDescription
-        }
-    }
-    
     func fetchTitle2() {
-        let result = dataManager.getTitle2()
+        let result = dataManager.getTitleWithResult()
         
         switch result {
         case .success(let newTitle):
@@ -61,12 +45,8 @@ class SC1DoCatchThrowViewModel: ObservableObject {
     }
     
     func fetchTitle3() {
-//        let newTitle = try? dataManager.getTitle3()
-//        self.text = newTitle ?? ""
-        
-        //If one non optional try fails catch will be run
         do {
-            let newTitle = try dataManager.getTitle3()
+            let newTitle = try dataManager.getTitleThrows()
             self.text = newTitle
         } catch {
             self.text = error.localizedDescription

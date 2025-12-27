@@ -7,7 +7,9 @@
 
 import SwiftUI
 
+@MainActor
 class SC3AsyncAwaitViewModel: ObservableObject {
+    
     @Published var dataArray: [String] = []
     
     func addTitle1() {
@@ -16,6 +18,8 @@ class SC3AsyncAwaitViewModel: ObservableObject {
         }
     }
     
+    /// The system owns dispatchqueue so no reference cycle
+    /// Closure is deallocated after code runs then ViewModel can be deallocated
     func addTitle2() {
         DispatchQueue.global().asyncAfter(deadline: .now() + 1) {
             let title = "Outside Main: \(Thread.current)"
@@ -29,23 +33,16 @@ class SC3AsyncAwaitViewModel: ObservableObject {
         }
     }
     
-    // Using async func the system decides on the thread
-    // Code will run in order on different threads
+    /// All run on main actor
     func addAuthor1() async {
-        let author1 = "Before Await: \(Thread.current)"
+        let author1 = "Before Await: Main Thread"
         
         try? await Task.sleep(nanoseconds: 1_000_000_000)
         
-        // guarantees it will be on the main thread
-        await MainActor.run(body: {
-            self.dataArray.append(author1)
-
-            let author2 = "Inside Actor: \(Thread.current)"
-            self.dataArray.append(author2)
-        })
+        self.dataArray.append(author1)
         
-        let author3 = "After Await: \(Thread.current)"
-        self.dataArray.append(author3)
+        let author2 = "After Await: Main Thread"
+        self.dataArray.append(author2)
     }
 }
 
@@ -58,15 +55,11 @@ struct SC3AsyncAwait: View {
                 Text(data)
             }
         }
-        .onAppear {
-            Task {
-                // Code runs in order waits for await to finish
-                await viewModel.addAuthor1()
-                
-                viewModel.addTitle1()
-                viewModel.addTitle2()
-            }
-
+        .task {
+            await viewModel.addAuthor1()
+            
+            viewModel.addTitle1()
+            viewModel.addTitle2()
         }
     }
 }
